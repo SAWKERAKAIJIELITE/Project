@@ -1,0 +1,6 @@
+string:
+    new line
+    single quote in double quote
+    double quote in single quote
+    formatting
+    backslash
