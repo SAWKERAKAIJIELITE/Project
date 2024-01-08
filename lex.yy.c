@@ -490,7 +490,7 @@ static yyconst short int yy_def[455] =
 static yyconst short int yy_nxt[915] =
     {   0,
        12,   13,   14,   13,   15,   16,   17,   18,   19,   20,
-       21,   21,   22,   23,   21,   24,   12,   25,   26,   27,
+       21,   21,   22,   23,   21,   24,   21,   25,   26,   27,
        27,   27,   28,   21,   29,   30,   31,   32,   33,   33,
        33,   34,   33,   33,   35,   33,   36,   33,   21,   12,
        21,   37,   33,   38,   39,   40,   41,   42,   43,   44,
@@ -502,7 +502,7 @@ static yyconst short int yy_nxt[915] =
 
       141,  131,  134,  213,  142,  148,   60,   60,   60,  149,
       433,   60,   12,   13,   64,   13,   15,   65,   17,   18,
-       19,   66,   67,   67,   22,   23,   21,   24,   12,   25,
+       19,   66,   67,   67,   22,   23,   21,   24,   21,   25,
        68,   69,   69,   69,   28,   21,   29,   30,   31,   32,
        70,   70,   70,   71,   70,   70,   72,   70,   73,   70,
        67,   12,   67,   37,   70,   74,   75,   76,   77,   78,
@@ -726,10 +726,11 @@ char *yytext;
     #include <string.h>
     #include "y.tab.h"
 
-    int yylineno=1;
-    int numberofindent=0;
+    int yylineno = 1;
+    int numberofindent = 0;
+    int levels = 0;
     char* string_literal_value = NULL;
-#line 733 "lex.yy.c"
+#line 734 "lex.yy.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -883,10 +884,10 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 47 "index.l"
+#line 48 "index.l"
 
 
-#line 890 "lex.yy.c"
+#line 891 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -973,205 +974,216 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 50 "index.l"
+#line 51 "index.l"
 {
 
-    for(int i = 0; i < yyleng; i++){
-        unput(yytext[i]);
+    yyless(0);
+    if(levels > 1){
+        // BEGIN(INITIAL);
+        levels--;
+        return DEDENT;
     }
-    BEGIN(INITIAL);
-    return DEDENT;
+    else if(levels==1){
+        levels--;
+        BEGIN(INITIAL);
+        numberofindent = 0;
+        return DEDENT;
+    }
+    else
+        BEGIN(INITIAL);
+    // if(numberofindent != 0){
+    // }
 }
 	YY_BREAK
 
 case 2:
 YY_RULE_SETUP
-#line 59 "index.l"
+#line 71 "index.l"
 {return DEF;}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 60 "index.l"
-{return FALSE;}
+#line 72 "index.l"
+{return FALSEE;}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 61 "index.l"
+#line 73 "index.l"
 {return AWAIT;}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 62 "index.l"
+#line 74 "index.l"
 {return IMPORT;}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 63 "index.l"
+#line 75 "index.l"
 {return ELSE;}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 64 "index.l"
+#line 76 "index.l"
 {return PASS;}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 65 "index.l"
+#line 77 "index.l"
 {return BREAK;}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 66 "index.l"
+#line 78 "index.l"
 {return NONE;}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 67 "index.l"
+#line 79 "index.l"
 {return EXCEPT;}
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 68 "index.l"
+#line 80 "index.l"
 {return IN;}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 69 "index.l"
+#line 81 "index.l"
 {return RAISE;}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 70 "index.l"
-{return TRUE;}
+#line 82 "index.l"
+{return TRUEE;}
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 71 "index.l"
+#line 83 "index.l"
 {return CLASS;}
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 72 "index.l"
+#line 84 "index.l"
 {return FINALLY;}
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 73 "index.l"
+#line 85 "index.l"
 {return IS;}
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 74 "index.l"
+#line 86 "index.l"
 {return RETURN;}
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 75 "index.l"
+#line 87 "index.l"
 {return AND;}
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 76 "index.l"
+#line 88 "index.l"
 {return CONTINUE;}
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 77 "index.l"
+#line 89 "index.l"
 {return FOR;}
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 78 "index.l"
+#line 90 "index.l"
 {return LAMBDA;}
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 79 "index.l"
+#line 91 "index.l"
 {return TRY;}
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 80 "index.l"
+#line 92 "index.l"
 {return AS;}
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 81 "index.l"
+#line 93 "index.l"
 {return FROM;}
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 82 "index.l"
+#line 94 "index.l"
 {return NONLOCAL;}
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 83 "index.l"
+#line 95 "index.l"
 {return WHILE;}
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 84 "index.l"
+#line 96 "index.l"
 {return ASSERT;}
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 85 "index.l"
+#line 97 "index.l"
 {return DEL;}
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 86 "index.l"
+#line 98 "index.l"
 {return GLOBAL;}
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 87 "index.l"
+#line 99 "index.l"
 {return NOT;}
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 88 "index.l"
+#line 100 "index.l"
 {return WITH;}
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 89 "index.l"
+#line 101 "index.l"
 {return ASYNC;}
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 90 "index.l"
+#line 102 "index.l"
 {return ELIF;}
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 91 "index.l"
+#line 103 "index.l"
 {return IF;}
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 92 "index.l"
+#line 104 "index.l"
 {return OR;}
 	YY_BREAK
 case 36:
 YY_RULE_SETUP
-#line 93 "index.l"
+#line 105 "index.l"
 {return YIELD;}
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
-#line 94 "index.l"
+#line 106 "index.l"
 {return MATCH;}
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
-#line 95 "index.l"
+#line 107 "index.l"
 {return CASE;}
 	YY_BREAK
 case 39:
 YY_RULE_SETUP
-#line 97 "index.l"
+#line 109 "index.l"
 {
                                 yylineno++;
                                 BEGIN(newline);
@@ -1180,18 +1192,20 @@ YY_RULE_SETUP
 	YY_BREAK
 case 40:
 YY_RULE_SETUP
-#line 103 "index.l"
+#line 115 "index.l"
 {
                                 int dis = yyleng - numberofindent;
                                 numberofindent = yyleng;
                                 if(dis > 0)
                                 {
                                     BEGIN(INITIAL);
+                                    levels++;
                                     return INDENT;
                                 }
                                 else if(dis < 0)
                                 {
                                     BEGIN(INITIAL);
+                                    levels--;
                                     return DEDENT;
                                 }
                                 else
@@ -1200,12 +1214,12 @@ YY_RULE_SETUP
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 120 "index.l"
+#line 134 "index.l"
 {}
 	YY_BREAK
 case 42:
 YY_RULE_SETUP
-#line 122 "index.l"
+#line 136 "index.l"
 {
                                 string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + yyleng + 1);
                                 strcat(string_literal_value, yytext);
@@ -1213,7 +1227,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 43:
 YY_RULE_SETUP
-#line 127 "index.l"
+#line 141 "index.l"
 {
                                 string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
                                 strcat(string_literal_value, "\n");
@@ -1222,7 +1236,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 44:
 YY_RULE_SETUP
-#line 133 "index.l"
+#line 147 "index.l"
 {
                                         string_literal_value = realloc(string_literal_value, strlen(string_literal_value) +1);
                                         strcat(string_literal_value, "\"");
@@ -1230,7 +1244,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 138 "index.l"
+#line 152 "index.l"
 {
                                         string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
                                         strcat(string_literal_value, "\\");
@@ -1239,7 +1253,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 46:
 YY_RULE_SETUP
-#line 144 "index.l"
+#line 158 "index.l"
 {
                                         string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
                                         strcat(string_literal_value, "");
@@ -1248,7 +1262,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 47:
 YY_RULE_SETUP
-#line 150 "index.l"
+#line 164 "index.l"
 {
                                         string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
                                         strcat(string_literal_value, "");
@@ -1257,7 +1271,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 48:
 YY_RULE_SETUP
-#line 156 "index.l"
+#line 170 "index.l"
 {
                                         string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
                                         strcat(string_literal_value, "'");
@@ -1266,7 +1280,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 49:
 YY_RULE_SETUP
-#line 162 "index.l"
+#line 176 "index.l"
 {
                                 BEGIN(INITIAL);
                                 printf("the end of STate: %s\n", string_literal_value);
@@ -1274,7 +1288,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 50:
 YY_RULE_SETUP
-#line 167 "index.l"
+#line 181 "index.l"
 {
                                 string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + yyleng + 1);
                                 strcat(string_literal_value, yytext);
@@ -1282,7 +1296,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 51:
 YY_RULE_SETUP
-#line 172 "index.l"
+#line 186 "index.l"
 {
                                 BEGIN(INITIAL);
                                 printf("the end of STate: %s\n", string_literal_value);
@@ -1290,137 +1304,137 @@ YY_RULE_SETUP
 	YY_BREAK
 case 52:
 YY_RULE_SETUP
-#line 177 "index.l"
+#line 191 "index.l"
 {printf("comment = %s in line = %d\n",yytext,yylineno);}
 	YY_BREAK
 case 53:
 YY_RULE_SETUP
-#line 179 "index.l"
+#line 193 "index.l"
 {return ASSIGNRIGHTSHIFT;}
 	YY_BREAK
 case 54:
 YY_RULE_SETUP
-#line 181 "index.l"
+#line 195 "index.l"
 {return ASSIGNADD;}
 	YY_BREAK
 case 55:
 YY_RULE_SETUP
-#line 183 "index.l"
+#line 197 "index.l"
 {return ASSIGNMINUS;}
 	YY_BREAK
 case 56:
 YY_RULE_SETUP
-#line 185 "index.l"
+#line 199 "index.l"
 {return ASSIGNMUL;}
 	YY_BREAK
 case 57:
 YY_RULE_SETUP
-#line 187 "index.l"
+#line 201 "index.l"
 {return ASSIGNDIVIDE;}
 	YY_BREAK
 case 58:
 YY_RULE_SETUP
-#line 189 "index.l"
+#line 203 "index.l"
 {return ASSIGNINTDIVIDE;}
 	YY_BREAK
 case 59:
 YY_RULE_SETUP
-#line 191 "index.l"
+#line 205 "index.l"
 {return ASSIGNPOWER;}
 	YY_BREAK
 case 60:
 YY_RULE_SETUP
-#line 193 "index.l"
+#line 207 "index.l"
 {return ASSIGNMODULUS;}
 	YY_BREAK
 case 61:
 YY_RULE_SETUP
-#line 195 "index.l"
+#line 209 "index.l"
 {return ASSIGNARRMUL;}
 	YY_BREAK
 case 62:
 YY_RULE_SETUP
-#line 197 "index.l"
+#line 211 "index.l"
 {return ASSIGNANDBIT;}
 	YY_BREAK
 case 63:
 YY_RULE_SETUP
-#line 199 "index.l"
+#line 213 "index.l"
 {return ASSIGNORBIT;}
 	YY_BREAK
 case 64:
 YY_RULE_SETUP
-#line 201 "index.l"
+#line 215 "index.l"
 {return ASSIGNXORBIT;}
 	YY_BREAK
 case 65:
 YY_RULE_SETUP
-#line 203 "index.l"
+#line 217 "index.l"
 {return ASSIGNLEFTSHIFT;}
 	YY_BREAK
 case 66:
 YY_RULE_SETUP
-#line 205 "index.l"
+#line 219 "index.l"
 {return POWER;}
 	YY_BREAK
 case 67:
 YY_RULE_SETUP
-#line 207 "index.l"
+#line 221 "index.l"
 {return INTDIVIDE;}
 	YY_BREAK
 case 68:
 YY_RULE_SETUP
-#line 209 "index.l"
+#line 223 "index.l"
 {return SME;}
 	YY_BREAK
 case 69:
 YY_RULE_SETUP
-#line 211 "index.l"
+#line 225 "index.l"
 {return GTE;}
 	YY_BREAK
 case 70:
 YY_RULE_SETUP
-#line 213 "index.l"
+#line 227 "index.l"
 {return EQUAL;}
 	YY_BREAK
 case 71:
 YY_RULE_SETUP
-#line 215 "index.l"
+#line 229 "index.l"
 {return NOTEQUAL;}
 	YY_BREAK
 case 72:
 YY_RULE_SETUP
-#line 217 "index.l"
+#line 231 "index.l"
 {return RIGHTSHIFT;}
 	YY_BREAK
 case 73:
 YY_RULE_SETUP
-#line 219 "index.l"
+#line 233 "index.l"
 {return LEFTSHIFT;}
 	YY_BREAK
 case 74:
 YY_RULE_SETUP
-#line 221 "index.l"
+#line 235 "index.l"
 {return ASSIGN;}
 	YY_BREAK
 case 75:
 YY_RULE_SETUP
-#line 223 "index.l"
+#line 237 "index.l"
 {return FN;}
 	YY_BREAK
 case 76:
 YY_RULE_SETUP
-#line 225 "index.l"
+#line 239 "index.l"
 {return IDENTIFIER;}
 	YY_BREAK
 case 77:
 YY_RULE_SETUP
-#line 227 "index.l"
+#line 241 "index.l"
 {return NUMBER;}
 	YY_BREAK
 case 78:
 YY_RULE_SETUP
-#line 229 "index.l"
+#line 243 "index.l"
 {
                     BEGIN(STRINGG);
                     string_literal_value = strdup("");  // Initialize the string literal value
@@ -1428,7 +1442,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 79:
 YY_RULE_SETUP
-#line 234 "index.l"
+#line 248 "index.l"
 {
                     BEGIN(SINGLESTRINGG);
                     string_literal_value = strdup("");  // Initialize the string literal value
@@ -1436,7 +1450,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 80:
 YY_RULE_SETUP
-#line 239 "index.l"
+#line 253 "index.l"
 {
                         BEGIN(MLCOMMENTSTATE);
                         printf("multiline comment = %s\n",yytext,yylineno);
@@ -1444,7 +1458,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 81:
 YY_RULE_SETUP
-#line 244 "index.l"
+#line 258 "index.l"
 {
                             BEGIN(INITIAL);
                             printf("End of multiline comment = %s in line = %d\n",yytext,yylineno);
@@ -1452,15 +1466,15 @@ YY_RULE_SETUP
 	YY_BREAK
 case 82:
 YY_RULE_SETUP
-#line 249 "index.l"
+#line 263 "index.l"
 {return yytext[0];}
 	YY_BREAK
 case 83:
 YY_RULE_SETUP
-#line 251 "index.l"
+#line 265 "index.l"
 ECHO;
 	YY_BREAK
-#line 1464 "lex.yy.c"
+#line 1478 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(STRINGG):
 case YY_STATE_EOF(SINGLESTRINGG):
@@ -2352,7 +2366,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 251 "index.l"
+#line 265 "index.l"
 
 
 // void main(int argc, char **argv)

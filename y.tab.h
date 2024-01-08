@@ -37,10 +37,10 @@
      BREAK = 263,
      EXCEPT = 264,
      CLASS = 265,
-     FALSE = 266,
+     FALSEE = 266,
      IN = 267,
      RAISE = 268,
-     TRUE = 269,
+     TRUEE = 269,
      FINALLY = 270,
      IS = 271,
      AND = 272,
@@ -96,7 +96,11 @@
      LEFTSHIFT = 322,
      INDENT = 323,
      DEDENT = 324,
-     NEWLINE = 325
+     NEWLINE = 325,
+     ISNOT = 326,
+     NOTIN = 327,
+     UADD = 328,
+     UMINUS = 329
    };
 #endif
 /* Tokens.  */
@@ -108,10 +112,10 @@
 #define BREAK 263
 #define EXCEPT 264
 #define CLASS 265
-#define FALSE 266
+#define FALSEE 266
 #define IN 267
 #define RAISE 268
-#define TRUE 269
+#define TRUEE 269
 #define FINALLY 270
 #define IS 271
 #define AND 272
@@ -168,6 +172,10 @@
 #define INDENT 323
 #define DEDENT 324
 #define NEWLINE 325
+#define ISNOT 326
+#define NOTIN 327
+#define UADD 328
+#define UMINUS 329
 
 
 

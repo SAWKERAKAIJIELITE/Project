@@ -8,11 +8,18 @@
     #include <stdlib.h>
     #include <ctype.h>
     #include <math.h>
+    #include <cmath>
     #include <string.h>
-    #include "y.tab.h"
+    #include "y.hpp"
+    #include "python_ast_node.hpp"
 
-    int yylineno=1;
-    int numberofindent=0;
+    using namespace std;
+
+    extern int yylex();
+
+    // int yylineno = 1;
+    int numberofindent = 0;
+    int levels = 0;
     char* string_literal_value = NULL;
 %}
 
@@ -49,15 +56,26 @@ mlcomment       \"\"\"(.[^\"\"\"]|\n)*
 <newline>{
 {num}|{floatnum}|{complexnumber}|{binarynum}|{octalnum}|{hexadecimalnum}|{id}|{zero}|"("|")"|"["|"]"|"{"|"}"|\"|\'|\n|def|False|await|import|else|pass|break|None|except|in|raise|True|class|finally|is|return|and|continue|for|lambda|try|as|from|nonlocal|while|assert|del|global|not|with|async|elif|if|or|yield {
 
-    for(int i = 0; i < yyleng; i++){
-        unput(yytext[i]);
+    yyless(0);
+    if(levels > 1){
+        // BEGIN(INITIAL);
+        levels--;
+        return DEDENT;
     }
-    BEGIN(INITIAL);
-    return DEDENT;
+    else if(levels==1){
+        levels--;
+        BEGIN(INITIAL);
+        numberofindent = 0;
+        return DEDENT;
+    }
+    else
+        BEGIN(INITIAL);
+    // if(numberofindent != 0){
+    // }
 }
 }
 def                         {return DEF;}
-False                       {return FALSE;}
+False              {yylval.astNode = new BooleanNode("FALSEE", "boolean", false);return FALSEE;}
 await                       {return AWAIT;}
 import                        {return IMPORT;}
 else                        {return ELSE;}
@@ -67,7 +85,7 @@ None                        {return NONE;}
 except                        {return EXCEPT;}
 in                        {return IN;}
 raise                        {return RAISE;}
-True                        {return TRUE;}
+True               {yylval.astNode = new BooleanNode("TRUEE", "boolean", true);return TRUEE;}
 class                        {return CLASS;}
 finally                        {return FINALLY;}
 is                        {return IS;}
@@ -106,11 +124,13 @@ case                        {return CASE;}
                                 if(dis > 0)
                                 {
                                     BEGIN(INITIAL);
+                                    levels++;
                                     return INDENT;
                                 }
                                 else if(dis < 0)
                                 {
                                     BEGIN(INITIAL);
+                                    levels--;
                                     return DEDENT;
                                 }
                                 else
@@ -120,58 +140,58 @@ case                        {return CASE;}
 {ws}                        {}
 
 <STRINGG>[^\"\n\\]+          {
-                                string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + yyleng + 1);
-                                strcat(string_literal_value, yytext);
+                                // string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + yyleng + 1);
+                                // strcat(string_literal_value, yytext);
                             }
 
 <STRINGG,SINGLESTRINGG>\\n   {
-                                string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
-                                strcat(string_literal_value, "\n");
+                                // string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
+                                // strcat(string_literal_value, "\n");
                                 printf("new line\n");
                             }
 
 <STRINGG,SINGLESTRINGG>\\\"           {
-                                        string_literal_value = realloc(string_literal_value, strlen(string_literal_value) +1);
-                                        strcat(string_literal_value, "\"");
+                                        // string_literal_value = realloc(string_literal_value, strlen(string_literal_value) +1);
+                                        // strcat(string_literal_value, "\"");
                                     }
 
 <STRINGG,SINGLESTRINGG>(\\|\\\\)      {
-                                        string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
-                                        strcat(string_literal_value, "\\");
+                                        // string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
+                                        // strcat(string_literal_value, "\\");
                                         printf("backslash\n");
                                     }
 
 <STRINGG,SINGLESTRINGG>\\\n         {
-                                        string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
-                                        strcat(string_literal_value, "");
+                                        // string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
+                                        // strcat(string_literal_value, "");
                                         printf("backslash gone with new line\n");
                                     }
 
 <STRINGG,SINGLESTRINGG>\n           {
-                                        string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
-                                        strcat(string_literal_value, "");
+                                        // string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
+                                        // strcat(string_literal_value, "");
                                         printf("Error\n");
                                     }
 
 <STRINGG,SINGLESTRINGG>\\'          {
-                                        string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
-                                        strcat(string_literal_value, "'");
+                                        // string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + 1);
+                                        // strcat(string_literal_value, "'");
                                         printf("single quotation\n");
                                     }
 
 <STRINGG>\"                 {
                                 BEGIN(INITIAL);
-                                printf("the end of STate: %s\n", string_literal_value);
+                                // printf("the end of STate: %s\n", string_literal_value);
                             }
 
 <SINGLESTRINGG>[^\'\n\\]+   {
-                                string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + yyleng + 1);
-                                strcat(string_literal_value, yytext);
+                                // string_literal_value = realloc(string_literal_value, strlen(string_literal_value) + yyleng + 1);
+                                // strcat(string_literal_value, yytext);
                             }
 
 <SINGLESTRINGG>\'           {
                                 BEGIN(INITIAL);
-                                printf("the end of STate: %s\n", string_literal_value);
+                                // printf("the end of STate: %s\n", string_literal_value);
                             }
 
 {comment}                           {printf("comment = %s in line = %d\n",yytext,yylineno);}
@@ -222,9 +242,14 @@ case                        {return CASE;}
 
 "->"    {return FN;}
 
-{id}                         {return IDENTIFIER;}
-
-{zero}|{num}|{floatnum}|{complexnumber}|{binarynum}|{octalnum}|{hexadecimalnum}           {return NUMBER;}
+{id}          {yylval.astNode = new IdentifierNode("IDENTIFIER", "Identifier", yytext);return IDENTIFIER;}
+{zero}               {yylval.astNode = new NumberNode("NUMBER", "zero", atoi(yytext));return NUMBER;}
+{num}                {yylval.astNode = new NumberNode("NUMBER", "integer", atoi(yytext));return NUMBER;}
+{floatnum}           {yylval.astNode = new NumberNode("NUMBER", "float", atof(yytext));return NUMBER;}
+{complexnumber}      {yylval.astNode = new NumberNode("NUMBER", "complex", 2001);return NUMBER;}
+{binarynum}          {yylval.astNode = new NumberNode("NUMBER", "binary", 20202020);return NUMBER;}
+{octalnum}           {yylval.astNode = new NumberNode("NUMBER", "octal", 80808080);return NUMBER;}
+{hexadecimalnum}     {yylval.astNode = new NumberNode("NUMBER", "he", 160160160);return NUMBER;}
 
 \" {
                     BEGIN(STRINGG);
@@ -246,8 +271,9 @@ case                        {return CASE;}
                             printf("End of multiline comment = %s in line = %d\n",yytext,yylineno);
                             }
 
-"("|")"|"["|"]"|"{"|"}"|":"|"="|","|"+"|"-"|"*"|"/"|"%"|"@"|">"|"<"|"&"|"|"|"^"|"~"|";"                {return yytext[0];}
+"("|")"|"["|"]"|"{"|"}"|":"|"="|","|"+"|"-"|"*"|"/"|"%"|"@"|">"|"<"|"&"|"|"|"^"|"~"|";"|"."     {return yytext[0];}
 
+<<EOF>>             {return END;}
 %%
 
 // void main(int argc, char **argv)
