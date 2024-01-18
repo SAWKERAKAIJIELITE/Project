@@ -507,66 +507,66 @@ static const yytype_uint8 yytranslate[] =
   /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_uint16 yyrline[] =
 {
-       0,    76,    76,    81,    87,    92,    98,   102,   106,   110,
-     115,   119,   123,   127,   132,   133,   135,   139,   145,   149,
-     154,   158,   162,   167,   173,   177,   183,   189,   194,   200,
-     208,   213,   220,   225,   232,   238,   245,   251,   258,   264,
-     271,   276,   282,   287,   293,   298,   304,   309,   315,   322,
-     330,   337,   346,   350,   354,   359,   364,   371,   377,   384,
-     388,   394,   398,   403,   411,   416,   423,   429,   436,   440,
-     446,   451,   459,   465,   475,   482,   491,   499,   508,   516,
-     525,   533,   542,   548,   556,   563,   570,   577,   585,   594,
-     598,   604,   606,   615,   623,   631,   638,   645,   653,   660,
-     667,   669,   673,   679,   683,   689,   695,   700,   705,   711,
-     720,   727,   734,   741,   749,   757,   765,   772,   774,   779,
-     784,   785,   786,   787,   788,   788,   790,   792,   798,   804,
-     810,   815,   820,   826,   832,   837,   842,   849,   856,   862,
-     868,   874,   880,   885,   890,   897,   904,   910,   916,   921,
-     926,   929,   933,   938,   943,   947,   951,   956,   961,   965,
-     969,   974,   979,   983,   988,   989,   991,   994,   996,   997,
-     999,  1000,  1002,  1003,  1004,  1006,  1007,  1008,  1013,  1019,
-    1023,  1029,  1034,  1036,  1043,  1049,  1051,  1052,  1053,  1054,
-    1055,  1057,  1058,  1059,  1061,  1063,  1069,  1075,  1082,  1087,
-    1093,  1098,  1103,  1112,  1114,  1117,  1122,  1127,  1133,  1138,
-    1143,  1152,  1153,  1155,  1156,  1159,  1160,  1161,  1166,  1171,
-    1172,  1177,  1182,  1187,  1192,  1198,  1204,  1209,  1215,  1222,
-    1226,  1231,  1237,  1239,  1240,  1241,  1242,  1243,  1248,  1249,
-    1255,  1260,  1265,  1270,  1271,  1273,  1274,  1275,  1280,  1281,
-    1283,  1284,  1285,  1286,  1287,  1292,  1293,  1294,  1295,  1300,
-    1301,  1306,  1311,  1316,  1322,  1328,  1334,  1340,  1347,  1352,
-    1357,  1362,  1369,  1373,  1377,  1381,  1385,  1389,  1393,  1397,
-    1402,  1407,  1413,  1417,  1422,  1428,  1433,  1438,  1443,  1448,
-    1453,  1458,  1463,  1468,  1473,  1478,  1483,  1488,  1493,  1498,
-    1504,  1510,  1516,  1522,  1528,  1532,  1537,  1542,  1546,  1551,
-    1557,  1561,  1566,  1572,  1576,  1582,  1586,  1592,  1596,  1602,
-    1603,  1609,  1614,  1619,  1619,  1619,  1619,  1619,  1619,  1619,
-    1619,  1619,  1619,  1621,  1625,  1631,  1635,  1641,  1645,  1650,
-    1656,  1658,  1659,  1666,  1667,  1669,  1670,  1676,  1681,  1687,
-    1691,  1697,  1698,  1699,  1704,  1710,  1714,  1720,  1721,  1722,
-    1728,  1732,  1738,  1739,  1741,  1742,  1743,  1744,  1745,  1746,
-    1747,  1748,  1749,  1750,  1751,  1752,  1753,  1754,  1755,  1757,
-    1759,  1764,  1766,  1771,  1777,  1782,  1786,  1791,  1795,  1801,
-    1806,  1812,  1817,  1821,  1822,  1826,  1827,  1831,  1832,  1836,
-    1837,  1842,  1847,  1848,  1849,  1854,  1859,  1864,  1870,  1876,
-    1877,  1882,  1887,  1892,  1898,  1904,  1905,  1910,  1915,  1916,
-    1917,  1918,  1919,  1920,  1921,  1922,  1923,  1924,  1925,  1926,
-    1928,  1932,  1937,  1941,  1947,  1951,  1956,  1960,  1966,  1970,
-    1975,  1978,  1982,  1985,  1989,  1992,  1996,  1999,  2004,  2005,
-    2006,  2008,  2010,  2013,  2014,  2015,  2016,  2019,  2022,  2023,
-    2024,  2025,  2026,  2027,  2032,  2033,  2038,  2039,  2040,  2041,
-    2042,  2043,  2044,  2049,  2050,  2055,  2057,  2063,  2069,  2075,
-    2082,  2087,  2088,  2089,  2091,  2091,  2091,  2091,  2091,  2091,
-    2091,  2092,  2092,  2092,  2092,  2092,  2092,  2094,  2099,  2105,
-    2112,  2113,  2114,  2115,  2117,  2118,  2119,  2124,  2125,  2130,
-    2131,  2132,  2133,  2135,  2137,  2138,  2143,  2145,  2152,  2158,
-    2163,  2164,  2173,  2181,  2188,  2194,  2203,  2212,  2219,  2226,
-    2234,  2242,  2248,  2254,  2256,  2262,  2266,  2271,  2279,  2284,
-    2291,  2296,  2303,  2308,  2315,  2321,  2330,  2331,  2332,  2337,
-    2342,  2349,  2354,  2361,  2366,  2373,  2379,  2384,  2389,  2394,
-    2395,  2396,  2398,  2404,  2409,  2414,  2419,  2420,  2421,  2423,
-    2427,  2433,  2439,  2445,  2450,  2455,  2460,  2465,  2466,  2467,
-    2472,  2477,  2478,  2479,  2480,  2481,  2482,  2483,  2484,  2486,
-    2493,  2494
+       0,    76,    76,    81,    87,    92,    98,   103,   108,   113,
+     119,   124,   129,   134,   140,   144,   149,   153,   159,   164,
+     170,   175,   180,   185,   191,   195,   201,   207,   212,   218,
+     226,   231,   238,   243,   250,   256,   263,   269,   276,   282,
+     289,   294,   300,   305,   311,   316,   322,   327,   333,   340,
+     348,   355,   364,   369,   374,   380,   385,   392,   398,   405,
+     409,   415,   420,   425,   433,   438,   445,   451,   458,   462,
+     468,   473,   481,   487,   497,   504,   513,   521,   530,   538,
+     547,   555,   564,   570,   578,   585,   592,   599,   607,   616,
+     620,   626,   631,   640,   648,   656,   663,   670,   678,   685,
+     692,   694,   699,   705,   709,   715,   721,   726,   731,   737,
+     746,   753,   760,   767,   775,   783,   791,   798,   803,   808,
+     814,   817,   820,   823,   826,   829,   833,   838,   844,   850,
+     856,   861,   866,   872,   878,   883,   888,   895,   902,   908,
+     914,   920,   926,   931,   936,   943,   950,   956,   962,   967,
+     972,   977,   982,   987,   992,   997,  1002,  1007,  1012,  1017,
+    1022,  1027,  1032,  1037,  1043,  1046,  1050,  1053,  1057,  1061,
+    1066,  1070,  1075,  1076,  1080,  1085,  1088,  1091,  1096,  1102,
+    1106,  1112,  1117,  1122,  1129,  1135,  1139,  1140,  1144,  1148,
+    1152,  1157,  1160,  1163,  1167,  1171,  1177,  1183,  1190,  1195,
+    1201,  1206,  1211,  1220,  1225,  1231,  1236,  1241,  1247,  1252,
+    1257,  1266,  1270,  1275,  1279,  1285,  1288,  1291,  1296,  1301,
+    1305,  1310,  1315,  1320,  1325,  1331,  1337,  1342,  1348,  1355,
+    1359,  1364,  1370,  1374,  1375,  1376,  1380,  1384,  1389,  1393,
+    1399,  1404,  1409,  1414,  1418,  1423,  1427,  1431,  1436,  1437,
+    1439,  1442,  1445,  1446,  1450,  1455,  1459,  1460,  1464,  1469,
+    1473,  1478,  1483,  1488,  1494,  1500,  1506,  1512,  1519,  1524,
+    1529,  1534,  1541,  1545,  1549,  1553,  1557,  1561,  1565,  1569,
+    1574,  1579,  1585,  1589,  1594,  1600,  1605,  1610,  1615,  1620,
+    1625,  1630,  1635,  1640,  1645,  1650,  1655,  1660,  1665,  1670,
+    1676,  1682,  1688,  1694,  1700,  1704,  1709,  1714,  1718,  1723,
+    1729,  1733,  1738,  1744,  1748,  1754,  1758,  1764,  1768,  1774,
+    1778,  1784,  1789,  1794,  1794,  1794,  1794,  1794,  1794,  1794,
+    1794,  1794,  1794,  1796,  1800,  1806,  1810,  1816,  1820,  1825,
+    1831,  1835,  1839,  1846,  1849,  1853,  1857,  1863,  1868,  1874,
+    1878,  1884,  1887,  1890,  1895,  1901,  1905,  1911,  1914,  1917,
+    1923,  1927,  1933,  1936,  1940,  1943,  1946,  1949,  1952,  1955,
+    1956,  1959,  1962,  1965,  1968,  1969,  1970,  1973,  1976,  1980,
+    1985,  1990,  1995,  2000,  2006,  2011,  2015,  2020,  2024,  2030,
+    2035,  2041,  2046,  2050,  2051,  2055,  2056,  2060,  2061,  2065,
+    2066,  2071,  2076,  2079,  2082,  2087,  2092,  2097,  2103,  2109,
+    2113,  2118,  2123,  2128,  2134,  2140,  2144,  2149,  2154,  2155,
+    2156,  2157,  2158,  2159,  2160,  2161,  2162,  2163,  2164,  2165,
+    2167,  2171,  2176,  2180,  2186,  2190,  2195,  2199,  2205,  2209,
+    2214,  2217,  2221,  2224,  2228,  2231,  2235,  2238,  2243,  2246,
+    2247,  2249,  2251,  2254,  2257,  2258,  2259,  2262,  2265,  2268,
+    2269,  2270,  2271,  2272,  2277,  2281,  2286,  2290,  2293,  2294,
+    2295,  2296,  2297,  2302,  2306,  2311,  2316,  2322,  2328,  2334,
+    2341,  2346,  2350,  2354,  2359,  2359,  2359,  2359,  2359,  2359,
+    2359,  2360,  2360,  2360,  2360,  2360,  2360,  2362,  2367,  2373,
+    2380,  2384,  2385,  2389,  2394,  2398,  2402,  2407,  2411,  2416,
+    2417,  2418,  2419,  2421,  2426,  2427,  2432,  2437,  2444,  2450,
+    2455,  2459,  2468,  2476,  2483,  2489,  2498,  2507,  2514,  2521,
+    2529,  2537,  2543,  2549,  2554,  2560,  2564,  2569,  2577,  2582,
+    2589,  2594,  2601,  2606,  2613,  2619,  2628,  2629,  2630,  2635,
+    2640,  2647,  2652,  2659,  2664,  2671,  2677,  2682,  2687,  2692,
+    2695,  2698,  2702,  2708,  2713,  2718,  2723,  2726,  2729,  2733,
+    2737,  2743,  2749,  2755,  2760,  2765,  2770,  2775,  2778,  2781,
+    2786,  2791,  2794,  2797,  2800,  2803,  2804,  2805,  2808,  2812,
+    2819,  2823
 };
 #endif
 
@@ -2962,215 +2962,233 @@ yyreduce:
   case 6:
 #line 98 "index.y" /* yacc.c:1646  */
     {
-                    (yyval.astNode) = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 2969 "y.cpp" /* yacc.c:1646  */
+#line 2970 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 7:
-#line 102 "index.y" /* yacc.c:1646  */
+#line 103 "index.y" /* yacc.c:1646  */
     {
-                    (yyval.astNode) = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 2978 "y.cpp" /* yacc.c:1646  */
+#line 2980 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 8:
-#line 106 "index.y" /* yacc.c:1646  */
+#line 108 "index.y" /* yacc.c:1646  */
     {
-                    (yyval.astNode) = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 2987 "y.cpp" /* yacc.c:1646  */
+#line 2990 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 9:
-#line 110 "index.y" /* yacc.c:1646  */
+#line 113 "index.y" /* yacc.c:1646  */
     {
-                    (yyval.astNode) = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 2996 "y.cpp" /* yacc.c:1646  */
+#line 3000 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 10:
-#line 115 "index.y" /* yacc.c:1646  */
+#line 119 "index.y" /* yacc.c:1646  */
     {
-                    (yyval.astNode) = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 3005 "y.cpp" /* yacc.c:1646  */
+#line 3010 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 11:
-#line 119 "index.y" /* yacc.c:1646  */
+#line 124 "index.y" /* yacc.c:1646  */
     {
-                    (yyval.astNode) = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 3014 "y.cpp" /* yacc.c:1646  */
+#line 3020 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 12:
-#line 123 "index.y" /* yacc.c:1646  */
+#line 129 "index.y" /* yacc.c:1646  */
     {
-                    (yyval.astNode) = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 3023 "y.cpp" /* yacc.c:1646  */
+#line 3030 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 13:
-#line 127 "index.y" /* yacc.c:1646  */
+#line 134 "index.y" /* yacc.c:1646  */
     {
-                    (yyval.astNode) = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 3032 "y.cpp" /* yacc.c:1646  */
+#line 3040 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 14:
-#line 132 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new suite("suite" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode)); }
-#line 3038 "y.cpp" /* yacc.c:1646  */
+#line 140 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new suite("suite" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+            // $$ = $1;
+        }
+#line 3049 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 15:
-#line 133 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new suite("suite" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 3044 "y.cpp" /* yacc.c:1646  */
+#line 144 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new suite("suite" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+            // $$ = $3;
+        }
+#line 3058 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 16:
-#line 135 "index.y" /* yacc.c:1646  */
+#line 149 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mystatement("mystatement" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3053 "y.cpp" /* yacc.c:1646  */
+#line 3067 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 17:
-#line 139 "index.y" /* yacc.c:1646  */
+#line 153 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mystatement("mystatement" + std::to_string(++n_nodes));
                 (yyvsp[-1].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-1].astNode);
             }
-#line 3063 "y.cpp" /* yacc.c:1646  */
+#line 3077 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 18:
-#line 145 "index.y" /* yacc.c:1646  */
+#line 159 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new statement("statement" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = new statement("statement" + std::to_string(++n_nodes));
+                // $$->add($1);
+                (yyval.astNode) = (yyvsp[-1].astNode);
             }
-#line 3072 "y.cpp" /* yacc.c:1646  */
+#line 3087 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 19:
-#line 149 "index.y" /* yacc.c:1646  */
+#line 164 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new statement("statement" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = new statement("statement" + std::to_string(++n_nodes));
+                // $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);
             }
-#line 3081 "y.cpp" /* yacc.c:1646  */
+#line 3097 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 20:
-#line 154 "index.y" /* yacc.c:1646  */
+#line 170 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new stmt_list("stmt_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = new stmt_list("stmt_list" + std::to_string(++n_nodes));
+                // $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);
             }
-#line 3090 "y.cpp" /* yacc.c:1646  */
+#line 3107 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 21:
-#line 158 "index.y" /* yacc.c:1646  */
+#line 175 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new stmt_list("stmt_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = new stmt_list("stmt_list" + std::to_string(++n_nodes));
+                // $$->add($1);
+                (yyval.astNode) = (yyvsp[-1].astNode);
             }
-#line 3099 "y.cpp" /* yacc.c:1646  */
+#line 3117 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 22:
-#line 162 "index.y" /* yacc.c:1646  */
+#line 180 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new stmt_list("stmt_list" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3109 "y.cpp" /* yacc.c:1646  */
+#line 3127 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 23:
-#line 167 "index.y" /* yacc.c:1646  */
+#line 185 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new stmt_list("stmt_list" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 3119 "y.cpp" /* yacc.c:1646  */
+#line 3137 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 24:
-#line 173 "index.y" /* yacc.c:1646  */
+#line 191 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mysimplestmt("mysimplestmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3128 "y.cpp" /* yacc.c:1646  */
+#line 3146 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 25:
-#line 177 "index.y" /* yacc.c:1646  */
+#line 195 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mysimplestmt("mysimplestmt" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-2].astNode);
             }
-#line 3138 "y.cpp" /* yacc.c:1646  */
+#line 3156 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 26:
-#line 183 "index.y" /* yacc.c:1646  */
+#line 201 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new if_stmt("if_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-3].astNode));
             (yyval.astNode)->add((yyvsp[-1].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3149 "y.cpp" /* yacc.c:1646  */
+#line 3167 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 27:
-#line 189 "index.y" /* yacc.c:1646  */
+#line 207 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new if_stmt("if_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3159 "y.cpp" /* yacc.c:1646  */
+#line 3177 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 28:
-#line 194 "index.y" /* yacc.c:1646  */
+#line 212 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new if_stmt("if_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-5].astNode));
             (yyval.astNode)->add((yyvsp[-3].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3170 "y.cpp" /* yacc.c:1646  */
+#line 3188 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 29:
-#line 200 "index.y" /* yacc.c:1646  */
+#line 218 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new if_stmt("if_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-6].astNode));
@@ -3178,64 +3196,64 @@ yyreduce:
             (yyval.astNode)->add((yyvsp[-3].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3182 "y.cpp" /* yacc.c:1646  */
+#line 3200 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 30:
-#line 208 "index.y" /* yacc.c:1646  */
+#line 226 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new myelifstmt("myelifstmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3192 "y.cpp" /* yacc.c:1646  */
+#line 3210 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 31:
-#line 213 "index.y" /* yacc.c:1646  */
+#line 231 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new myelifstmt("myelifstmt" + std::to_string(++n_nodes));
                 (yyvsp[-4].astNode)->add((yyvsp[-2].astNode));
                 (yyvsp[-4].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-4].astNode);
             }
-#line 3203 "y.cpp" /* yacc.c:1646  */
+#line 3221 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 32:
-#line 220 "index.y" /* yacc.c:1646  */
+#line 238 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new while_stmt("while_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3213 "y.cpp" /* yacc.c:1646  */
+#line 3231 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 33:
-#line 225 "index.y" /* yacc.c:1646  */
+#line 243 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new while_stmt("while_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-5].astNode));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3224 "y.cpp" /* yacc.c:1646  */
+#line 3242 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 34:
-#line 232 "index.y" /* yacc.c:1646  */
+#line 250 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-4].astNode));
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3235 "y.cpp" /* yacc.c:1646  */
+#line 3253 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 35:
-#line 238 "index.y" /* yacc.c:1646  */
+#line 256 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-7].astNode));
@@ -3243,22 +3261,22 @@ yyreduce:
             (yyval.astNode)->add((yyvsp[-3].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3247 "y.cpp" /* yacc.c:1646  */
+#line 3265 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 36:
-#line 245 "index.y" /* yacc.c:1646  */
+#line 263 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-4].astNode));
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3258 "y.cpp" /* yacc.c:1646  */
+#line 3276 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 37:
-#line 251 "index.y" /* yacc.c:1646  */
+#line 269 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-7].astNode));
@@ -3266,143 +3284,118 @@ yyreduce:
             (yyval.astNode)->add((yyvsp[-3].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3270 "y.cpp" /* yacc.c:1646  */
+#line 3288 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 38:
-#line 258 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
-            (yyval.astNode)->add((yyvsp[-4].astNode));
-            (yyval.astNode)->add((yyvsp[-2].astNode));
-            (yyval.astNode)->add((yyvsp[0].astNode));
-        }
-#line 3281 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 39:
-#line 264 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
-            (yyval.astNode)->add((yyvsp[-7].astNode));
-            (yyval.astNode)->add((yyvsp[-5].astNode));
-            (yyval.astNode)->add((yyvsp[-3].astNode));
-            (yyval.astNode)->add((yyvsp[0].astNode));
-        }
-#line 3293 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 40:
-#line 271 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
-            (yyval.astNode)->add((yyvsp[-2].astNode));
-            (yyval.astNode)->add((yyvsp[0].astNode));
-        }
-#line 3303 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 41:
 #line 276 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
-            (yyval.astNode)->add((yyvsp[-5].astNode));
-            (yyval.astNode)->add((yyvsp[-3].astNode));
+            (yyval.astNode)->add((yyvsp[-4].astNode));
+            (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3314 "y.cpp" /* yacc.c:1646  */
+#line 3299 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 42:
+  case 39:
 #line 282 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
+            (yyval.astNode)->add((yyvsp[-7].astNode));
+            (yyval.astNode)->add((yyvsp[-5].astNode));
+            (yyval.astNode)->add((yyvsp[-3].astNode));
+            (yyval.astNode)->add((yyvsp[0].astNode));
+        }
+#line 3311 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 40:
+#line 289 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3324 "y.cpp" /* yacc.c:1646  */
+#line 3321 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 41:
+#line 294 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
+            (yyval.astNode)->add((yyvsp[-5].astNode));
+            (yyval.astNode)->add((yyvsp[-3].astNode));
+            (yyval.astNode)->add((yyvsp[0].astNode));
+        }
+#line 3332 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 42:
+#line 300 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
+            (yyval.astNode)->add((yyvsp[-2].astNode));
+            (yyval.astNode)->add((yyvsp[0].astNode));
+        }
+#line 3342 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 43:
-#line 287 "index.y" /* yacc.c:1646  */
+#line 305 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-5].astNode));
             (yyval.astNode)->add((yyvsp[-3].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3335 "y.cpp" /* yacc.c:1646  */
+#line 3353 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 44:
-#line 293 "index.y" /* yacc.c:1646  */
+#line 311 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3345 "y.cpp" /* yacc.c:1646  */
+#line 3363 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 45:
-#line 298 "index.y" /* yacc.c:1646  */
+#line 316 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-5].astNode));
             (yyval.astNode)->add((yyvsp[-3].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3356 "y.cpp" /* yacc.c:1646  */
+#line 3374 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 46:
-#line 304 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
-            (yyval.astNode)->add((yyvsp[-2].astNode));
-            (yyval.astNode)->add((yyvsp[0].astNode));
-        }
-#line 3366 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 47:
-#line 309 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
-            (yyval.astNode)->add((yyvsp[-5].astNode));
-            (yyval.astNode)->add((yyvsp[-3].astNode));
-            (yyval.astNode)->add((yyvsp[0].astNode));
-        }
-#line 3377 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 48:
-#line 315 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
-            (yyvsp[-4].astNode)->name = "identifier" + std::to_string(++n_nodes);
-            (yyval.astNode)->add((yyvsp[-4].astNode));
-            (yyval.astNode)->add((yyvsp[-2].astNode));
-            (yyval.astNode)->add((yyvsp[0].astNode));
-        }
-#line 3389 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 49:
 #line 322 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
-            (yyvsp[-7].astNode)->name = "identifier" + std::to_string(++n_nodes);
-            (yyval.astNode)->add((yyvsp[-7].astNode));
+            (yyval.astNode)->add((yyvsp[-2].astNode));
+            (yyval.astNode)->add((yyvsp[0].astNode));
+        }
+#line 3384 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 47:
+#line 327 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-5].astNode));
             (yyval.astNode)->add((yyvsp[-3].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3402 "y.cpp" /* yacc.c:1646  */
+#line 3395 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 50:
-#line 330 "index.y" /* yacc.c:1646  */
+  case 48:
+#line 333 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyvsp[-4].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -3410,11 +3403,11 @@ yyreduce:
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3414 "y.cpp" /* yacc.c:1646  */
+#line 3407 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 51:
-#line 337 "index.y" /* yacc.c:1646  */
+  case 49:
+#line 340 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
             (yyvsp[-7].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -3423,48 +3416,76 @@ yyreduce:
             (yyval.astNode)->add((yyvsp[-3].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3427 "y.cpp" /* yacc.c:1646  */
+#line 3420 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 52:
-#line 346 "index.y" /* yacc.c:1646  */
+  case 50:
+#line 348 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new try_stmt("try_stmt" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 3436 "y.cpp" /* yacc.c:1646  */
+            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
+            (yyvsp[-4].astNode)->name = "identifier" + std::to_string(++n_nodes);
+            (yyval.astNode)->add((yyvsp[-4].astNode));
+            (yyval.astNode)->add((yyvsp[-2].astNode));
+            (yyval.astNode)->add((yyvsp[0].astNode));
+        }
+#line 3432 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 53:
-#line 350 "index.y" /* yacc.c:1646  */
+  case 51:
+#line 355 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new try_stmt("try_stmt" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
+            (yyval.astNode) = new for_stmt("for_stmt" + std::to_string(++n_nodes));
+            (yyvsp[-7].astNode)->name = "identifier" + std::to_string(++n_nodes);
+            (yyval.astNode)->add((yyvsp[-7].astNode));
+            (yyval.astNode)->add((yyvsp[-5].astNode));
+            (yyval.astNode)->add((yyvsp[-3].astNode));
+            (yyval.astNode)->add((yyvsp[0].astNode));
+        }
 #line 3445 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 54:
-#line 354 "index.y" /* yacc.c:1646  */
+  case 52:
+#line 364 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new try_stmt("try_stmt" + std::to_string(++n_nodes));
-            (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = new try_stmt("try_stmt" + std::to_string(++n_nodes));
+                // $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);
             }
-#line 3454 "y.cpp" /* yacc.c:1646  */
+#line 3455 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 53:
+#line 369 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new try_stmt("try_stmt" + std::to_string(++n_nodes));
+                // $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);
+            }
+#line 3465 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 54:
+#line 374 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new try_stmt("try_stmt" + std::to_string(++n_nodes));
+                // $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);
+            }
+#line 3475 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 55:
-#line 359 "index.y" /* yacc.c:1646  */
+#line 380 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new try1_stmt("try1_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3464 "y.cpp" /* yacc.c:1646  */
+#line 3485 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 56:
-#line 364 "index.y" /* yacc.c:1646  */
+#line 385 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new try1_stmt("try1_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-7].astNode));
@@ -3472,71 +3493,72 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3476 "y.cpp" /* yacc.c:1646  */
+#line 3497 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 57:
-#line 371 "index.y" /* yacc.c:1646  */
+#line 392 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new try1_stmt("try1_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3487 "y.cpp" /* yacc.c:1646  */
+#line 3508 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 58:
-#line 377 "index.y" /* yacc.c:1646  */
+#line 398 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new try1_stmt("try1_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3498 "y.cpp" /* yacc.c:1646  */
+#line 3519 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 59:
-#line 384 "index.y" /* yacc.c:1646  */
+#line 405 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new mytry1("mytry1" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3507 "y.cpp" /* yacc.c:1646  */
+#line 3528 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 60:
-#line 388 "index.y" /* yacc.c:1646  */
+#line 409 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new mytry1("mytry1" + std::to_string(++n_nodes));
             (yyvsp[-1].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-1].astNode);
         }
-#line 3517 "y.cpp" /* yacc.c:1646  */
+#line 3538 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 61:
-#line 394 "index.y" /* yacc.c:1646  */
+#line 415 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new myexcept1("myexcept1" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $3;
             }
-#line 3526 "y.cpp" /* yacc.c:1646  */
+#line 3548 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 62:
-#line 398 "index.y" /* yacc.c:1646  */
+#line 420 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new myexcept1("myexcept1" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3536 "y.cpp" /* yacc.c:1646  */
+#line 3558 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 63:
-#line 403 "index.y" /* yacc.c:1646  */
+#line 425 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new myexcept1("myexcept1" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-4].astNode));
@@ -3544,84 +3566,84 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3548 "y.cpp" /* yacc.c:1646  */
+#line 3570 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 64:
-#line 411 "index.y" /* yacc.c:1646  */
+#line 433 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new try2_stmt("try2_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3558 "y.cpp" /* yacc.c:1646  */
+#line 3580 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 65:
-#line 416 "index.y" /* yacc.c:1646  */
+#line 438 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new try2_stmt("try2_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-7].astNode));
                 (yyval.astNode)->add((yyvsp[-6].astNode));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 3570 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 66:
-#line 423 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new try2_stmt("try2_stmt" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-4].astNode));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 3581 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 67:
-#line 429 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new try2_stmt("try2_stmt" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
 #line 3592 "y.cpp" /* yacc.c:1646  */
     break;
 
+  case 66:
+#line 445 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new try2_stmt("try2_stmt" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-4].astNode));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 3603 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 67:
+#line 451 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new try2_stmt("try2_stmt" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-4].astNode));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 3614 "y.cpp" /* yacc.c:1646  */
+    break;
+
   case 68:
-#line 436 "index.y" /* yacc.c:1646  */
+#line 458 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new mytry2("mytry2" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 3601 "y.cpp" /* yacc.c:1646  */
+#line 3623 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 69:
-#line 440 "index.y" /* yacc.c:1646  */
+#line 462 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new mytry2("mytry2" + std::to_string(++n_nodes));
             (yyvsp[-1].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-1].astNode);
         }
-#line 3611 "y.cpp" /* yacc.c:1646  */
+#line 3633 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 70:
-#line 446 "index.y" /* yacc.c:1646  */
+#line 468 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new myexcept2("myexcept2" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3621 "y.cpp" /* yacc.c:1646  */
+#line 3643 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 71:
-#line 451 "index.y" /* yacc.c:1646  */
+#line 473 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new myexcept2("myexcept2" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-4].astNode));
@@ -3629,21 +3651,21 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3633 "y.cpp" /* yacc.c:1646  */
+#line 3655 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 72:
-#line 459 "index.y" /* yacc.c:1646  */
+#line 481 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new try3_stmt("try3_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3643 "y.cpp" /* yacc.c:1646  */
+#line 3665 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 73:
-#line 465 "index.y" /* yacc.c:1646  */
+#line 487 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-10].astNode));
@@ -3654,11 +3676,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3658 "y.cpp" /* yacc.c:1646  */
+#line 3680 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 74:
-#line 475 "index.y" /* yacc.c:1646  */
+#line 497 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-6].astNode));
@@ -3666,11 +3688,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3670 "y.cpp" /* yacc.c:1646  */
+#line 3692 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 75:
-#line 482 "index.y" /* yacc.c:1646  */
+#line 504 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-9].astNode));
@@ -3680,11 +3702,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3684 "y.cpp" /* yacc.c:1646  */
+#line 3706 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 76:
-#line 491 "index.y" /* yacc.c:1646  */
+#line 513 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-8].astNode));
@@ -3693,11 +3715,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3697 "y.cpp" /* yacc.c:1646  */
+#line 3719 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 77:
-#line 499 "index.y" /* yacc.c:1646  */
+#line 521 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-9].astNode));
@@ -3707,11 +3729,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3711 "y.cpp" /* yacc.c:1646  */
+#line 3733 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 78:
-#line 508 "index.y" /* yacc.c:1646  */
+#line 530 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-7].astNode));
@@ -3720,11 +3742,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3724 "y.cpp" /* yacc.c:1646  */
+#line 3746 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 79:
-#line 516 "index.y" /* yacc.c:1646  */
+#line 538 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-8].astNode));
@@ -3734,11 +3756,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3738 "y.cpp" /* yacc.c:1646  */
+#line 3760 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 80:
-#line 525 "index.y" /* yacc.c:1646  */
+#line 547 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-7].astNode));
@@ -3747,11 +3769,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3751 "y.cpp" /* yacc.c:1646  */
+#line 3773 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 81:
-#line 533 "index.y" /* yacc.c:1646  */
+#line 555 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyvsp[-8].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -3761,22 +3783,22 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3765 "y.cpp" /* yacc.c:1646  */
+#line 3787 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 82:
-#line 542 "index.y" /* yacc.c:1646  */
+#line 564 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyvsp[-4].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3776 "y.cpp" /* yacc.c:1646  */
+#line 3798 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 83:
-#line 548 "index.y" /* yacc.c:1646  */
+#line 570 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyvsp[-7].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -3785,11 +3807,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3789 "y.cpp" /* yacc.c:1646  */
+#line 3811 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 84:
-#line 556 "index.y" /* yacc.c:1646  */
+#line 578 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyvsp[-6].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -3797,11 +3819,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3801 "y.cpp" /* yacc.c:1646  */
+#line 3823 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 85:
-#line 563 "index.y" /* yacc.c:1646  */
+#line 585 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyvsp[-5].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -3809,11 +3831,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3813 "y.cpp" /* yacc.c:1646  */
+#line 3835 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 86:
-#line 570 "index.y" /* yacc.c:1646  */
+#line 592 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyvsp[-5].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -3821,62 +3843,65 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3825 "y.cpp" /* yacc.c:1646  */
+#line 3847 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 87:
-#line 577 "index.y" /* yacc.c:1646  */
+#line 599 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
                 (yyvsp[-7].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-7].astNode));
                 (yyval.astNode)->add((yyvsp[-6].astNode));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 3838 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 88:
-#line 585 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
-                (yyvsp[-6].astNode)->name = "identifier" + std::to_string(++n_nodes);
-                (yyval.astNode)->add((yyvsp[-6].astNode));
-                (yyval.astNode)->add((yyvsp[-5].astNode));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 3851 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 89:
-#line 594 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new decorators("decorators" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
 #line 3860 "y.cpp" /* yacc.c:1646  */
     break;
 
+  case 88:
+#line 607 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new funcdef("funcdef" + std::to_string(++n_nodes));
+                (yyvsp[-6].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-6].astNode));
+                (yyval.astNode)->add((yyvsp[-5].astNode));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 3873 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 89:
+#line 616 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new decorators("decorators" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 3882 "y.cpp" /* yacc.c:1646  */
+    break;
+
   case 90:
-#line 598 "index.y" /* yacc.c:1646  */
+#line 620 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new decorators("decorators" + std::to_string(++n_nodes));
                 (yyvsp[-1].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-1].astNode);
             }
-#line 3870 "y.cpp" /* yacc.c:1646  */
+#line 3892 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 91:
-#line 604 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new decorator("decorator" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 3876 "y.cpp" /* yacc.c:1646  */
+#line 626 "index.y" /* yacc.c:1646  */
+    {
+    (yyval.astNode) = new decorator("decorator" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+    // $$ = $2;
+}
+#line 3901 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 92:
-#line 606 "index.y" /* yacc.c:1646  */
+#line 631 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new classdef("classdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-6].astNode));
@@ -3886,11 +3911,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3890 "y.cpp" /* yacc.c:1646  */
+#line 3915 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 93:
-#line 615 "index.y" /* yacc.c:1646  */
+#line 640 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new classdef("classdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-5].astNode));
@@ -3899,11 +3924,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3903 "y.cpp" /* yacc.c:1646  */
+#line 3928 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 94:
-#line 623 "index.y" /* yacc.c:1646  */
+#line 648 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new classdef("classdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-5].astNode));
@@ -3912,11 +3937,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3916 "y.cpp" /* yacc.c:1646  */
+#line 3941 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 95:
-#line 631 "index.y" /* yacc.c:1646  */
+#line 656 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new classdef("classdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-4].astNode));
@@ -3924,36 +3949,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3928 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 96:
-#line 638 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new classdef("classdef" + std::to_string(++n_nodes));
-                (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 3940 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 97:
-#line 645 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new classdef("classdef" + std::to_string(++n_nodes));
-                (yyvsp[-4].astNode)->name = "identifier" + std::to_string(++n_nodes);
-                (yyval.astNode)->add((yyvsp[-4].astNode));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
 #line 3953 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 98:
-#line 653 "index.y" /* yacc.c:1646  */
+  case 96:
+#line 663 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new classdef("classdef" + std::to_string(++n_nodes));
                 (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -3964,104 +3964,130 @@ yyreduce:
 #line 3965 "y.cpp" /* yacc.c:1646  */
     break;
 
+  case 97:
+#line 670 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new classdef("classdef" + std::to_string(++n_nodes));
+                (yyvsp[-4].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-4].astNode));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 3978 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 98:
+#line 678 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new classdef("classdef" + std::to_string(++n_nodes));
+                (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 3990 "y.cpp" /* yacc.c:1646  */
+    break;
+
   case 99:
-#line 660 "index.y" /* yacc.c:1646  */
+#line 685 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new classdef("classdef" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 3976 "y.cpp" /* yacc.c:1646  */
+#line 4001 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 100:
-#line 667 "index.y" /* yacc.c:1646  */
+#line 692 "index.y" /* yacc.c:1646  */
     { (yyval.astNode) = new inheritance("inheritance" + std::to_string(++n_nodes)); }
-#line 3982 "y.cpp" /* yacc.c:1646  */
+#line 4007 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 101:
-#line 669 "index.y" /* yacc.c:1646  */
+#line 694 "index.y" /* yacc.c:1646  */
     {
-                    (yyval.astNode) = new type_params("type_params" + std::to_string(++n_nodes));
-                    (yyval.astNode)->add((yyvsp[-1].astNode));
+                    // $$ = new type_params("type_params" + std::to_string(++n_nodes));
+                    // $$->add($2);
+                    (yyval.astNode) = (yyvsp[-1].astNode);
                 }
-#line 3991 "y.cpp" /* yacc.c:1646  */
+#line 4017 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 102:
-#line 673 "index.y" /* yacc.c:1646  */
+#line 699 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new type_params("type_params" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-2].astNode));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                 }
-#line 4001 "y.cpp" /* yacc.c:1646  */
+#line 4027 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 103:
-#line 679 "index.y" /* yacc.c:1646  */
+#line 705 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytypeparam("mytypeparam" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4010 "y.cpp" /* yacc.c:1646  */
+#line 4036 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 104:
-#line 683 "index.y" /* yacc.c:1646  */
+#line 709 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytypeparam("mytypeparam" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode) = (yyvsp[0].astNode);
             }
-#line 4020 "y.cpp" /* yacc.c:1646  */
+#line 4046 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 105:
-#line 689 "index.y" /* yacc.c:1646  */
+#line 715 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new type_param("type_param" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4031 "y.cpp" /* yacc.c:1646  */
+#line 4057 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 106:
-#line 695 "index.y" /* yacc.c:1646  */
+#line 721 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new type_param("type_param" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4041 "y.cpp" /* yacc.c:1646  */
+#line 4067 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 107:
-#line 700 "index.y" /* yacc.c:1646  */
+#line 726 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new type_param("type_param" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4051 "y.cpp" /* yacc.c:1646  */
+#line 4077 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 108:
-#line 705 "index.y" /* yacc.c:1646  */
+#line 731 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new type_param("type_param" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4061 "y.cpp" /* yacc.c:1646  */
+#line 4087 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 109:
-#line 711 "index.y" /* yacc.c:1646  */
+#line 737 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new async_funcdef("async_funcdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-10].astNode));
@@ -4071,11 +4097,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4075 "y.cpp" /* yacc.c:1646  */
+#line 4101 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 110:
-#line 720 "index.y" /* yacc.c:1646  */
+#line 746 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new async_funcdef("async_funcdef" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-7].astNode));
@@ -4083,11 +4109,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4087 "y.cpp" /* yacc.c:1646  */
+#line 4113 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 111:
-#line 727 "index.y" /* yacc.c:1646  */
+#line 753 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new async_funcdef("async_funcdef" + std::to_string(++n_nodes));
                 (yyvsp[-5].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -4095,39 +4121,13 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4099 "y.cpp" /* yacc.c:1646  */
+#line 4125 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 112:
-#line 734 "index.y" /* yacc.c:1646  */
+#line 760 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new async_funcdef("async_funcdef" + std::to_string(++n_nodes));
-                (yyvsp[-6].astNode)->name = "identifier" + std::to_string(++n_nodes);
-                (yyval.astNode)->add((yyvsp[-6].astNode));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4111 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 113:
-#line 741 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new async_funcdef("async_funcdef" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-8].astNode));
-                (yyvsp[-5].astNode)->name = "identifier" + std::to_string(++n_nodes);
-                (yyval.astNode)->add((yyvsp[-5].astNode));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4124 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 114:
-#line 749 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new async_funcdef("async_funcdef" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-9].astNode));
                 (yyvsp[-6].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-6].astNode));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
@@ -4136,8 +4136,34 @@ yyreduce:
 #line 4137 "y.cpp" /* yacc.c:1646  */
     break;
 
+  case 113:
+#line 767 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new async_funcdef("async_funcdef" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-8].astNode));
+                (yyvsp[-5].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-5].astNode));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4150 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 114:
+#line 775 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new async_funcdef("async_funcdef" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-9].astNode));
+                (yyvsp[-6].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-6].astNode));
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4163 "y.cpp" /* yacc.c:1646  */
+    break;
+
   case 115:
-#line 757 "index.y" /* yacc.c:1646  */
+#line 783 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new async_funcdef("async_funcdef" + std::to_string(++n_nodes));
                 (yyvsp[-7].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -4146,231 +4172,205 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4150 "y.cpp" /* yacc.c:1646  */
+#line 4176 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 116:
-#line 765 "index.y" /* yacc.c:1646  */
+#line 791 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new async_funcdef("async_funcdef" + std::to_string(++n_nodes));
                 (yyvsp[-4].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4161 "y.cpp" /* yacc.c:1646  */
+#line 4187 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 117:
-#line 772 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new async_for_stmt("async_for_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4167 "y.cpp" /* yacc.c:1646  */
+#line 798 "index.y" /* yacc.c:1646  */
+    {
+    (yyval.astNode) = new async_for_stmt("async_for_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+    // $$ = $2;
+}
+#line 4196 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 118:
-#line 774 "index.y" /* yacc.c:1646  */
+#line 803 "index.y" /* yacc.c:1646  */
     {
         (yyval.astNode) = new atom("Atom" + std::to_string(++n_nodes));
         (yyvsp[0].astNode)->name = "number" + std::to_string(++n_nodes);
         (yyval.astNode)->add((yyvsp[0].astNode));
     }
-#line 4177 "y.cpp" /* yacc.c:1646  */
+#line 4206 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 119:
-#line 779 "index.y" /* yacc.c:1646  */
+#line 808 "index.y" /* yacc.c:1646  */
     {
-        (yyval.astNode) = new atom("Atom" + std::to_string(++n_nodes));
-        (yyval.astNode)->add((yyvsp[0].astNode));
+        // $$ = new atom("Atom" + std::to_string(++n_nodes));
+        // $$->add($1);
+        (yyval.astNode) = (yyvsp[0].astNode);
     }
-#line 4186 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 120:
-#line 784 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new enclosure("enclosure" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4192 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 121:
-#line 785 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new enclosure("enclosure" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4198 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 122:
-#line 786 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new enclosure("enclosure" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4204 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 123:
-#line 787 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new enclosure("enclosure" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4210 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 124:
-#line 788 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new enclosure("enclosure" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
 #line 4216 "y.cpp" /* yacc.c:1646  */
     break;
 
+  case 120:
+#line 814 "index.y" /* yacc.c:1646  */
+    {
+            //  $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4224 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 121:
+#line 817 "index.y" /* yacc.c:1646  */
+    {
+            //  $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4232 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 122:
+#line 820 "index.y" /* yacc.c:1646  */
+    {
+            //  $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4240 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 123:
+#line 823 "index.y" /* yacc.c:1646  */
+    {
+            //  $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4248 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 124:
+#line 826 "index.y" /* yacc.c:1646  */
+    {
+            //  $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4256 "y.cpp" /* yacc.c:1646  */
+    break;
+
   case 125:
-#line 788 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new enclosure("enclosure" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4222 "y.cpp" /* yacc.c:1646  */
+#line 829 "index.y" /* yacc.c:1646  */
+    {
+            // $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4264 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 126:
-#line 790 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new parenth_form("parenth_form" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode)); }
-#line 4228 "y.cpp" /* yacc.c:1646  */
+#line 833 "index.y" /* yacc.c:1646  */
+    {
+    (yyval.astNode) = new parenth_form("parenth_form" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+    // $$ = $2;
+}
+#line 4273 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 127:
-#line 792 "index.y" /* yacc.c:1646  */
+#line 838 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new comprehension("comprehension" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 4238 "y.cpp" /* yacc.c:1646  */
+#line 4283 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 128:
-#line 798 "index.y" /* yacc.c:1646  */
+#line 844 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4249 "y.cpp" /* yacc.c:1646  */
+#line 4294 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 129:
-#line 804 "index.y" /* yacc.c:1646  */
+#line 850 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4260 "y.cpp" /* yacc.c:1646  */
+#line 4305 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 130:
-#line 810 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4270 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 131:
-#line 815 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4280 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 132:
-#line 820 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4291 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 133:
-#line 826 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4302 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 134:
-#line 832 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4312 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 135:
-#line 837 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4322 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 136:
-#line 842 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4334 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 137:
-#line 849 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4346 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 138:
 #line 856 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4315 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 131:
+#line 861 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4325 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 132:
+#line 866 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4336 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 133:
+#line 872 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4347 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 134:
+#line 878 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
 #line 4357 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 139:
-#line 862 "index.y" /* yacc.c:1646  */
+  case 135:
+#line 883 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4368 "y.cpp" /* yacc.c:1646  */
+#line 4367 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 140:
-#line 868 "index.y" /* yacc.c:1646  */
+  case 136:
+#line 888 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
@@ -4378,39 +4378,8 @@ yyreduce:
 #line 4379 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 141:
-#line 874 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4390 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 142:
-#line 880 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4400 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 143:
-#line 885 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4410 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 144:
-#line 890 "index.y" /* yacc.c:1646  */
+  case 137:
+#line 895 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -4418,130 +4387,161 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4422 "y.cpp" /* yacc.c:1646  */
+#line 4391 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 145:
-#line 897 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4434 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 146:
-#line 904 "index.y" /* yacc.c:1646  */
+  case 138:
+#line 902 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4402 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 139:
+#line 908 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4413 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 140:
+#line 914 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4424 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 141:
+#line 920 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4435 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 142:
+#line 926 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
 #line 4445 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 147:
-#line 910 "index.y" /* yacc.c:1646  */
+  case 143:
+#line 931 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4455 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 144:
+#line 936 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4467 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 145:
+#line 943 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4479 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 146:
+#line 950 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4456 "y.cpp" /* yacc.c:1646  */
+#line 4490 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 147:
+#line 956 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4501 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 148:
-#line 916 "index.y" /* yacc.c:1646  */
+#line 962 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4466 "y.cpp" /* yacc.c:1646  */
+#line 4511 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 149:
-#line 921 "index.y" /* yacc.c:1646  */
+#line 967 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4476 "y.cpp" /* yacc.c:1646  */
+#line 4521 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 150:
-#line 926 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4484 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 151:
-#line 929 "index.y" /* yacc.c:1646  */
+#line 972 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4493 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 152:
-#line 933 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4503 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 153:
-#line 938 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4513 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 154:
-#line 943 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 4522 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 155:
-#line 947 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $6;
             }
 #line 4531 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 156:
-#line 951 "index.y" /* yacc.c:1646  */
+  case 151:
+#line 977 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $5;
             }
 #line 4541 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 157:
-#line 956 "index.y" /* yacc.c:1646  */
+  case 152:
+#line 982 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
@@ -4550,303 +4550,410 @@ yyreduce:
 #line 4551 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 158:
-#line 961 "index.y" /* yacc.c:1646  */
+  case 153:
+#line 987 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4561 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 154:
+#line 992 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $6;
             }
-#line 4560 "y.cpp" /* yacc.c:1646  */
+#line 4571 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 155:
+#line 997 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $5;
+            }
+#line 4581 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 156:
+#line 1002 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4591 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 157:
+#line 1007 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 4601 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 158:
+#line 1012 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $7;
+            }
+#line 4611 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 159:
-#line 965 "index.y" /* yacc.c:1646  */
+#line 1017 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $6;
             }
-#line 4569 "y.cpp" /* yacc.c:1646  */
+#line 4621 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 160:
-#line 969 "index.y" /* yacc.c:1646  */
+#line 1022 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4579 "y.cpp" /* yacc.c:1646  */
+#line 4631 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 161:
-#line 974 "index.y" /* yacc.c:1646  */
+#line 1027 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4589 "y.cpp" /* yacc.c:1646  */
+#line 4641 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 162:
-#line 979 "index.y" /* yacc.c:1646  */
+#line 1032 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $7;
             }
-#line 4598 "y.cpp" /* yacc.c:1646  */
+#line 4651 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 163:
-#line 983 "index.y" /* yacc.c:1646  */
+#line 1037 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comp_for("comp_for" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $6;
             }
-#line 4607 "y.cpp" /* yacc.c:1646  */
+#line 4661 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 164:
-#line 988 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new comp_iter("comp_iter" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4613 "y.cpp" /* yacc.c:1646  */
+#line 1043 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new comp_iter("comp_iter" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4669 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 165:
-#line 989 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new comp_iter("comp_iter" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4619 "y.cpp" /* yacc.c:1646  */
+#line 1046 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new comp_iter("comp_iter" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4677 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 166:
-#line 991 "index.y" /* yacc.c:1646  */
+#line 1050 "index.y" /* yacc.c:1646  */
     { (yyval.astNode) = new comp_if("comp_if" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 4628 "y.cpp" /* yacc.c:1646  */
+#line 4686 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 167:
-#line 994 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new comp_if("comp_if" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4634 "y.cpp" /* yacc.c:1646  */
+#line 1053 "index.y" /* yacc.c:1646  */
+    { (yyval.astNode) = new comp_if("comp_if" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+            // $$ = $2;
+        }
+#line 4694 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 168:
-#line 996 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new list_display("list_display" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4640 "y.cpp" /* yacc.c:1646  */
+#line 1057 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new list_display("list_display" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $2;
+            }
+#line 4703 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 169:
-#line 997 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new list_display("list_display" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4646 "y.cpp" /* yacc.c:1646  */
+#line 1061 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new list_display("list_display" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $2;
+            }
+#line 4712 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 170:
-#line 999 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new set_display("set_display" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4652 "y.cpp" /* yacc.c:1646  */
+#line 1066 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new set_display("set_display" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $2;
+            }
+#line 4721 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 171:
-#line 1000 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new set_display("set_display" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4658 "y.cpp" /* yacc.c:1646  */
+#line 1070 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new set_display("set_display" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $2;
+            }
+#line 4730 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 172:
-#line 1002 "index.y" /* yacc.c:1646  */
+#line 1075 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new dict_display("dict_display" + std::to_string(++n_nodes));}
-#line 4664 "y.cpp" /* yacc.c:1646  */
+#line 4736 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 173:
-#line 1003 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new dict_display("dict_display" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4670 "y.cpp" /* yacc.c:1646  */
+#line 1076 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new dict_display("dict_display" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $2;
+            }
+#line 4745 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 174:
-#line 1004 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new dict_display("dict_display" + std::to_string(++n_nodes));(yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4676 "y.cpp" /* yacc.c:1646  */
+#line 1080 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new dict_display("dict_display" + std::to_string(++n_nodes));(yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $2;
+            }
+#line 4754 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 175:
-#line 1006 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new dict_item_list("dict_item_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4682 "y.cpp" /* yacc.c:1646  */
+#line 1085 "index.y" /* yacc.c:1646  */
+    {
+                    // $$ = new dict_item_list("dict_item_list" + std::to_string(++n_nodes)); $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4762 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 176:
-#line 1007 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new dict_item_list("dict_item_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4688 "y.cpp" /* yacc.c:1646  */
+#line 1088 "index.y" /* yacc.c:1646  */
+    {
+                    // $$ = new dict_item_list("dict_item_list" + std::to_string(++n_nodes)); $$->add($1);
+                    (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 4770 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 177:
-#line 1008 "index.y" /* yacc.c:1646  */
+#line 1091 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new dict_item_list("dict_item_list" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 4698 "y.cpp" /* yacc.c:1646  */
+#line 4780 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 178:
-#line 1013 "index.y" /* yacc.c:1646  */
+#line 1096 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new dict_item_list("dict_item_list" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-2].astNode));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                 }
-#line 4708 "y.cpp" /* yacc.c:1646  */
+#line 4790 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 179:
-#line 1019 "index.y" /* yacc.c:1646  */
+#line 1102 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mydictitem("mydictitem" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 4717 "y.cpp" /* yacc.c:1646  */
+#line 4799 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 180:
-#line 1023 "index.y" /* yacc.c:1646  */
+#line 1106 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mydictitem("mydictitem" + std::to_string(++n_nodes));
                     (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 4727 "y.cpp" /* yacc.c:1646  */
+#line 4809 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 181:
-#line 1029 "index.y" /* yacc.c:1646  */
+#line 1112 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new dict_item("dict_item" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 4737 "y.cpp" /* yacc.c:1646  */
+#line 4819 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 182:
-#line 1034 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new dict_item("dict_item" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4743 "y.cpp" /* yacc.c:1646  */
+#line 1117 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new dict_item("dict_item" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+            // $$ = $2;
+        }
+#line 4828 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 183:
-#line 1036 "index.y" /* yacc.c:1646  */
+#line 1122 "index.y" /* yacc.c:1646  */
     {
                         (yyval.astNode) = new dict_comprehension("dict_comprehension" + std::to_string(++n_nodes));
                         (yyval.astNode)->add((yyvsp[-3].astNode));
                         (yyval.astNode)->add((yyvsp[-1].astNode));
                         (yyval.astNode)->add((yyvsp[0].astNode));
                     }
-#line 4754 "y.cpp" /* yacc.c:1646  */
+#line 4839 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 184:
-#line 1043 "index.y" /* yacc.c:1646  */
+#line 1129 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new generator_expression("generator_expression" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-2].astNode));
                             (yyval.astNode)->add((yyvsp[-1].astNode));
                         }
-#line 4764 "y.cpp" /* yacc.c:1646  */
+#line 4849 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 185:
-#line 1049 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new yield_atom("yield_atom" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4770 "y.cpp" /* yacc.c:1646  */
+#line 1135 "index.y" /* yacc.c:1646  */
+    {
+    // $$ = new yield_atom("yield_atom" + std::to_string(++n_nodes)); $$->add($2);
+    (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 4857 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 186:
-#line 1051 "index.y" /* yacc.c:1646  */
+#line 1139 "index.y" /* yacc.c:1646  */
     { (yyval.astNode) = new yield_expression("yield_expression" + std::to_string(++n_nodes)); }
-#line 4776 "y.cpp" /* yacc.c:1646  */
+#line 4863 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 187:
-#line 1052 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new yield_expression("yield_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode)); }
-#line 4782 "y.cpp" /* yacc.c:1646  */
+#line 1140 "index.y" /* yacc.c:1646  */
+    {
+                    (yyval.astNode) = new yield_expression("yield_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = $2;
+                }
+#line 4872 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 188:
-#line 1053 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new yield_expression("yield_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode)); }
-#line 4788 "y.cpp" /* yacc.c:1646  */
+#line 1144 "index.y" /* yacc.c:1646  */
+    {
+                    (yyval.astNode) = new yield_expression("yield_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = $3;
+                }
+#line 4881 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 189:
-#line 1054 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new yield_expression("yield_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode)); }
-#line 4794 "y.cpp" /* yacc.c:1646  */
+#line 1148 "index.y" /* yacc.c:1646  */
+    {
+                    (yyval.astNode) = new yield_expression("yield_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                    // $$ = $2;
+                }
+#line 4890 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 190:
-#line 1055 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new yield_expression("yield_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode)); }
-#line 4800 "y.cpp" /* yacc.c:1646  */
+#line 1152 "index.y" /* yacc.c:1646  */
+    {
+                    (yyval.astNode) = new yield_expression("yield_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode)); 
+                    // $$ = $2;
+                }
+#line 4899 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 191:
-#line 1057 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new myreduce("myreduce" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4806 "y.cpp" /* yacc.c:1646  */
+#line 1157 "index.y" /* yacc.c:1646  */
+    {
+            //  $$ = new myreduce("myreduce" + std::to_string(++n_nodes)); $$->add($1);
+            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4907 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 192:
-#line 1058 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new myreduce("myreduce" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4812 "y.cpp" /* yacc.c:1646  */
+#line 1160 "index.y" /* yacc.c:1646  */
+    {
+            //  $$ = new myreduce("myreduce" + std::to_string(++n_nodes)); $$->add($1);
+            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4915 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 193:
-#line 1059 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new myreduce("myreduce" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4818 "y.cpp" /* yacc.c:1646  */
+#line 1163 "index.y" /* yacc.c:1646  */
+    {
+            //  $$ = new myreduce("myreduce" + std::to_string(++n_nodes)); $$->add($1);
+            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4923 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 194:
-#line 1061 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new primary("primary" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 4824 "y.cpp" /* yacc.c:1646  */
+#line 1167 "index.y" /* yacc.c:1646  */
+    {
+            // $$ = new primary("primary" + std::to_string(++n_nodes)); $$->add($1);
+            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 4931 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 195:
-#line 1063 "index.y" /* yacc.c:1646  */
+#line 1171 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new attributeref("attributeref" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4835 "y.cpp" /* yacc.c:1646  */
+#line 4942 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 196:
-#line 1069 "index.y" /* yacc.c:1646  */
+#line 1177 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new attributeref("attributeref" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4846 "y.cpp" /* yacc.c:1646  */
+#line 4953 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 197:
-#line 1075 "index.y" /* yacc.c:1646  */
+#line 1183 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new attributeref("attributeref" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -4854,2484 +4961,2668 @@ yyreduce:
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4858 "y.cpp" /* yacc.c:1646  */
+#line 4965 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 198:
-#line 1082 "index.y" /* yacc.c:1646  */
+#line 1190 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new attributeref("attributeref" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4868 "y.cpp" /* yacc.c:1646  */
+#line 4975 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 199:
-#line 1087 "index.y" /* yacc.c:1646  */
+#line 1195 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new attributeref("attributeref" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 4878 "y.cpp" /* yacc.c:1646  */
+#line 4985 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 200:
-#line 1093 "index.y" /* yacc.c:1646  */
+#line 1201 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new subscription("subscription" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 4888 "y.cpp" /* yacc.c:1646  */
+#line 4995 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 201:
-#line 1098 "index.y" /* yacc.c:1646  */
+#line 1206 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new subscription("subscription" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 4898 "y.cpp" /* yacc.c:1646  */
+#line 5005 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 202:
-#line 1103 "index.y" /* yacc.c:1646  */
+#line 1211 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new subscription("subscription" + std::to_string(++n_nodes));
                 (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 4909 "y.cpp" /* yacc.c:1646  */
+#line 5016 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 203:
-#line 1112 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new subscription("subscription" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4915 "y.cpp" /* yacc.c:1646  */
+#line 1220 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new subscription("subscription" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $4;
+            }
+#line 5025 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 204:
-#line 1114 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new subscription("subscription" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4921 "y.cpp" /* yacc.c:1646  */
+#line 1225 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new subscription("subscription" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $4;
+            }
+#line 5034 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 205:
-#line 1117 "index.y" /* yacc.c:1646  */
+#line 1231 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 4931 "y.cpp" /* yacc.c:1646  */
+#line 5044 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 206:
-#line 1122 "index.y" /* yacc.c:1646  */
+#line 1236 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 4941 "y.cpp" /* yacc.c:1646  */
+#line 5054 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 207:
-#line 1127 "index.y" /* yacc.c:1646  */
+#line 1241 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));
                 (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 4952 "y.cpp" /* yacc.c:1646  */
+#line 5065 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 208:
-#line 1133 "index.y" /* yacc.c:1646  */
+#line 1247 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
             }
-#line 4962 "y.cpp" /* yacc.c:1646  */
+#line 5075 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 209:
-#line 1138 "index.y" /* yacc.c:1646  */
+#line 1252 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
             }
-#line 4972 "y.cpp" /* yacc.c:1646  */
+#line 5085 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 210:
-#line 1143 "index.y" /* yacc.c:1646  */
+#line 1257 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));
                 (yyvsp[-4].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
             }
-#line 4983 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 211:
-#line 1152 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 4989 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 212:
-#line 1153 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));(yyval.astNode)->add((yyvsp[-2].astNode));}
-#line 4995 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 213:
-#line 1155 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));(yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 5001 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 214:
-#line 1156 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));(yyval.astNode)->add((yyvsp[-2].astNode));}
-#line 5007 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 215:
-#line 1159 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5013 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 216:
-#line 1160 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 5019 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 217:
-#line 1161 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 5029 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 218:
-#line 1166 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-            }
-#line 5039 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 219:
-#line 1171 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5045 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 220:
-#line 1172 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 5055 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 221:
-#line 1177 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-            }
-#line 5065 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 222:
-#line 1182 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
-#line 5075 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 223:
-#line 1187 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
-            }
-#line 5085 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 224:
-#line 1192 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
 #line 5096 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 225:
-#line 1198 "index.y" /* yacc.c:1646  */
+  case 211:
+#line 1266 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-4].astNode));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $4;
             }
-#line 5107 "y.cpp" /* yacc.c:1646  */
+#line 5105 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 226:
-#line 1204 "index.y" /* yacc.c:1646  */
+  case 212:
+#line 1270 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));(yyval.astNode)->add((yyvsp[-2].astNode));
+                // $$ = $4;
             }
-#line 5117 "y.cpp" /* yacc.c:1646  */
+#line 5114 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 227:
-#line 1209 "index.y" /* yacc.c:1646  */
+  case 213:
+#line 1275 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-2].astNode));
-                (yyval.astNode)->add((yyvsp[0].astNode));
+                (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));(yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $4;
             }
-#line 5128 "y.cpp" /* yacc.c:1646  */
+#line 5123 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 228:
-#line 1215 "index.y" /* yacc.c:1646  */
+  case 214:
+#line 1279 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[-4].astNode));
-                (yyval.astNode)->add((yyvsp[-3].astNode));
-                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode) = new slicing("slicing" + std::to_string(++n_nodes));(yyval.astNode)->add((yyvsp[-2].astNode));
+                // $$ = $4;
             }
-#line 5139 "y.cpp" /* yacc.c:1646  */
+#line 5132 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 229:
-#line 1222 "index.y" /* yacc.c:1646  */
+  case 215:
+#line 1285 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new mysliceitem("mysliceitem" + std::to_string(++n_nodes));
-                (yyval.astNode)->add((yyvsp[0].astNode));
-            }
+                // $$ = new slice_list("slice_list" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 5140 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 216:
+#line 1288 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new slice_list("slice_list" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[-1].astNode);}
 #line 5148 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 230:
-#line 1226 "index.y" /* yacc.c:1646  */
+  case 217:
+#line 1291 "index.y" /* yacc.c:1646  */
     {
-                (yyval.astNode) = new mysliceitem("mysliceitem" + std::to_string(++n_nodes));
-                (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
-                (yyval.astNode) = (yyvsp[0].astNode);
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
             }
 #line 5158 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 231:
-#line 1231 "index.y" /* yacc.c:1646  */
+  case 218:
+#line 1296 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+            }
+#line 5168 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 219:
+#line 1301 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $1;
+            }
+#line 5177 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 220:
+#line 1305 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 5187 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 221:
+#line 1310 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+            }
+#line 5197 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 222:
+#line 1315 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 5207 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 223:
+#line 1320 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+            }
+#line 5217 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 224:
+#line 1325 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 5228 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 225:
+#line 1331 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-4].astNode));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+            }
+#line 5239 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 226:
+#line 1337 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+            }
+#line 5249 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 227:
+#line 1342 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-2].astNode));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 5260 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 228:
+#line 1348 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new slice_list("slice_list" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[-4].astNode));
+                (yyval.astNode)->add((yyvsp[-3].astNode));
+                (yyval.astNode)->add((yyvsp[-1].astNode));
+            }
+#line 5271 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 229:
+#line 1355 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new mysliceitem("mysliceitem" + std::to_string(++n_nodes));
+                (yyval.astNode)->add((yyvsp[0].astNode));
+            }
+#line 5280 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 230:
+#line 1359 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mysliceitem("mysliceitem" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode) = (yyvsp[0].astNode);
             }
-#line 5168 "y.cpp" /* yacc.c:1646  */
+#line 5290 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 231:
+#line 1364 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new mysliceitem("mysliceitem" + std::to_string(++n_nodes));
+                (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
+                (yyval.astNode) = (yyvsp[0].astNode);
+            }
+#line 5300 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 232:
-#line 1237 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new slice_item("slice_item" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5174 "y.cpp" /* yacc.c:1646  */
+#line 1370 "index.y" /* yacc.c:1646  */
+    {
+    // $$ = new slice_item("slice_item" + std::to_string(++n_nodes)); $$->add($1);
+    (yyval.astNode) = (yyvsp[0].astNode);}
+#line 5308 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 233:
-#line 1239 "index.y" /* yacc.c:1646  */
+#line 1374 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes));}
-#line 5180 "y.cpp" /* yacc.c:1646  */
+#line 5314 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 234:
-#line 1240 "index.y" /* yacc.c:1646  */
+#line 1375 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes));}
-#line 5186 "y.cpp" /* yacc.c:1646  */
+#line 5320 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 235:
-#line 1241 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5192 "y.cpp" /* yacc.c:1646  */
+#line 1376 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $2;
+            }
+#line 5329 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 236:
-#line 1242 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 5198 "y.cpp" /* yacc.c:1646  */
+#line 1380 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $2;
+            }
+#line 5338 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 237:
-#line 1243 "index.y" /* yacc.c:1646  */
+#line 1384 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 5208 "y.cpp" /* yacc.c:1646  */
+#line 5348 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 238:
-#line 1248 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5214 "y.cpp" /* yacc.c:1646  */
+#line 1389 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $3;
+            }
+#line 5357 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 239:
-#line 1249 "index.y" /* yacc.c:1646  */
+#line 1393 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 5225 "y.cpp" /* yacc.c:1646  */
+#line 5368 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 240:
-#line 1255 "index.y" /* yacc.c:1646  */
+#line 1399 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 5235 "y.cpp" /* yacc.c:1646  */
+#line 5378 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 241:
-#line 1260 "index.y" /* yacc.c:1646  */
+#line 1404 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 5245 "y.cpp" /* yacc.c:1646  */
+#line 5388 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 242:
-#line 1265 "index.y" /* yacc.c:1646  */
+#line 1409 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 5255 "y.cpp" /* yacc.c:1646  */
+#line 5398 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 243:
-#line 1270 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-2].astNode));}
-#line 5261 "y.cpp" /* yacc.c:1646  */
+#line 1414 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-2].astNode));
+                // $$ = $1;
+            }
+#line 5407 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 244:
-#line 1271 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 5267 "y.cpp" /* yacc.c:1646  */
+#line 1418 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new proper_slice("proper_slice" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $1;
+            }
+#line 5416 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 245:
-#line 1273 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new await_expr("await_expr" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5273 "y.cpp" /* yacc.c:1646  */
+#line 1423 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new await_expr("await_expr" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $2;
+            }
+#line 5425 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 246:
-#line 1274 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new await_expr("await_expr" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5279 "y.cpp" /* yacc.c:1646  */
+#line 1427 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new await_expr("await_expr" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $2;
+            }
+#line 5434 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 247:
-#line 1275 "index.y" /* yacc.c:1646  */
+#line 1431 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new await_expr("await_expr" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 5289 "y.cpp" /* yacc.c:1646  */
+#line 5444 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 248:
-#line 1280 "index.y" /* yacc.c:1646  */
+#line 1436 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new await_expr("await_expr" + std::to_string(++n_nodes));}
-#line 5295 "y.cpp" /* yacc.c:1646  */
+#line 5450 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 249:
-#line 1281 "index.y" /* yacc.c:1646  */
+#line 1437 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new await_expr("await_expr" + std::to_string(++n_nodes));}
-#line 5301 "y.cpp" /* yacc.c:1646  */
+#line 5456 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 250:
-#line 1283 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new power("power" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5307 "y.cpp" /* yacc.c:1646  */
+#line 1439 "index.y" /* yacc.c:1646  */
+    {
+        // $$ = new power("power" + std::to_string(++n_nodes)); $$->add($1);
+        (yyval.astNode) = (yyvsp[0].astNode);}
+#line 5464 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 251:
-#line 1284 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new power("power" + std::to_string(++n_nodes));(yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5313 "y.cpp" /* yacc.c:1646  */
+#line 1442 "index.y" /* yacc.c:1646  */
+    {
+        // $$ = new power("power" + std::to_string(++n_nodes));$$->add($1);
+        (yyval.astNode) = (yyvsp[0].astNode);}
+#line 5472 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 252:
-#line 1285 "index.y" /* yacc.c:1646  */
+#line 1445 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new power("power" + std::to_string(++n_nodes));}
-#line 5319 "y.cpp" /* yacc.c:1646  */
+#line 5478 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 253:
-#line 1286 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new power("power" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5325 "y.cpp" /* yacc.c:1646  */
+#line 1446 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+        // $$ = $4;
+    }
+#line 5487 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 254:
-#line 1287 "index.y" /* yacc.c:1646  */
+#line 1450 "index.y" /* yacc.c:1646  */
     {
         (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
         (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
         (yyval.astNode)->add((yyvsp[0].astNode));
     }
-#line 5335 "y.cpp" /* yacc.c:1646  */
+#line 5497 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 255:
-#line 1292 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new power("power" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5341 "y.cpp" /* yacc.c:1646  */
+#line 1455 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+        // $$ = $4;
+    }
+#line 5506 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 256:
-#line 1293 "index.y" /* yacc.c:1646  */
+#line 1459 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new power("power" + std::to_string(++n_nodes));}
-#line 5347 "y.cpp" /* yacc.c:1646  */
+#line 5512 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 257:
-#line 1294 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new power("power" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5353 "y.cpp" /* yacc.c:1646  */
+#line 1460 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+        // $$ = $4;
+    }
+#line 5521 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 258:
-#line 1295 "index.y" /* yacc.c:1646  */
+#line 1464 "index.y" /* yacc.c:1646  */
     {
         (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
         (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
         (yyval.astNode)->add((yyvsp[0].astNode));
     }
-#line 5363 "y.cpp" /* yacc.c:1646  */
+#line 5531 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 259:
-#line 1300 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new power("power" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5369 "y.cpp" /* yacc.c:1646  */
+#line 1469 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+        // $$ = $4;
+    }
+#line 5540 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 260:
-#line 1301 "index.y" /* yacc.c:1646  */
+#line 1473 "index.y" /* yacc.c:1646  */
     {
         (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
         (yyval.astNode)->add((yyvsp[-2].astNode));
         (yyval.astNode)->add((yyvsp[0].astNode));
     }
-#line 5379 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 261:
-#line 1306 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5389 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 262:
-#line 1311 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5399 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 263:
-#line 1316 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5410 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 264:
-#line 1322 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5421 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 265:
-#line 1328 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5432 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 266:
-#line 1334 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5443 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 267:
-#line 1340 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5455 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 268:
-#line 1347 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5465 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 269:
-#line 1352 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5475 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 270:
-#line 1357 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5485 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 271:
-#line 1362 "index.y" /* yacc.c:1646  */
-    {
-        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
-        (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
-        (yyval.astNode)->add((yyvsp[-2].astNode));
-        (yyval.astNode)->add((yyvsp[0].astNode));
-    }
-#line 5496 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 272:
-#line 1369 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
-            (yyval.astNode)->add((yyvsp[0].astNode));
-        }
-#line 5505 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 273:
-#line 1373 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
-            (yyval.astNode) = (yyvsp[0].astNode);
-        }
-#line 5514 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 274:
-#line 1377 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
-            (yyval.astNode) = (yyvsp[0].astNode);
-        }
-#line 5523 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 275:
-#line 1381 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
-            (yyval.astNode) = (yyvsp[0].astNode);
-        }
-#line 5532 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 276:
-#line 1385 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
-            (yyval.astNode)->add((yyvsp[0].astNode));
-        }
-#line 5541 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 277:
-#line 1389 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
-            (yyval.astNode)->add((yyvsp[0].astNode));
-        }
 #line 5550 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 278:
-#line 1393 "index.y" /* yacc.c:1646  */
+  case 261:
+#line 1478 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5560 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 262:
+#line 1483 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5570 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 263:
+#line 1488 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5581 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 264:
+#line 1494 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5592 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 265:
+#line 1500 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5603 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 266:
+#line 1506 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5614 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 267:
+#line 1512 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5626 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 268:
+#line 1519 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5636 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 269:
+#line 1524 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5646 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 270:
+#line 1529 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5656 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 271:
+#line 1534 "index.y" /* yacc.c:1646  */
+    {
+        (yyval.astNode) = new power("power" + std::to_string(++n_nodes));
+        (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
+        (yyval.astNode)->add((yyvsp[-2].astNode));
+        (yyval.astNode)->add((yyvsp[0].astNode));
+    }
+#line 5667 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 272:
+#line 1541 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5559 "y.cpp" /* yacc.c:1646  */
+#line 5676 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 273:
+#line 1545 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
+            (yyval.astNode) = (yyvsp[0].astNode);
+        }
+#line 5685 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 274:
+#line 1549 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
+            (yyval.astNode) = (yyvsp[0].astNode);
+        }
+#line 5694 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 275:
+#line 1553 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
+            (yyval.astNode) = (yyvsp[0].astNode);
+        }
+#line 5703 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 276:
+#line 1557 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
+            (yyval.astNode)->add((yyvsp[0].astNode));
+        }
+#line 5712 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 277:
+#line 1561 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
+            (yyval.astNode)->add((yyvsp[0].astNode));
+        }
+#line 5721 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 278:
+#line 1565 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
+            (yyval.astNode)->add((yyvsp[0].astNode));
+        }
+#line 5730 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 279:
-#line 1397 "index.y" /* yacc.c:1646  */
+#line 1569 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5569 "y.cpp" /* yacc.c:1646  */
+#line 5740 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 280:
-#line 1402 "index.y" /* yacc.c:1646  */
+#line 1574 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5579 "y.cpp" /* yacc.c:1646  */
+#line 5750 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 281:
-#line 1407 "index.y" /* yacc.c:1646  */
+#line 1579 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new u_expr("u_expr" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5589 "y.cpp" /* yacc.c:1646  */
+#line 5760 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 282:
-#line 1413 "index.y" /* yacc.c:1646  */
+#line 1585 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5598 "y.cpp" /* yacc.c:1646  */
+#line 5769 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 283:
-#line 1417 "index.y" /* yacc.c:1646  */
+#line 1589 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5608 "y.cpp" /* yacc.c:1646  */
+#line 5779 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 284:
-#line 1422 "index.y" /* yacc.c:1646  */
+#line 1594 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             // $$->add($1);
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5619 "y.cpp" /* yacc.c:1646  */
+#line 5790 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 285:
-#line 1428 "index.y" /* yacc.c:1646  */
+#line 1600 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5629 "y.cpp" /* yacc.c:1646  */
+#line 5800 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 286:
-#line 1433 "index.y" /* yacc.c:1646  */
+#line 1605 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5639 "y.cpp" /* yacc.c:1646  */
+#line 5810 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 287:
-#line 1438 "index.y" /* yacc.c:1646  */
+#line 1610 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5649 "y.cpp" /* yacc.c:1646  */
+#line 5820 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 288:
-#line 1443 "index.y" /* yacc.c:1646  */
+#line 1615 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5659 "y.cpp" /* yacc.c:1646  */
+#line 5830 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 289:
-#line 1448 "index.y" /* yacc.c:1646  */
+#line 1620 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5669 "y.cpp" /* yacc.c:1646  */
+#line 5840 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 290:
-#line 1453 "index.y" /* yacc.c:1646  */
+#line 1625 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5679 "y.cpp" /* yacc.c:1646  */
+#line 5850 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 291:
-#line 1458 "index.y" /* yacc.c:1646  */
+#line 1630 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5689 "y.cpp" /* yacc.c:1646  */
+#line 5860 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 292:
-#line 1463 "index.y" /* yacc.c:1646  */
+#line 1635 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5699 "y.cpp" /* yacc.c:1646  */
+#line 5870 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 293:
-#line 1468 "index.y" /* yacc.c:1646  */
+#line 1640 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5709 "y.cpp" /* yacc.c:1646  */
+#line 5880 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 294:
-#line 1473 "index.y" /* yacc.c:1646  */
+#line 1645 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5719 "y.cpp" /* yacc.c:1646  */
+#line 5890 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 295:
-#line 1478 "index.y" /* yacc.c:1646  */
+#line 1650 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5729 "y.cpp" /* yacc.c:1646  */
+#line 5900 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 296:
-#line 1483 "index.y" /* yacc.c:1646  */
+#line 1655 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5739 "y.cpp" /* yacc.c:1646  */
+#line 5910 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 297:
-#line 1488 "index.y" /* yacc.c:1646  */
+#line 1660 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5749 "y.cpp" /* yacc.c:1646  */
+#line 5920 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 298:
-#line 1493 "index.y" /* yacc.c:1646  */
+#line 1665 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[-2].astNode));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5759 "y.cpp" /* yacc.c:1646  */
+#line 5930 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 299:
-#line 1498 "index.y" /* yacc.c:1646  */
+#line 1670 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5770 "y.cpp" /* yacc.c:1646  */
+#line 5941 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 300:
-#line 1504 "index.y" /* yacc.c:1646  */
+#line 1676 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5781 "y.cpp" /* yacc.c:1646  */
+#line 5952 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 301:
-#line 1510 "index.y" /* yacc.c:1646  */
+#line 1682 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5792 "y.cpp" /* yacc.c:1646  */
+#line 5963 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 302:
-#line 1516 "index.y" /* yacc.c:1646  */
+#line 1688 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5803 "y.cpp" /* yacc.c:1646  */
+#line 5974 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 303:
-#line 1522 "index.y" /* yacc.c:1646  */
+#line 1694 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new m_expr("m_expr" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5813 "y.cpp" /* yacc.c:1646  */
+#line 5984 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 304:
-#line 1528 "index.y" /* yacc.c:1646  */
+#line 1700 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new a_expr("a_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5822 "y.cpp" /* yacc.c:1646  */
+#line 5993 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 305:
-#line 1532 "index.y" /* yacc.c:1646  */
+#line 1704 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new a_expr("a_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5832 "y.cpp" /* yacc.c:1646  */
+#line 6003 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 306:
-#line 1537 "index.y" /* yacc.c:1646  */
+#line 1709 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new a_expr("a_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5842 "y.cpp" /* yacc.c:1646  */
+#line 6013 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 307:
-#line 1542 "index.y" /* yacc.c:1646  */
+#line 1714 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new a_expr("a_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5851 "y.cpp" /* yacc.c:1646  */
+#line 6022 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 308:
-#line 1546 "index.y" /* yacc.c:1646  */
+#line 1718 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new a_expr("a_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5861 "y.cpp" /* yacc.c:1646  */
+#line 6032 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 309:
-#line 1551 "index.y" /* yacc.c:1646  */
+#line 1723 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new a_expr("a_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5871 "y.cpp" /* yacc.c:1646  */
+#line 6042 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 310:
-#line 1557 "index.y" /* yacc.c:1646  */
+#line 1729 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new shift_expr("shift_expr" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 5880 "y.cpp" /* yacc.c:1646  */
+#line 6051 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 311:
-#line 1561 "index.y" /* yacc.c:1646  */
+#line 1733 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new shift_expr("shift_expr" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-2].astNode);
             }
-#line 5890 "y.cpp" /* yacc.c:1646  */
+#line 6061 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 312:
-#line 1566 "index.y" /* yacc.c:1646  */
+#line 1738 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new shift_expr("shift_expr" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-2].astNode);
             }
-#line 5900 "y.cpp" /* yacc.c:1646  */
+#line 6071 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 313:
-#line 1572 "index.y" /* yacc.c:1646  */
+#line 1744 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new and_expr("and_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5909 "y.cpp" /* yacc.c:1646  */
+#line 6080 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 314:
-#line 1576 "index.y" /* yacc.c:1646  */
+#line 1748 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new and_expr("and_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5919 "y.cpp" /* yacc.c:1646  */
+#line 6090 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 315:
-#line 1582 "index.y" /* yacc.c:1646  */
+#line 1754 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new xor_expr("xor_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5928 "y.cpp" /* yacc.c:1646  */
+#line 6099 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 316:
-#line 1586 "index.y" /* yacc.c:1646  */
+#line 1758 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new xor_expr("xor_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5938 "y.cpp" /* yacc.c:1646  */
+#line 6109 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 317:
-#line 1592 "index.y" /* yacc.c:1646  */
+#line 1764 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new or_expr("or_expr" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 5947 "y.cpp" /* yacc.c:1646  */
+#line 6118 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 318:
-#line 1596 "index.y" /* yacc.c:1646  */
+#line 1768 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new or_expr("or_expr" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 5957 "y.cpp" /* yacc.c:1646  */
+#line 6128 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 319:
-#line 1602 "index.y" /* yacc.c:1646  */
-    { (yyval.astNode) = new comparison("comparison" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 5963 "y.cpp" /* yacc.c:1646  */
+#line 1774 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new comparison("comparison" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $1;
+            }
+#line 6137 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 320:
-#line 1603 "index.y" /* yacc.c:1646  */
+#line 1778 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new comparison("comparison" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 5973 "y.cpp" /* yacc.c:1646  */
+#line 6147 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 321:
-#line 1609 "index.y" /* yacc.c:1646  */
+#line 1784 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mycomparison("mycomparison" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-2].astNode);
             }
-#line 5983 "y.cpp" /* yacc.c:1646  */
+#line 6157 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 322:
-#line 1614 "index.y" /* yacc.c:1646  */
+#line 1789 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mycomparison("mycomparison" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 5992 "y.cpp" /* yacc.c:1646  */
+#line 6166 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 333:
-#line 1621 "index.y" /* yacc.c:1646  */
+#line 1796 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new or_test("or_test" + std::to_string(++n_nodes));
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 6001 "y.cpp" /* yacc.c:1646  */
+#line 6175 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 334:
-#line 1625 "index.y" /* yacc.c:1646  */
+#line 1800 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new or_test("or_test" + std::to_string(++n_nodes));
             (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
             (yyval.astNode) = (yyvsp[-2].astNode);
         }
-#line 6011 "y.cpp" /* yacc.c:1646  */
+#line 6185 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 335:
-#line 1631 "index.y" /* yacc.c:1646  */
+#line 1806 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new and_test("and_test" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6020 "y.cpp" /* yacc.c:1646  */
+#line 6194 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 336:
-#line 1635 "index.y" /* yacc.c:1646  */
+#line 1810 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new and_test("and_test" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-2].astNode);
             }
-#line 6030 "y.cpp" /* yacc.c:1646  */
+#line 6204 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 337:
-#line 1641 "index.y" /* yacc.c:1646  */
+#line 1816 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new not_test("not_test" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6039 "y.cpp" /* yacc.c:1646  */
+#line 6213 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 338:
-#line 1645 "index.y" /* yacc.c:1646  */
+#line 1820 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new not_test("not_test" + std::to_string(++n_nodes));
                 (yyval.astNode) = (yyvsp[0].astNode);
             }
-#line 6048 "y.cpp" /* yacc.c:1646  */
+#line 6222 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 339:
-#line 1650 "index.y" /* yacc.c:1646  */
+#line 1825 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new assignment_expression("assignment_expression" + std::to_string(++n_nodes));
                             (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
                             (yyval.astNode)->add((yyvsp[-2].astNode));
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 6059 "y.cpp" /* yacc.c:1646  */
+#line 6233 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 340:
-#line 1656 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new assignment_expression("assignment_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6065 "y.cpp" /* yacc.c:1646  */
+#line 1831 "index.y" /* yacc.c:1646  */
+    {
+                            // $$ = new assignment_expression("assignment_expression" + std::to_string(++n_nodes)); $$->add($1);
+                            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6241 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 341:
-#line 1658 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new conditional_expression("conditional_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6071 "y.cpp" /* yacc.c:1646  */
+#line 1835 "index.y" /* yacc.c:1646  */
+    {
+                        (yyval.astNode) = new conditional_expression("conditional_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                        // $$ = $1;
+                        }
+#line 6250 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 342:
-#line 1659 "index.y" /* yacc.c:1646  */
+#line 1839 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new conditional_expression("conditional_expression" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-4].astNode));
                             (yyval.astNode)->add((yyvsp[-2].astNode));
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 6082 "y.cpp" /* yacc.c:1646  */
+#line 6261 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 343:
-#line 1666 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new expression("expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6088 "y.cpp" /* yacc.c:1646  */
+#line 1846 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new expression("expression" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6269 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 344:
-#line 1667 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new expression("expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6094 "y.cpp" /* yacc.c:1646  */
+#line 1849 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new expression("expression" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6277 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 345:
-#line 1669 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new lambda_expr("lambda_expr" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6100 "y.cpp" /* yacc.c:1646  */
+#line 1853 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new lambda_expr("lambda_expr" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $3;
+            }
+#line 6286 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 346:
-#line 1670 "index.y" /* yacc.c:1646  */
+#line 1857 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new lambda_expr("lambda_expr"  + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6110 "y.cpp" /* yacc.c:1646  */
+#line 6296 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 347:
-#line 1676 "index.y" /* yacc.c:1646  */
+#line 1863 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new expression_list("expression_list" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 6120 "y.cpp" /* yacc.c:1646  */
+#line 6306 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 348:
-#line 1681 "index.y" /* yacc.c:1646  */
+#line 1868 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new expression_list("expression_list" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-2].astNode));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                 }
-#line 6130 "y.cpp" /* yacc.c:1646  */
+#line 6316 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 349:
-#line 1687 "index.y" /* yacc.c:1646  */
+#line 1874 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new myexpression("myexpression" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 6139 "y.cpp" /* yacc.c:1646  */
+#line 6325 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 350:
-#line 1691 "index.y" /* yacc.c:1646  */
+#line 1878 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new myexpression("myexpression" + std::to_string(++n_nodes));
                     (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 6149 "y.cpp" /* yacc.c:1646  */
+#line 6335 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 351:
-#line 1697 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new starred_list("starred_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6155 "y.cpp" /* yacc.c:1646  */
+#line 1884 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new starred_list("starred_list" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6343 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 352:
-#line 1698 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new starred_list("starred_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6161 "y.cpp" /* yacc.c:1646  */
+#line 1887 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new starred_list("starred_list" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 6351 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 353:
-#line 1699 "index.y" /* yacc.c:1646  */
+#line 1890 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new starred_list("starred_list" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6171 "y.cpp" /* yacc.c:1646  */
+#line 6361 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 354:
-#line 1704 "index.y" /* yacc.c:1646  */
+#line 1895 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new starred_list("starred_list" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 6181 "y.cpp" /* yacc.c:1646  */
+#line 6371 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 355:
-#line 1710 "index.y" /* yacc.c:1646  */
+#line 1901 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mystarreditem("mystarreditem" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 6190 "y.cpp" /* yacc.c:1646  */
+#line 6380 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 356:
-#line 1714 "index.y" /* yacc.c:1646  */
+#line 1905 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mystarreditem("mystarreditem" + std::to_string(++n_nodes));
                     (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 6200 "y.cpp" /* yacc.c:1646  */
+#line 6390 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 357:
-#line 1720 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new starred_expression("starred_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6206 "y.cpp" /* yacc.c:1646  */
+#line 1911 "index.y" /* yacc.c:1646  */
+    {
+                    // $$ = new starred_expression("starred_expression" + std::to_string(++n_nodes)); $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6398 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 358:
-#line 1721 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new starred_expression("starred_expression" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6212 "y.cpp" /* yacc.c:1646  */
+#line 1914 "index.y" /* yacc.c:1646  */
+    {
+                    // $$ = new starred_expression("starred_expression" + std::to_string(++n_nodes)); $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6406 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 359:
-#line 1722 "index.y" /* yacc.c:1646  */
+#line 1917 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new starred_expression("starred_expression" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 6222 "y.cpp" /* yacc.c:1646  */
+#line 6416 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 360:
-#line 1728 "index.y" /* yacc.c:1646  */
+#line 1923 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mystarredexpression("mystarredexpression" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                 }
-#line 6231 "y.cpp" /* yacc.c:1646  */
+#line 6425 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 361:
-#line 1732 "index.y" /* yacc.c:1646  */
+#line 1927 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mystarredexpression("mystarredexpression" + std::to_string(++n_nodes));
                     (yyvsp[0].astNode)->add((yyvsp[-2].astNode));
                     (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 6241 "y.cpp" /* yacc.c:1646  */
+#line 6435 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 362:
-#line 1738 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new starred_item("starred_item" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6247 "y.cpp" /* yacc.c:1646  */
+#line 1933 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new starred_item("starred_item" + std::to_string(++n_nodes)); $$->add($2);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6443 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 363:
-#line 1739 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new starred_item("starred_item" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6253 "y.cpp" /* yacc.c:1646  */
+#line 1936 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new starred_item("starred_item" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6451 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 364:
-#line 1741 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6259 "y.cpp" /* yacc.c:1646  */
+#line 1940 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6459 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 365:
-#line 1742 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6265 "y.cpp" /* yacc.c:1646  */
+#line 1943 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6467 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 366:
-#line 1743 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6271 "y.cpp" /* yacc.c:1646  */
+#line 1946 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6475 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 367:
-#line 1744 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6277 "y.cpp" /* yacc.c:1646  */
+#line 1949 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6483 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 368:
-#line 1745 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6283 "y.cpp" /* yacc.c:1646  */
+#line 1952 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6491 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 369:
-#line 1746 "index.y" /* yacc.c:1646  */
+#line 1955 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes));}
-#line 6289 "y.cpp" /* yacc.c:1646  */
+#line 6497 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 370:
-#line 1747 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6295 "y.cpp" /* yacc.c:1646  */
+#line 1956 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6505 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 371:
-#line 1748 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6301 "y.cpp" /* yacc.c:1646  */
+#line 1959 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6513 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 372:
-#line 1749 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6307 "y.cpp" /* yacc.c:1646  */
+#line 1962 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6521 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 373:
-#line 1750 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6313 "y.cpp" /* yacc.c:1646  */
+#line 1965 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6529 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 374:
-#line 1751 "index.y" /* yacc.c:1646  */
+#line 1968 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes));}
-#line 6319 "y.cpp" /* yacc.c:1646  */
+#line 6535 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 375:
-#line 1752 "index.y" /* yacc.c:1646  */
+#line 1969 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes));}
-#line 6325 "y.cpp" /* yacc.c:1646  */
+#line 6541 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 376:
-#line 1753 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6331 "y.cpp" /* yacc.c:1646  */
+#line 1970 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6549 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 377:
-#line 1754 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6337 "y.cpp" /* yacc.c:1646  */
+#line 1973 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6557 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 378:
-#line 1755 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6343 "y.cpp" /* yacc.c:1646  */
+#line 1976 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6565 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 379:
-#line 1757 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new expression_stmt("expression_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6349 "y.cpp" /* yacc.c:1646  */
+#line 1980 "index.y" /* yacc.c:1646  */
+    {
+    (yyval.astNode) = new expression_stmt("expression_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+    // $$ = $1;
+}
+#line 6574 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 380:
-#line 1759 "index.y" /* yacc.c:1646  */
+#line 1985 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new assert_stmt("assert_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6359 "y.cpp" /* yacc.c:1646  */
+#line 6584 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 381:
-#line 1764 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new assert_stmt("assert_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6365 "y.cpp" /* yacc.c:1646  */
+#line 1990 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new assert_stmt("assert_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $2;
+            }
+#line 6593 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 382:
-#line 1766 "index.y" /* yacc.c:1646  */
+#line 1995 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new assignment_stmt("assignment_stmt" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 6375 "y.cpp" /* yacc.c:1646  */
+#line 6603 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 383:
-#line 1771 "index.y" /* yacc.c:1646  */
+#line 2000 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new assignment_stmt("assignment_stmt" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 6385 "y.cpp" /* yacc.c:1646  */
+#line 6613 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 384:
-#line 1777 "index.y" /* yacc.c:1646  */
+#line 2006 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyvsp[-2].astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode) = (yyvsp[-2].astNode);
                 }
-#line 6395 "y.cpp" /* yacc.c:1646  */
+#line 6623 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 385:
-#line 1782 "index.y" /* yacc.c:1646  */
+#line 2011 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                 }
-#line 6404 "y.cpp" /* yacc.c:1646  */
+#line 6632 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 386:
-#line 1786 "index.y" /* yacc.c:1646  */
+#line 2015 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyvsp[-2].astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode) = (yyvsp[-2].astNode);
                 }
-#line 6414 "y.cpp" /* yacc.c:1646  */
+#line 6642 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 387:
-#line 1791 "index.y" /* yacc.c:1646  */
+#line 2020 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                 }
-#line 6423 "y.cpp" /* yacc.c:1646  */
+#line 6651 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 388:
-#line 1795 "index.y" /* yacc.c:1646  */
+#line 2024 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                     (yyvsp[-3].astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode) = (yyvsp[-3].astNode);
                 }
-#line 6434 "y.cpp" /* yacc.c:1646  */
+#line 6662 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 389:
-#line 1801 "index.y" /* yacc.c:1646  */
+#line 2030 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                 }
-#line 6444 "y.cpp" /* yacc.c:1646  */
+#line 6672 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 390:
-#line 1806 "index.y" /* yacc.c:1646  */
+#line 2035 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                     (yyvsp[-2].astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode) = (yyvsp[-2].astNode);
                 }
-#line 6455 "y.cpp" /* yacc.c:1646  */
+#line 6683 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 391:
-#line 1812 "index.y" /* yacc.c:1646  */
+#line 2041 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                 }
-#line 6465 "y.cpp" /* yacc.c:1646  */
+#line 6693 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 392:
-#line 1817 "index.y" /* yacc.c:1646  */
+#line 2046 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyval.astNode) = (yyvsp[-3].astNode);
                 }
-#line 6474 "y.cpp" /* yacc.c:1646  */
+#line 6702 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 393:
-#line 1821 "index.y" /* yacc.c:1646  */
+#line 2050 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));}
-#line 6480 "y.cpp" /* yacc.c:1646  */
+#line 6708 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 394:
-#line 1822 "index.y" /* yacc.c:1646  */
+#line 2051 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyval.astNode) = (yyvsp[-4].astNode);
                 }
-#line 6489 "y.cpp" /* yacc.c:1646  */
+#line 6717 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 395:
-#line 1826 "index.y" /* yacc.c:1646  */
+#line 2055 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));}
-#line 6495 "y.cpp" /* yacc.c:1646  */
+#line 6723 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 396:
-#line 1827 "index.y" /* yacc.c:1646  */
+#line 2056 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyval.astNode) = (yyvsp[-3].astNode);
                 }
-#line 6504 "y.cpp" /* yacc.c:1646  */
+#line 6732 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 397:
-#line 1831 "index.y" /* yacc.c:1646  */
+#line 2060 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));}
-#line 6510 "y.cpp" /* yacc.c:1646  */
+#line 6738 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 398:
-#line 1832 "index.y" /* yacc.c:1646  */
+#line 2061 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyval.astNode) = (yyvsp[-4].astNode);
                 }
-#line 6519 "y.cpp" /* yacc.c:1646  */
+#line 6747 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 399:
-#line 1836 "index.y" /* yacc.c:1646  */
+#line 2065 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));}
-#line 6525 "y.cpp" /* yacc.c:1646  */
+#line 6753 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 400:
-#line 1837 "index.y" /* yacc.c:1646  */
+#line 2066 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyvsp[-3].astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode) = (yyvsp[-3].astNode);
                 }
-#line 6535 "y.cpp" /* yacc.c:1646  */
+#line 6763 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 401:
-#line 1842 "index.y" /* yacc.c:1646  */
+#line 2071 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mytargetlist("mytargetlist" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-1].astNode));
                 }
-#line 6544 "y.cpp" /* yacc.c:1646  */
+#line 6772 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 402:
-#line 1847 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6550 "y.cpp" /* yacc.c:1646  */
+#line 2076 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new target_list("target_list" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);}
+#line 6780 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 403:
-#line 1848 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6556 "y.cpp" /* yacc.c:1646  */
+#line 2079 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new target_list("target_list" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 6788 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 404:
-#line 1849 "index.y" /* yacc.c:1646  */
+#line 2082 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6566 "y.cpp" /* yacc.c:1646  */
+#line 6798 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 405:
-#line 1854 "index.y" /* yacc.c:1646  */
+#line 2087 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 6576 "y.cpp" /* yacc.c:1646  */
+#line 6808 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 406:
-#line 1859 "index.y" /* yacc.c:1646  */
+#line 2092 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 6586 "y.cpp" /* yacc.c:1646  */
+#line 6818 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 407:
-#line 1864 "index.y" /* yacc.c:1646  */
+#line 2097 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6597 "y.cpp" /* yacc.c:1646  */
+#line 6829 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 408:
-#line 1870 "index.y" /* yacc.c:1646  */
+#line 2103 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 6608 "y.cpp" /* yacc.c:1646  */
+#line 6840 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 409:
-#line 1876 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6614 "y.cpp" /* yacc.c:1646  */
+#line 2109 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $2;
+            }
+#line 6849 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 410:
-#line 1877 "index.y" /* yacc.c:1646  */
+#line 2113 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6624 "y.cpp" /* yacc.c:1646  */
+#line 6859 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 411:
-#line 1882 "index.y" /* yacc.c:1646  */
+#line 2118 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 6634 "y.cpp" /* yacc.c:1646  */
+#line 6869 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 412:
-#line 1887 "index.y" /* yacc.c:1646  */
+#line 2123 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 6644 "y.cpp" /* yacc.c:1646  */
+#line 6879 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 413:
-#line 1892 "index.y" /* yacc.c:1646  */
+#line 2128 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6655 "y.cpp" /* yacc.c:1646  */
+#line 6890 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 414:
-#line 1898 "index.y" /* yacc.c:1646  */
+#line 2134 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 6666 "y.cpp" /* yacc.c:1646  */
+#line 6901 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 415:
-#line 1904 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6672 "y.cpp" /* yacc.c:1646  */
+#line 2140 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $1;
+            }
+#line 6910 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 416:
-#line 1905 "index.y" /* yacc.c:1646  */
+#line 2144 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6682 "y.cpp" /* yacc.c:1646  */
+#line 6920 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 417:
-#line 1910 "index.y" /* yacc.c:1646  */
+#line 2149 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 6692 "y.cpp" /* yacc.c:1646  */
+#line 6930 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 418:
-#line 1915 "index.y" /* yacc.c:1646  */
+#line 2154 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));}
-#line 6698 "y.cpp" /* yacc.c:1646  */
+#line 6936 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 419:
-#line 1916 "index.y" /* yacc.c:1646  */
+#line 2155 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6704 "y.cpp" /* yacc.c:1646  */
+#line 6942 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 420:
-#line 1917 "index.y" /* yacc.c:1646  */
+#line 2156 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6710 "y.cpp" /* yacc.c:1646  */
+#line 6948 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 421:
-#line 1918 "index.y" /* yacc.c:1646  */
+#line 2157 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));}
-#line 6716 "y.cpp" /* yacc.c:1646  */
+#line 6954 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 422:
-#line 1919 "index.y" /* yacc.c:1646  */
+#line 2158 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6722 "y.cpp" /* yacc.c:1646  */
+#line 6960 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 423:
-#line 1920 "index.y" /* yacc.c:1646  */
+#line 2159 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6728 "y.cpp" /* yacc.c:1646  */
+#line 6966 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 424:
-#line 1921 "index.y" /* yacc.c:1646  */
+#line 2160 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));}
-#line 6734 "y.cpp" /* yacc.c:1646  */
+#line 6972 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 425:
-#line 1922 "index.y" /* yacc.c:1646  */
+#line 2161 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6740 "y.cpp" /* yacc.c:1646  */
+#line 6978 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 426:
-#line 1923 "index.y" /* yacc.c:1646  */
+#line 2162 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6746 "y.cpp" /* yacc.c:1646  */
+#line 6984 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 427:
-#line 1924 "index.y" /* yacc.c:1646  */
+#line 2163 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes));}
-#line 6752 "y.cpp" /* yacc.c:1646  */
+#line 6990 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 428:
-#line 1925 "index.y" /* yacc.c:1646  */
+#line 2164 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 6758 "y.cpp" /* yacc.c:1646  */
+#line 6996 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 429:
-#line 1926 "index.y" /* yacc.c:1646  */
+#line 2165 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new target_list("target_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6764 "y.cpp" /* yacc.c:1646  */
+#line 7002 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 430:
-#line 1928 "index.y" /* yacc.c:1646  */
+#line 2167 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6773 "y.cpp" /* yacc.c:1646  */
+#line 7011 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 431:
-#line 1932 "index.y" /* yacc.c:1646  */
+#line 2171 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-2].astNode);
             }
-#line 6783 "y.cpp" /* yacc.c:1646  */
+#line 7021 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 432:
-#line 1937 "index.y" /* yacc.c:1646  */
+#line 2176 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6792 "y.cpp" /* yacc.c:1646  */
+#line 7030 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 433:
-#line 1941 "index.y" /* yacc.c:1646  */
+#line 2180 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-2].astNode);
             }
-#line 6803 "y.cpp" /* yacc.c:1646  */
+#line 7041 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 434:
-#line 1947 "index.y" /* yacc.c:1646  */
+#line 2186 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6812 "y.cpp" /* yacc.c:1646  */
+#line 7050 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 435:
-#line 1951 "index.y" /* yacc.c:1646  */
+#line 2190 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
                 (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-2].astNode);
             }
-#line 6822 "y.cpp" /* yacc.c:1646  */
+#line 7060 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 436:
-#line 1956 "index.y" /* yacc.c:1646  */
+#line 2195 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6831 "y.cpp" /* yacc.c:1646  */
+#line 7069 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 437:
-#line 1960 "index.y" /* yacc.c:1646  */
+#line 2199 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyvsp[-3].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-3].astNode);
             }
-#line 6842 "y.cpp" /* yacc.c:1646  */
+#line 7080 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 438:
-#line 1966 "index.y" /* yacc.c:1646  */
+#line 2205 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 6851 "y.cpp" /* yacc.c:1646  */
+#line 7089 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 439:
-#line 1970 "index.y" /* yacc.c:1646  */
+#line 2209 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
                 (yyvsp[-4].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-4].astNode);
             }
-#line 6861 "y.cpp" /* yacc.c:1646  */
+#line 7099 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 440:
-#line 1975 "index.y" /* yacc.c:1646  */
+#line 2214 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
             }
-#line 6869 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 441:
-#line 1978 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
-                (yyval.astNode) = (yyvsp[-3].astNode);
-            }
-#line 6878 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 442:
-#line 1982 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
-            }
-#line 6886 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 443:
-#line 1985 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
-                (yyval.astNode) = (yyvsp[-4].astNode);
-            }
-#line 6895 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 444:
-#line 1989 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
-            }
-#line 6903 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 445:
-#line 1992 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
-                (yyval.astNode) = (yyvsp[-3].astNode);
-            }
-#line 6912 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 446:
-#line 1996 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
-            }
-#line 6920 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 447:
-#line 1999 "index.y" /* yacc.c:1646  */
-    {
-                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
-                (yyval.astNode) = (yyvsp[-4].astNode);
-            }
-#line 6929 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 448:
-#line 2004 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6935 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 449:
-#line 2005 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 6941 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 450:
-#line 2006 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 6947 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 451:
-#line 2008 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 6953 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 452:
-#line 2010 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 6959 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 453:
-#line 2013 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6965 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 454:
-#line 2014 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 6971 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 455:
-#line 2015 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 6977 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 456:
-#line 2016 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 6983 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 457:
-#line 2019 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 6989 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 458:
-#line 2022 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 6995 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 459:
-#line 2023 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 7001 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 460:
-#line 2024 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 7007 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 461:
-#line 2025 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 7013 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 462:
-#line 2026 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 7019 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 463:
-#line 2027 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new target("target" + std::to_string(++n_nodes));
-            (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
-            (yyval.astNode)->add((yyvsp[-1].astNode));
-        }
-#line 7029 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 464:
-#line 2032 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 7035 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 465:
-#line 2033 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new target("target" + std::to_string(++n_nodes));
-            (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
-            (yyval.astNode)->add((yyvsp[-1].astNode));
-        }
-#line 7045 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 466:
-#line 2038 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 7051 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 467:
-#line 2039 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 7057 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 468:
-#line 2040 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 7063 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 469:
-#line 2041 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 7069 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 470:
-#line 2042 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 7075 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 471:
-#line 2043 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
-#line 7081 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 472:
-#line 2044 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new target("target" + std::to_string(++n_nodes));
-            (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
-            (yyval.astNode)->add((yyvsp[-1].astNode));
-        }
-#line 7091 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 473:
-#line 2049 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 7097 "y.cpp" /* yacc.c:1646  */
-    break;
-
-  case 474:
-#line 2050 "index.y" /* yacc.c:1646  */
-    {
-            (yyval.astNode) = new target("target" + std::to_string(++n_nodes));
-            (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
-            (yyval.astNode)->add((yyvsp[-1].astNode));
-        }
 #line 7107 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 475:
-#line 2055 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 7113 "y.cpp" /* yacc.c:1646  */
+  case 441:
+#line 2217 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
+                (yyval.astNode) = (yyvsp[-3].astNode);
+            }
+#line 7116 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 476:
-#line 2057 "index.y" /* yacc.c:1646  */
+  case 442:
+#line 2221 "index.y" /* yacc.c:1646  */
     {
-                            (yyval.astNode) = new augmented_assignment_stmt("augmented_assignment_stmt" + std::to_string(++n_nodes));
-                            (yyval.astNode)->add((yyvsp[-2].astNode));
-                            // $$->add($2);
-                            (yyval.astNode)->add((yyvsp[0].astNode));
-                        }
+                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
+            }
 #line 7124 "y.cpp" /* yacc.c:1646  */
     break;
 
-  case 477:
-#line 2063 "index.y" /* yacc.c:1646  */
+  case 443:
+#line 2224 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
+                (yyval.astNode) = (yyvsp[-4].astNode);
+            }
+#line 7133 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 444:
+#line 2228 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
+            }
+#line 7141 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 445:
+#line 2231 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
+                (yyval.astNode) = (yyvsp[-3].astNode);
+            }
+#line 7150 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 446:
+#line 2235 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
+            }
+#line 7158 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 447:
+#line 2238 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new mytarget("mytarget" + std::to_string(++n_nodes));
+                (yyval.astNode) = (yyvsp[-4].astNode);
+            }
+#line 7167 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 448:
+#line 2243 "index.y" /* yacc.c:1646  */
+    {
+            // $$ = new target("target" + std::to_string(++n_nodes)); $$->add($2);
+            (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 7175 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 449:
+#line 2246 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7181 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 450:
+#line 2247 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7187 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 451:
+#line 2249 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7193 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 452:
+#line 2251 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7199 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 453:
+#line 2254 "index.y" /* yacc.c:1646  */
+    {
+            // $$ = new target("target" + std::to_string(++n_nodes)); $$->add($2);
+            (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 7207 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 454:
+#line 2257 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7213 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 455:
+#line 2258 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7219 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 456:
+#line 2259 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7225 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 457:
+#line 2262 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7231 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 458:
+#line 2265 "index.y" /* yacc.c:1646  */
+    {
+            // $$ = new target("target" + std::to_string(++n_nodes)); $$->add($3);
+            (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 7239 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 459:
+#line 2268 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7245 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 460:
+#line 2269 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7251 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 461:
+#line 2270 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7257 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 462:
+#line 2271 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7263 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 463:
+#line 2272 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new target("target" + std::to_string(++n_nodes));
+            (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
+            (yyval.astNode)->add((yyvsp[-1].astNode));
+        }
+#line 7273 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 464:
+#line 2277 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+            // $$ = $3;
+        }
+#line 7282 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 465:
+#line 2281 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new target("target" + std::to_string(++n_nodes));
+            (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
+            (yyval.astNode)->add((yyvsp[-1].astNode));
+        }
+#line 7292 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 466:
+#line 2286 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+            // $$ = $4;
+        }
+#line 7301 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 467:
+#line 2290 "index.y" /* yacc.c:1646  */
+    {
+            // $$ = new target("target" + std::to_string(++n_nodes)); $$->add($3);
+            (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 7309 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 468:
+#line 2293 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7315 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 469:
+#line 2294 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7321 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 470:
+#line 2295 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7327 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 471:
+#line 2296 "index.y" /* yacc.c:1646  */
+    {(yyval.astNode) = new target("target" + std::to_string(++n_nodes));}
+#line 7333 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 472:
+#line 2297 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new target("target" + std::to_string(++n_nodes));
+            (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
+            (yyval.astNode)->add((yyvsp[-1].astNode));
+        }
+#line 7343 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 473:
+#line 2302 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+            // $$ = $3;
+        }
+#line 7352 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 474:
+#line 2306 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new target("target" + std::to_string(++n_nodes));
+            (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
+            (yyval.astNode)->add((yyvsp[-1].astNode));
+        }
+#line 7362 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 475:
+#line 2311 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new target("target" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+            // $$ = $4;
+        }
+#line 7371 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 476:
+#line 2316 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new augmented_assignment_stmt("augmented_assignment_stmt" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-2].astNode));
                             // $$->add($2);
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 7135 "y.cpp" /* yacc.c:1646  */
+#line 7382 "y.cpp" /* yacc.c:1646  */
+    break;
+
+  case 477:
+#line 2322 "index.y" /* yacc.c:1646  */
+    {
+                            (yyval.astNode) = new augmented_assignment_stmt("augmented_assignment_stmt" + std::to_string(++n_nodes));
+                            (yyval.astNode)->add((yyvsp[-2].astNode));
+                            // $$->add($2);
+                            (yyval.astNode)->add((yyvsp[0].astNode));
+                        }
+#line 7393 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 478:
-#line 2069 "index.y" /* yacc.c:1646  */
+#line 2328 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new augmented_assignment_stmt("augmented_assignment_stmt" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-2].astNode));
                             // $$->add($2);
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 7146 "y.cpp" /* yacc.c:1646  */
+#line 7404 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 479:
-#line 2075 "index.y" /* yacc.c:1646  */
+#line 2334 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new augmented_assignment_stmt("augmented_assignment_stmt" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-3].astNode));
                             // $$->add($2);
                             (yyval.astNode)->add((yyvsp[-1].astNode));
                         }
-#line 7157 "y.cpp" /* yacc.c:1646  */
+#line 7415 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 480:
-#line 2082 "index.y" /* yacc.c:1646  */
+#line 2341 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new augtarget("augtarget" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7167 "y.cpp" /* yacc.c:1646  */
+#line 7425 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 481:
-#line 2087 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new augtarget("augtarget" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7173 "y.cpp" /* yacc.c:1646  */
+#line 2346 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new augtarget("augtarget" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $1;
+            }
+#line 7434 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 482:
-#line 2088 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new augtarget("augtarget" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7179 "y.cpp" /* yacc.c:1646  */
+#line 2350 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new augtarget("augtarget" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $1;
+            }
+#line 7443 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 483:
-#line 2089 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new augtarget("augtarget" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7185 "y.cpp" /* yacc.c:1646  */
+#line 2354 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new augtarget("augtarget" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $1;
+            }
+#line 7452 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 497:
-#line 2094 "index.y" /* yacc.c:1646  */
+#line 2362 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new annotated_assignment_stmt("annotated_assignment_stmt" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-2].astNode));
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 7195 "y.cpp" /* yacc.c:1646  */
+#line 7462 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 498:
-#line 2099 "index.y" /* yacc.c:1646  */
+#line 2367 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new annotated_assignment_stmt("annotated_assignment_stmt" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-4].astNode));
                             (yyval.astNode)->add((yyvsp[-2].astNode));
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 7206 "y.cpp" /* yacc.c:1646  */
+#line 7473 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 499:
-#line 2105 "index.y" /* yacc.c:1646  */
+#line 2373 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new annotated_assignment_stmt("annotated_assignment_stmt" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-4].astNode));
                             (yyval.astNode)->add((yyvsp[-2].astNode));
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 7217 "y.cpp" /* yacc.c:1646  */
+#line 7484 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 500:
-#line 2112 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new return_stmt("return_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7223 "y.cpp" /* yacc.c:1646  */
+#line 2380 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new return_stmt("return_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $2;
+            }
+#line 7493 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 501:
-#line 2113 "index.y" /* yacc.c:1646  */
+#line 2384 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new return_stmt("return_stmt" + std::to_string(++n_nodes));}
-#line 7229 "y.cpp" /* yacc.c:1646  */
+#line 7499 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 502:
-#line 2114 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new return_stmt("return_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7235 "y.cpp" /* yacc.c:1646  */
+#line 2385 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new return_stmt("return_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $2;
+            }
+#line 7508 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 503:
-#line 2115 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new return_stmt("return_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 7241 "y.cpp" /* yacc.c:1646  */
+#line 2389 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new return_stmt("return_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));
+                // $$ = $2;
+            }
+#line 7517 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 504:
-#line 2117 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7247 "y.cpp" /* yacc.c:1646  */
+#line 2394 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+            // $$ = $2;
+        }
+#line 7526 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 505:
-#line 2118 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7253 "y.cpp" /* yacc.c:1646  */
+#line 2398 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+            // $$ = $2;
+        }
+#line 7535 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 506:
-#line 2119 "index.y" /* yacc.c:1646  */
+#line 2402 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 7263 "y.cpp" /* yacc.c:1646  */
+#line 7545 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 507:
-#line 2124 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7269 "y.cpp" /* yacc.c:1646  */
+#line 2407 "index.y" /* yacc.c:1646  */
+    {
+            (yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+            // $$ = $3;
+        }
+#line 7554 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 508:
-#line 2125 "index.y" /* yacc.c:1646  */
+#line 2411 "index.y" /* yacc.c:1646  */
     {
             (yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes));
             (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
             (yyval.astNode)->add((yyvsp[0].astNode));
         }
-#line 7279 "y.cpp" /* yacc.c:1646  */
+#line 7564 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 509:
-#line 2130 "index.y" /* yacc.c:1646  */
+#line 2416 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes));}
-#line 7285 "y.cpp" /* yacc.c:1646  */
+#line 7570 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 510:
-#line 2131 "index.y" /* yacc.c:1646  */
+#line 2417 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes));}
-#line 7291 "y.cpp" /* yacc.c:1646  */
+#line 7576 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 511:
-#line 2132 "index.y" /* yacc.c:1646  */
+#line 2418 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes));}
-#line 7297 "y.cpp" /* yacc.c:1646  */
+#line 7582 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 512:
-#line 2133 "index.y" /* yacc.c:1646  */
+#line 2419 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new del_stmt("del_stmt" + std::to_string(++n_nodes));}
-#line 7303 "y.cpp" /* yacc.c:1646  */
+#line 7588 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 513:
-#line 2135 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new yield_stmt("yield_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7309 "y.cpp" /* yacc.c:1646  */
+#line 2421 "index.y" /* yacc.c:1646  */
+    {
+    (yyval.astNode) = new yield_stmt("yield_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+    // $$ = $1;
+    }
+#line 7597 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 514:
-#line 2137 "index.y" /* yacc.c:1646  */
+#line 2426 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new raise_stmt("raise_stmt" + std::to_string(++n_nodes));}
-#line 7315 "y.cpp" /* yacc.c:1646  */
+#line 7603 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 515:
-#line 2138 "index.y" /* yacc.c:1646  */
+#line 2427 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new raise_stmt("raise_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7325 "y.cpp" /* yacc.c:1646  */
+#line 7613 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 516:
-#line 2143 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new raise_stmt("raise_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7331 "y.cpp" /* yacc.c:1646  */
+#line 2432 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new raise_stmt("raise_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $2;
+            }
+#line 7622 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 517:
-#line 2145 "index.y" /* yacc.c:1646  */
+#line 2437 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
@@ -7339,38 +7630,41 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7343 "y.cpp" /* yacc.c:1646  */
+#line 7634 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 518:
-#line 2152 "index.y" /* yacc.c:1646  */
+#line 2444 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7354 "y.cpp" /* yacc.c:1646  */
+#line 7645 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 519:
-#line 2158 "index.y" /* yacc.c:1646  */
+#line 2450 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7364 "y.cpp" /* yacc.c:1646  */
+#line 7655 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 520:
-#line 2163 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7370 "y.cpp" /* yacc.c:1646  */
+#line 2455 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));
+                // $$ = $2;
+            }
+#line 7664 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 521:
-#line 2164 "index.y" /* yacc.c:1646  */
+#line 2459 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-5].astNode));
@@ -7380,11 +7674,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7384 "y.cpp" /* yacc.c:1646  */
+#line 7678 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 522:
-#line 2173 "index.y" /* yacc.c:1646  */
+#line 2468 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-4].astNode));
@@ -7393,11 +7687,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7397 "y.cpp" /* yacc.c:1646  */
+#line 7691 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 523:
-#line 2181 "index.y" /* yacc.c:1646  */
+#line 2476 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-3].astNode));
@@ -7405,22 +7699,22 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7409 "y.cpp" /* yacc.c:1646  */
+#line 7703 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 524:
-#line 2188 "index.y" /* yacc.c:1646  */
+#line 2483 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7420 "y.cpp" /* yacc.c:1646  */
+#line 7714 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 525:
-#line 2194 "index.y" /* yacc.c:1646  */
+#line 2489 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-8].astNode));
@@ -7430,11 +7724,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
             }
-#line 7434 "y.cpp" /* yacc.c:1646  */
+#line 7728 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 526:
-#line 2203 "index.y" /* yacc.c:1646  */
+#line 2498 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-7].astNode));
@@ -7444,11 +7738,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 7448 "y.cpp" /* yacc.c:1646  */
+#line 7742 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 527:
-#line 2212 "index.y" /* yacc.c:1646  */
+#line 2507 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-6].astNode));
@@ -7456,11 +7750,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
             }
-#line 7460 "y.cpp" /* yacc.c:1646  */
+#line 7754 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 528:
-#line 2219 "index.y" /* yacc.c:1646  */
+#line 2514 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-5].astNode));
@@ -7468,11 +7762,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 7472 "y.cpp" /* yacc.c:1646  */
+#line 7766 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 529:
-#line 2226 "index.y" /* yacc.c:1646  */
+#line 2521 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-7].astNode));
@@ -7481,11 +7775,11 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
             }
-#line 7485 "y.cpp" /* yacc.c:1646  */
+#line 7779 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 530:
-#line 2234 "index.y" /* yacc.c:1646  */
+#line 2529 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-6].astNode));
@@ -7494,69 +7788,72 @@ yyreduce:
                 (yyval.astNode)->add((yyvsp[-3].astNode));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 7498 "y.cpp" /* yacc.c:1646  */
+#line 7792 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 531:
-#line 2242 "index.y" /* yacc.c:1646  */
+#line 2537 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-5].astNode));
                 (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-2].astNode));
             }
-#line 7509 "y.cpp" /* yacc.c:1646  */
+#line 7803 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 532:
-#line 2248 "index.y" /* yacc.c:1646  */
+#line 2543 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-4].astNode));
                 (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-1].astNode));
             }
-#line 7520 "y.cpp" /* yacc.c:1646  */
+#line 7814 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 533:
-#line 2254 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-2].astNode));}
-#line 7526 "y.cpp" /* yacc.c:1646  */
+#line 2549 "index.y" /* yacc.c:1646  */
+    {
+                (yyval.astNode) = new import_stmt("import_stmt" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-2].astNode));
+                // $$ = $2;
+            }
+#line 7823 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 534:
-#line 2256 "index.y" /* yacc.c:1646  */
+#line 2554 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mymodule("mymodule" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7537 "y.cpp" /* yacc.c:1646  */
+#line 7834 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 535:
-#line 2262 "index.y" /* yacc.c:1646  */
+#line 2560 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mymodule("mymodule" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7546 "y.cpp" /* yacc.c:1646  */
+#line 7843 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 536:
-#line 2266 "index.y" /* yacc.c:1646  */
+#line 2564 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mymodule("mymodule" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode) = (yyvsp[0].astNode);
             }
-#line 7556 "y.cpp" /* yacc.c:1646  */
+#line 7853 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 537:
-#line 2271 "index.y" /* yacc.c:1646  */
+#line 2569 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new mymodule("mymodule" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->add((yyvsp[-3].astNode));
@@ -7564,63 +7861,63 @@ yyreduce:
                 (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode) = (yyvsp[0].astNode);
             }
-#line 7568 "y.cpp" /* yacc.c:1646  */
+#line 7865 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 538:
-#line 2279 "index.y" /* yacc.c:1646  */
+#line 2577 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new module("module" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7578 "y.cpp" /* yacc.c:1646  */
+#line 7875 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 539:
-#line 2284 "index.y" /* yacc.c:1646  */
+#line 2582 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new module("module" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7589 "y.cpp" /* yacc.c:1646  */
+#line 7886 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 540:
-#line 2291 "index.y" /* yacc.c:1646  */
+#line 2589 "index.y" /* yacc.c:1646  */
     {
                         (yyval.astNode) = new identifiermodule("identifiermodule" + std::to_string(++n_nodes));
                         (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                         (yyval.astNode)->add((yyvsp[-1].astNode));
                     }
-#line 7599 "y.cpp" /* yacc.c:1646  */
+#line 7896 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 541:
-#line 2296 "index.y" /* yacc.c:1646  */
+#line 2594 "index.y" /* yacc.c:1646  */
     {
                         (yyval.astNode) = new identifiermodule("identifiermodule" + std::to_string(++n_nodes));
                         (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                         (yyvsp[-2].astNode)->add((yyvsp[-1].astNode));
                         (yyval.astNode) = (yyvsp[-2].astNode);
                     }
-#line 7610 "y.cpp" /* yacc.c:1646  */
+#line 7907 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 542:
-#line 2303 "index.y" /* yacc.c:1646  */
+#line 2601 "index.y" /* yacc.c:1646  */
     {
                         (yyval.astNode) = new mymoduleidentifier("mymoduleidentifier" + std::to_string(++n_nodes));
                         (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                         (yyval.astNode)->add((yyvsp[0].astNode));
                     }
-#line 7620 "y.cpp" /* yacc.c:1646  */
+#line 7917 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 543:
-#line 2308 "index.y" /* yacc.c:1646  */
+#line 2606 "index.y" /* yacc.c:1646  */
     {
                         (yyval.astNode) = new mymoduleidentifier("mymoduleidentifier" + std::to_string(++n_nodes));
                         (yyvsp[-2].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -7628,22 +7925,22 @@ yyreduce:
                         (yyval.astNode)->add((yyvsp[-2].astNode));
                         (yyval.astNode)->add((yyvsp[0].astNode));
                     }
-#line 7632 "y.cpp" /* yacc.c:1646  */
+#line 7929 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 544:
-#line 2315 "index.y" /* yacc.c:1646  */
+#line 2613 "index.y" /* yacc.c:1646  */
     {
                         (yyval.astNode) = new mymoduleidentifier("mymoduleidentifier" + std::to_string(++n_nodes));
                         (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                         (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
                         (yyval.astNode) = (yyvsp[0].astNode);
                     }
-#line 7643 "y.cpp" /* yacc.c:1646  */
+#line 7940 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 545:
-#line 2321 "index.y" /* yacc.c:1646  */
+#line 2619 "index.y" /* yacc.c:1646  */
     {
                         (yyval.astNode) = new mymoduleidentifier("mymoduleidentifier" + std::to_string(++n_nodes));
                         (yyvsp[-3].astNode)->name = "identifier" + std::to_string(++n_nodes);
@@ -7652,400 +7949,431 @@ yyreduce:
                         (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
                         (yyval.astNode) = (yyvsp[0].astNode);
                     }
-#line 7656 "y.cpp" /* yacc.c:1646  */
+#line 7953 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 546:
-#line 2330 "index.y" /* yacc.c:1646  */
+#line 2628 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new relative_module("relative_module" + std::to_string(++n_nodes));}
-#line 7662 "y.cpp" /* yacc.c:1646  */
+#line 7959 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 547:
-#line 2331 "index.y" /* yacc.c:1646  */
+#line 2629 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new relative_module("relative_module" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7668 "y.cpp" /* yacc.c:1646  */
+#line 7965 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 548:
-#line 2332 "index.y" /* yacc.c:1646  */
+#line 2630 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new relative_module("relative_module" + std::to_string(++n_nodes));
                     (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 7677 "y.cpp" /* yacc.c:1646  */
+#line 7974 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 549:
-#line 2337 "index.y" /* yacc.c:1646  */
+#line 2635 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new nonlocal_stmt("nonlocal_stmt" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7687 "y.cpp" /* yacc.c:1646  */
+#line 7984 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 550:
-#line 2342 "index.y" /* yacc.c:1646  */
+#line 2640 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new nonlocal_stmt("nonlocal_stmt" + std::to_string(++n_nodes));
                 (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7698 "y.cpp" /* yacc.c:1646  */
+#line 7995 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 551:
-#line 2349 "index.y" /* yacc.c:1646  */
+#line 2647 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new global_stmt("global_stmt" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7708 "y.cpp" /* yacc.c:1646  */
+#line 8005 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 552:
-#line 2354 "index.y" /* yacc.c:1646  */
+#line 2652 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new global_stmt("global_stmt" + std::to_string(++n_nodes));
                 (yyvsp[-1].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[-1].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7719 "y.cpp" /* yacc.c:1646  */
+#line 8016 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 553:
-#line 2361 "index.y" /* yacc.c:1646  */
+#line 2659 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new myidentifier("myidentifier");
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 7729 "y.cpp" /* yacc.c:1646  */
+#line 8026 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 554:
-#line 2366 "index.y" /* yacc.c:1646  */
+#line 2664 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new myidentifier("myidentifier" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyvsp[-2].astNode)->add((yyvsp[0].astNode));
                 (yyval.astNode) = (yyvsp[-2].astNode);
             }
-#line 7740 "y.cpp" /* yacc.c:1646  */
+#line 8037 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 555:
-#line 2373 "index.y" /* yacc.c:1646  */
+#line 2671 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new parameter_list("parameter_list" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-5].astNode));
                     (yyval.astNode)->add((yyvsp[-4].astNode));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 7751 "y.cpp" /* yacc.c:1646  */
+#line 8048 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 556:
-#line 2379 "index.y" /* yacc.c:1646  */
+#line 2677 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new parameter_list("parameter_list" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-4].astNode));
                     (yyval.astNode)->add((yyvsp[-3].astNode));
                 }
-#line 7761 "y.cpp" /* yacc.c:1646  */
+#line 8058 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 557:
-#line 2384 "index.y" /* yacc.c:1646  */
+#line 2682 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new parameter_list("parameter_list" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-3].astNode));
                     (yyval.astNode)->add((yyvsp[-2].astNode));
                 }
-#line 7771 "y.cpp" /* yacc.c:1646  */
+#line 8068 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 558:
-#line 2389 "index.y" /* yacc.c:1646  */
+#line 2687 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new parameter_list("parameter_list" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[-4].astNode));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 7781 "y.cpp" /* yacc.c:1646  */
+#line 8078 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 559:
-#line 2394 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list("parameter_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-3].astNode));}
-#line 7787 "y.cpp" /* yacc.c:1646  */
+#line 2692 "index.y" /* yacc.c:1646  */
+    {
+                    // $$ = new parameter_list("parameter_list" + std::to_string(++n_nodes)); $$->add($1);
+                    (yyval.astNode) = (yyvsp[-3].astNode);}
+#line 8086 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 560:
-#line 2395 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list("parameter_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-2].astNode));}
-#line 7793 "y.cpp" /* yacc.c:1646  */
+#line 2695 "index.y" /* yacc.c:1646  */
+    {
+                    // $$ = new parameter_list("parameter_list" + std::to_string(++n_nodes)); $$->add($1);
+                    (yyval.astNode) = (yyvsp[-2].astNode);}
+#line 8094 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 561:
-#line 2396 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list("parameter_list" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7799 "y.cpp" /* yacc.c:1646  */
+#line 2698 "index.y" /* yacc.c:1646  */
+    {
+                    // $$ = new parameter_list("parameter_list" + std::to_string(++n_nodes)); $$->add($1);
+                    (yyval.astNode) = (yyvsp[0].astNode);}
+#line 8102 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 562:
-#line 2398 "index.y" /* yacc.c:1646  */
+#line 2702 "index.y" /* yacc.c:1646  */
     {
                                 (yyval.astNode) = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes));
                                 (yyval.astNode)->add((yyvsp[-3].astNode));
                                 (yyval.astNode)->add((yyvsp[-2].astNode));
                                 (yyval.astNode)->add((yyvsp[0].astNode));
                             }
-#line 7810 "y.cpp" /* yacc.c:1646  */
+#line 8113 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 563:
-#line 2404 "index.y" /* yacc.c:1646  */
+#line 2708 "index.y" /* yacc.c:1646  */
     {
                                 (yyval.astNode) = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes));
                                 (yyval.astNode)->add((yyvsp[-2].astNode));
                                 (yyval.astNode)->add((yyvsp[-1].astNode));
                             }
-#line 7820 "y.cpp" /* yacc.c:1646  */
+#line 8123 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 564:
-#line 2409 "index.y" /* yacc.c:1646  */
+#line 2713 "index.y" /* yacc.c:1646  */
     {
                                 (yyval.astNode) = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes));
                                 (yyval.astNode)->add((yyvsp[-1].astNode));
                                 (yyval.astNode)->add((yyvsp[0].astNode));
                             }
-#line 7830 "y.cpp" /* yacc.c:1646  */
+#line 8133 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 565:
-#line 2414 "index.y" /* yacc.c:1646  */
+#line 2718 "index.y" /* yacc.c:1646  */
     {
                                 (yyval.astNode) = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes));
                                 (yyval.astNode)->add((yyvsp[-2].astNode));
                                 (yyval.astNode)->add((yyvsp[0].astNode));
                             }
-#line 7840 "y.cpp" /* yacc.c:1646  */
+#line 8143 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 566:
-#line 2419 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 7846 "y.cpp" /* yacc.c:1646  */
+#line 2723 "index.y" /* yacc.c:1646  */
+    {
+                                // $$ = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); $$->add($1);
+                            (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 8151 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 567:
-#line 2420 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7852 "y.cpp" /* yacc.c:1646  */
+#line 2726 "index.y" /* yacc.c:1646  */
+    {
+                                // $$ = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); $$->add($1);
+                            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 8159 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 568:
-#line 2421 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7858 "y.cpp" /* yacc.c:1646  */
+#line 2729 "index.y" /* yacc.c:1646  */
+    {
+                                // $$ = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); $$->add($1);
+                            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 8167 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 569:
-#line 2423 "index.y" /* yacc.c:1646  */
+#line 2733 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mydefparameter("mydefparameter" + std::to_string(++n_nodes));
                     (yyval.astNode)->add((yyvsp[0].astNode));
                 }
-#line 7867 "y.cpp" /* yacc.c:1646  */
+#line 8176 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 570:
-#line 2427 "index.y" /* yacc.c:1646  */
+#line 2737 "index.y" /* yacc.c:1646  */
     {
                     (yyval.astNode) = new mydefparameter("mydefparameter" + std::to_string(++n_nodes));
                     (yyvsp[0].astNode)->add((yyvsp[-1].astNode));
                     (yyval.astNode) = (yyvsp[0].astNode);
                 }
-#line 7877 "y.cpp" /* yacc.c:1646  */
+#line 8186 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 571:
-#line 2433 "index.y" /* yacc.c:1646  */
+#line 2743 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-5].astNode));
                             (yyval.astNode)->add((yyvsp[-4].astNode));
                             (yyval.astNode)->add((yyvsp[-1].astNode));
                         }
-#line 7888 "y.cpp" /* yacc.c:1646  */
+#line 8197 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 572:
-#line 2439 "index.y" /* yacc.c:1646  */
+#line 2749 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-4].astNode));
                             (yyval.astNode)->add((yyvsp[-3].astNode));
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 7899 "y.cpp" /* yacc.c:1646  */
+#line 8208 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 573:
-#line 2445 "index.y" /* yacc.c:1646  */
+#line 2755 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-2].astNode));
                             (yyval.astNode)->add((yyvsp[-1].astNode));
                         }
-#line 7909 "y.cpp" /* yacc.c:1646  */
+#line 8218 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 574:
-#line 2450 "index.y" /* yacc.c:1646  */
+#line 2760 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-1].astNode));
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 7919 "y.cpp" /* yacc.c:1646  */
+#line 8228 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 575:
-#line 2455 "index.y" /* yacc.c:1646  */
+#line 2765 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-4].astNode));
                             (yyval.astNode)->add((yyvsp[-1].astNode));
                         }
-#line 7929 "y.cpp" /* yacc.c:1646  */
+#line 8238 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 576:
-#line 2460 "index.y" /* yacc.c:1646  */
+#line 2770 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-3].astNode));
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 7939 "y.cpp" /* yacc.c:1646  */
+#line 8248 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 577:
-#line 2465 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 7945 "y.cpp" /* yacc.c:1646  */
+#line 2775 "index.y" /* yacc.c:1646  */
+    {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 8256 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 578:
-#line 2466 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7951 "y.cpp" /* yacc.c:1646  */
+#line 2778 "index.y" /* yacc.c:1646  */
+    {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 8264 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 579:
-#line 2467 "index.y" /* yacc.c:1646  */
+#line 2781 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-4].astNode));
                             (yyval.astNode)->add((yyvsp[-1].astNode));
                         }
-#line 7961 "y.cpp" /* yacc.c:1646  */
+#line 8274 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 580:
-#line 2472 "index.y" /* yacc.c:1646  */
+#line 2786 "index.y" /* yacc.c:1646  */
     {
                             (yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));
                             (yyval.astNode)->add((yyvsp[-3].astNode));
                             (yyval.astNode)->add((yyvsp[0].astNode));
                         }
-#line 7971 "y.cpp" /* yacc.c:1646  */
+#line 8284 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 581:
-#line 2477 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 7977 "y.cpp" /* yacc.c:1646  */
+#line 2791 "index.y" /* yacc.c:1646  */
+    {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 8292 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 582:
-#line 2478 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7983 "y.cpp" /* yacc.c:1646  */
+#line 2794 "index.y" /* yacc.c:1646  */
+    {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 8300 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 583:
-#line 2479 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 7989 "y.cpp" /* yacc.c:1646  */
+#line 2797 "index.y" /* yacc.c:1646  */
+    {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($4);
+                            (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 8308 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 584:
-#line 2480 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 7995 "y.cpp" /* yacc.c:1646  */
+#line 2800 "index.y" /* yacc.c:1646  */
+    {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($4);
+                            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 8316 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 585:
-#line 2481 "index.y" /* yacc.c:1646  */
+#line 2803 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));}
-#line 8001 "y.cpp" /* yacc.c:1646  */
+#line 8322 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 586:
-#line 2482 "index.y" /* yacc.c:1646  */
+#line 2804 "index.y" /* yacc.c:1646  */
     {(yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));}
-#line 8007 "y.cpp" /* yacc.c:1646  */
+#line 8328 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 587:
-#line 2483 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[-1].astNode));}
-#line 8013 "y.cpp" /* yacc.c:1646  */
+#line 2805 "index.y" /* yacc.c:1646  */
+    {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            (yyval.astNode) = (yyvsp[-1].astNode);}
+#line 8336 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 588:
-#line 2484 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 8019 "y.cpp" /* yacc.c:1646  */
+#line 2808 "index.y" /* yacc.c:1646  */
+    {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            (yyval.astNode) = (yyvsp[0].astNode);}
+#line 8344 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 589:
-#line 2486 "index.y" /* yacc.c:1646  */
+#line 2812 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new parameter("parameter" + std::to_string(++n_nodes));
                 (yyvsp[0].astNode)->name = "identifier" + std::to_string(++n_nodes);
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 8029 "y.cpp" /* yacc.c:1646  */
+#line 8354 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 590:
-#line 2493 "index.y" /* yacc.c:1646  */
-    {(yyval.astNode) = new defparameter("defparameter" + std::to_string(++n_nodes)); (yyval.astNode)->add((yyvsp[0].astNode));}
-#line 8035 "y.cpp" /* yacc.c:1646  */
+#line 2819 "index.y" /* yacc.c:1646  */
+    {
+                // $$ = new defparameter("defparameter" + std::to_string(++n_nodes)); $$->add($1);
+                (yyval.astNode) = (yyvsp[0].astNode);
+            }
+#line 8363 "y.cpp" /* yacc.c:1646  */
     break;
 
   case 591:
-#line 2494 "index.y" /* yacc.c:1646  */
+#line 2823 "index.y" /* yacc.c:1646  */
     {
                 (yyval.astNode) = new defparameter("defparameter" + std::to_string(++n_nodes));
                 (yyval.astNode)->add((yyvsp[-2].astNode));
                 (yyval.astNode)->add((yyvsp[0].astNode));
             }
-#line 8045 "y.cpp" /* yacc.c:1646  */
+#line 8373 "y.cpp" /* yacc.c:1646  */
     break;
 
 
-#line 8049 "y.cpp" /* yacc.c:1646  */
+#line 8377 "y.cpp" /* yacc.c:1646  */
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
@@ -8273,7 +8601,7 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 2567 "index.y" /* yacc.c:1906  */
+#line 2896 "index.y" /* yacc.c:1906  */
 
 
 int main(int argc, char **argv)

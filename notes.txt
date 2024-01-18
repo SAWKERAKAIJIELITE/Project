@@ -8,23 +8,66 @@ improvements:
     class for non-terminal nodes
     class for terminal nodes
     function for take action on loop
-    etc
+    etc.
 ما تقطش أسطر بال compound statement
 
 
 //////////////////////
 
+                                                    |  102  |
+                                            -------------------------
+                                            |   35  |  34   |   33  |
+                                            -------------------------
+                                            |  36   |  -17  |  32   |
+                                            -------------------------
+                                            |   37  |  -18  |   31  |
+                                            -------------------------
+                                            |  38   |  -19  |  30   |
+                                            -------------------------
+                                            |   39  |  -20  |   29  |
+                                            -------------------------
+                                            |  40   |  -21  |  28   |
+                                            -------------------------
+                                            |   41  |  -22  |   27  |
+                                            -------------------------
+                                            |  42   |  -23  |  26   |
+                                            -------------------------
+    |----|----|----|----|----|----|----|----|          -24          |----|----|----|----|----|----|----|----|
+    | 50 | 49 | 48 | 47 | 46 | 45 | 44 | 43 |                       | 25 | 24 | 23 | 22 | 21 | 20 | 19 | 18 |
+----|----|----|----|----|----|----|----|----|                       |----|----|----|----|----|----|----|----|----
+119 | 51 | -25| -26| -27| -28| -29| -30| -31| -32               -16 |-15 |-14 |-13 |-12 |-11 |-10 | -9 | 17 | 85
+----|----|----|----|----|----|----|----|----|                       |----|----|----|----|----|----|----|----|----
+    | 52 | 53 | 54 | 55 | 56 | 57 | 58 | 59 |                       | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
+    |----|----|----|----|----|----|----|----|           -8          |----|----|----|----|----|----|----|----|
+                                            -------------------------
+                                            |   60  |  -7   |   8   |
+                                            -------------------------
+                                            |  61   |   -6  |   7   |
+                                            -------------------------
+                                            |   62  |  -5   |   6   |
+                                            -------------------------
+                                            |  63   |   -4  |   5   |
+                                            -------------------------
+                                            |   64  |  -3   |   4   |
+                                            -------------------------
+                                            |  65   |   -2  |   3   |
+                                            -------------------------
+                                            |   66  |  -1   |   2   |
+                                            -------------------------
+                                            |  67   |   0   |   1   |
+                                            -------------------------
+                                                    |   68  |
 Sides = {
-    "UP"    : [0 ,      68,      0 ,    151]
+    "DOWN"  : [0 ,      68,      0 ,    151]
     "RIGHT" : [17,      85,     -8 ,    143]
-    "DOWN"  : [34,      102,    -16,    135]
-    "LEFT"  : [52,      119,    -24,    127]
+    "UP"    : [34,      102,    -16,    135]
+    "LEFT"  : [51,      119,    -24,    127]
 }
 
-//UP: [-8  ==>  0 [ , [0  ==> 68 ] , [142 ==> 151]
-//UP: [-16 ==> -8 [ , [17 ==> 85 ] , [136 ==> 143]
-//UP: [-24 ==> -16[ , [34 ==> 102] , [128 ==> 135]
-//UP: [-32 ==> -24[ , [52 ==> 119] , [120 ==> 127]
+//DOWN  : [-8  ==>  0 [ , [0  ==> 68 ] , [142 ==> 151]
+//UP    : [-16 ==> -8 [ , [17 ==> 85 ] , [136 ==> 143]
+//RIGHT : [-24 ==> -16[ , [34 ==> 102] , [128 ==> 135]
+//LEFT  : [-32 ==> -24[ , [51 ==> 119] , [120 ==> 127]
 
 safeIndex = [
     3, 14, 20, 31, 37, 48, 54, 65
@@ -33,12 +76,14 @@ safeIndex = [
 prob = [
     0,
     1, 1, 1, 1, 1, 1,
-    2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+    2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
     3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
-    4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+    4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
     5, 5, 5, 5, 5, 5,
     6,
 ]
+
+states = []
 
 function convertToMap(int num, side)
 {
@@ -54,12 +99,24 @@ function getDice(){
     // return prob[rand(0,64)]
 }
 
+function doesHaveExtra(int num){
+    if(num == 1 || num == 5)
+        return true
+    return false
+}
+
+function additionalTurn(int num){
+    if(num == 0 || num == 1 || num == 5 || num == 6)
+        return true
+    return false
+}
+
 function getSteps(int num){
     switch(num){
         case 0:
             return 12
         case 1:
-            return 24
+            return 25
         case 2:
             return 4
         case 3:
@@ -73,16 +130,56 @@ function getSteps(int num){
     }
 }
 
-function getNextState(){
-    int dice = getDice()
-    int steps = getSteps(dice)
-    //check turn of player
-    array availableSteps = getAvailableSteps()
-    //get infos from user or logic from computer
-    move(stone, steps)
-    realStones = convertToMap(stones[stone], side)
-    updateStepsRemaining(stone)
-    hasExtra = false
+function canKickOut(int in, int out)
+{
+    if(in_array(safeIndex, out))
+        return false
+    if(in == out)
+        return true
+    return false
+}
+
+function kickedOut(int index)
+{
+    player->stones[index] = player->side[2] - 8
+    player->realStones[index] = convertToMap(player->stones[index], player->side)
+}
+
+class State
+{
+    array players = [null, null]
+    public function State(array players)
+    {
+        this->players = players
+    }
+
+    public function getNextState()
+    {
+        //check turn of player and return its (index) and the index of competitor
+        while(isTurn) {
+            int dice = getDice()
+            hasExtra = doesHaveExtra(dice)
+            int steps = getSteps(dice)
+            array availableSteps = getAvailableSteps()
+            if(canMove()) {
+                //get infos from user or logic from computer for movement
+                player = clone this->players[index]
+                player->stones[stone] = move(stone, steps)
+                player->realStones[stone] = convertToMap(player->stones[stone], player->side)
+                player->updateStepsRemaining(stone)
+                for (i = 0; i < size(this->player[competitor]->realStones); i++) {
+                    if(canKickOut(player->realStones[stone], this->player[competitor]->realStones[i])) {
+                        this->player[competitor]->stones[i] = this->player[competitor]->side[2] - 8
+                        this->player[competitor]->realStones[i] = convertToMap(this->player[competitor]->stones[i], this->player[competitor]->side)
+                    }
+                }
+                newState = new State([player,])
+                states[] = newState
+            }
+            hasExtra = false
+            isTurn = additionalTurn(dice)
+        }
+    }
 }
 
 class Player
@@ -95,6 +192,7 @@ class Player
     array stones = [null, null, null, null] // could not have default value
     array stepsRemaining = [1, 1, 1, 1] // could not have default value
     array realStones = [null, null, null, null] // could not have default value
+    array availableSteps = this->stones
 
     public function Player(side, bool isTurn)
     {
@@ -123,30 +221,37 @@ class Player
 
     public function getAvailableSteps(): array
     {
-        a = stones
-        foreach (a as value) {
-            value = [0]
+        foreach (availableSteps as value) {
+            value = []
         }
 
         if (this->hasExtra)
             for (i = 0; i < size(this->stones); i++) {
                 if(this->stepsRemaining[i] > 0)
-                    a[i] = [1]
+                    availableSteps[i][] = 1
             }
-        
+
         for (i = 0; i < size(this->stones); i++) {
             if (this->stepsRemaining[i] > this->steps) {
-                a[i] = [this->steps]
+                availableSteps[i][] = this->steps
                 if (this->hasExtra) {
-                    a[i][] = this->steps + 1
+                    //availableSteps[i][] = this->steps + 1
                 }
             }
             else if (this->stepsRemaining[i] == this->steps) {
-                a[i] = [this->steps]
+                availableSteps[i][] = this->steps
             }
         }
 
-        return a
+        return availableSteps
+    }
+
+    public function canMove()
+    {
+        foreach (availableSteps as value)
+            if(!is_empty(value))
+                return true
+        return false
     }
 
     public function move(int index, int steps)
@@ -155,13 +260,11 @@ class Player
         newIndex = stone + steps
         if (stone < 0) {
             if (newIndex >= this->side[2]) {
-                this->stones[index] = this->side[0] + abs(this->side[2] - newIndex)
+                return this->side[0] + abs(this->side[2] - newIndex)
             }
-            //return this->stones[index]
         }
         elseif(newIndex > this->side[1]){
-            this->stones[index] = this->side[3] - (8 - (newIndex - this->side[1]))
-            //return this->stones[index]
+            return this->side[3] - (8 - (newIndex - this->side[1]))
         }
     }
 

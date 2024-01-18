@@ -96,41 +96,55 @@ statements : simple_stmt {
             };
 
 compound_stmt : if_stmt {
-                    $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    $$->add($1);
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    $$ = $1;
                 }
                 | while_stmt {
-                    $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    $$->add($1);
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    $$ = $1;
                 }
                 | for_stmt {
-                    $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    $$->add($1);
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    $$ = $1;
                 }
                 | try_stmt {
-                    $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    $$->add($1);
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    $$ = $1;
                 }
                 // | with_stmt
                 | funcdef {
-                    $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    $$->add($1);
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    $$ = $1;
                 }
                 | classdef {
-                    $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    $$->add($1);
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    $$ = $1;
                 }
                 | async_for_stmt {
-                    $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    $$->add($1);
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    $$ = $1;
                 }
                 | async_funcdef {
-                    $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
-                    $$->add($1);
+                    // $$ = new compound_stmt("compound_stmt" + std::to_string(++n_nodes));
+                    // $$->add($1);
+                    $$ = $1;
                 }
 
-suite : stmt_list NEWLINE { $$ = new suite("suite" + std::to_string(++n_nodes)); $$->add($1); }
-        | NEWLINE INDENT mystatement DEDENT { $$ = new suite("suite" + std::to_string(++n_nodes)); $$->add($3);}
+suite : stmt_list NEWLINE {
+            $$ = new suite("suite" + std::to_string(++n_nodes)); $$->add($1);
+            // $$ = $1;
+        }
+        | NEWLINE INDENT mystatement DEDENT {
+            $$ = new suite("suite" + std::to_string(++n_nodes)); $$->add($3);
+            // $$ = $3;
+        }
 
 mystatement : statement {
                 $$ = new mystatement("mystatement" + std::to_string(++n_nodes));
@@ -143,21 +157,25 @@ mystatement : statement {
             }
 
 statement : stmt_list NEWLINE {
-                $$ = new statement("statement" + std::to_string(++n_nodes));
-                $$->add($1);
+                // $$ = new statement("statement" + std::to_string(++n_nodes));
+                // $$->add($1);
+                $$ = $1;
             }
             | compound_stmt {
-                $$ = new statement("statement" + std::to_string(++n_nodes));
-                $$->add($1);
+                // $$ = new statement("statement" + std::to_string(++n_nodes));
+                // $$->add($1);
+                $$ = $1;
             };
 
 stmt_list : simple_stmt {
-                $$ = new stmt_list("stmt_list" + std::to_string(++n_nodes));
-                $$->add($1);
+                // $$ = new stmt_list("stmt_list" + std::to_string(++n_nodes));
+                // $$->add($1);
+                $$ = $1;
             }
             | simple_stmt ';' {
-                $$ = new stmt_list("stmt_list" + std::to_string(++n_nodes));
-                $$->add($1);
+                // $$ = new stmt_list("stmt_list" + std::to_string(++n_nodes));
+                // $$->add($1);
+                $$ = $1;
             }
             | simple_stmt mysimplestmt {
                 $$ = new stmt_list("stmt_list" + std::to_string(++n_nodes));
@@ -344,16 +362,19 @@ for_stmt : FOR target_list IN starred_list ':' suite {
         }
 
 try_stmt : try1_stmt {
-                $$ = new try_stmt("try_stmt" + std::to_string(++n_nodes));
-                $$->add($1);
+                // $$ = new try_stmt("try_stmt" + std::to_string(++n_nodes));
+                // $$->add($1);
+                $$ = $1;
             }
             | try2_stmt {
-                $$ = new try_stmt("try_stmt" + std::to_string(++n_nodes));
-                $$->add($1);
+                // $$ = new try_stmt("try_stmt" + std::to_string(++n_nodes));
+                // $$->add($1);
+                $$ = $1;
             }
             | try3_stmt {
-                $$ = new try_stmt("try_stmt" + std::to_string(++n_nodes));
-            $$->add($1);
+                // $$ = new try_stmt("try_stmt" + std::to_string(++n_nodes));
+                // $$->add($1);
+                $$ = $1;
             };
 
 try1_stmt : TRY ':' suite mytry1 {
@@ -394,6 +415,7 @@ mytry1  : myexcept1 {
 myexcept1 : EXCEPT ':' suite {
                 $$ = new myexcept1("myexcept1" + std::to_string(++n_nodes));
                 $$->add($3);
+                // $$ = $3;
             }
             | EXCEPT expression ':' suite {
                 $$ = new myexcept1("myexcept1" + std::to_string(++n_nodes));
@@ -601,7 +623,10 @@ decorators  : decorator {
                 $$ = $1;
             };
 
-decorator   : '@' assignment_expression NEWLINE { $$ = new decorator("decorator" + std::to_string(++n_nodes)); $$->add($2);}
+decorator   : '@' assignment_expression NEWLINE {
+    $$ = new decorator("decorator" + std::to_string(++n_nodes)); $$->add($2);
+    // $$ = $2;
+}
 
 classdef    : decorators CLASS IDENTIFIER type_params inheritance ':' suite {
                 $$ = new classdef("classdef" + std::to_string(++n_nodes));
@@ -667,8 +692,9 @@ classdef    : decorators CLASS IDENTIFIER type_params inheritance ':' suite {
 inheritance : '(' ')' { $$ = new inheritance("inheritance" + std::to_string(++n_nodes)); } // | '(' argument_list ')'
 
 type_params : '[' type_param ']' {
-                    $$ = new type_params("type_params" + std::to_string(++n_nodes));
-                    $$->add($2);
+                    // $$ = new type_params("type_params" + std::to_string(++n_nodes));
+                    // $$->add($2);
+                    $$ = $2;
                 }
                 | '[' type_param mytypeparam ']' {
                     $$ = new type_params("type_params" + std::to_string(++n_nodes));
@@ -769,7 +795,10 @@ async_funcdef : decorators ASYNC DEF IDENTIFIER '(' parameter_list ')' FN expres
                 $$->add($7);
             };
 
-async_for_stmt : ASYNC for_stmt { $$ = new async_for_stmt("async_for_stmt" + std::to_string(++n_nodes)); $$->add($2);}
+async_for_stmt : ASYNC for_stmt {
+    $$ = new async_for_stmt("async_for_stmt" + std::to_string(++n_nodes)); $$->add($2);
+    // $$ = $2;
+}
 
 atom : NUMBER {
         $$ = new atom("Atom" + std::to_string(++n_nodes));
@@ -777,17 +806,34 @@ atom : NUMBER {
         $$->add($1);
     }
     | enclosure {
-        $$ = new atom("Atom" + std::to_string(++n_nodes));
-        $$->add($1);
+        // $$ = new atom("Atom" + std::to_string(++n_nodes));
+        // $$->add($1);
+        $$ = $1;
     };
 
-enclosure : parenth_form { $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);}
-        | list_display { $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);}
-        | dict_display { $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);}
-        | set_display { $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);}
-        | generator_expression { $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);} | yield_atom { $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);} ;
+enclosure : parenth_form {
+            //  $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            $$ = $1;}
+        | list_display {
+            //  $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            $$ = $1;}
+        | dict_display {
+            //  $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            $$ = $1;}
+        | set_display {
+            //  $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            $$ = $1;}
+        | generator_expression {
+            //  $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            $$ = $1;}
+        | yield_atom {
+            // $$ = new enclosure("enclosure" + std::to_string(++n_nodes)); $$->add($1);
+            $$ = $1;};
 
-parenth_form : '(' starred_expression ')' { $$ = new parenth_form("parenth_form" + std::to_string(++n_nodes)); $$->add($2); };
+parenth_form : '(' starred_expression ')' {
+    $$ = new parenth_form("parenth_form" + std::to_string(++n_nodes)); $$->add($2);
+    // $$ = $2;
+};
 
 comprehension : assignment_expression comp_for {
                     $$ = new comprehension("comprehension" + std::to_string(++n_nodes));
@@ -925,10 +971,13 @@ comp_for    : ASYNC FOR target_list IN or_test comp_iter {
             }
             | ASYNC FOR '(' ')' IN or_test {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
-                $$->add($6);}
+                $$->add($6);
+                // $$ = $6;
+            }
             | FOR '(' ')' IN or_test {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
                 $$->add($5);
+                // $$ = $5;
             }
             | ASYNC FOR '[' ']' IN or_test comp_iter {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
@@ -943,10 +992,12 @@ comp_for    : ASYNC FOR target_list IN or_test comp_iter {
             | ASYNC FOR '[' ']' IN or_test {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
                 $$->add($6);
+                // $$ = $6;
             }
             | FOR '[' ']' IN or_test {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
                 $$->add($5);
+                // $$ = $5;
             }
             | ASYNC FOR '*' '(' ')' IN or_test comp_iter {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
@@ -961,10 +1012,12 @@ comp_for    : ASYNC FOR target_list IN or_test comp_iter {
             | ASYNC FOR '*' '(' ')' IN or_test {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
                 $$->add($7);
+                // $$ = $7;
             }
             | FOR '*' '(' ')' IN or_test {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
                 $$->add($6);
+                // $$ = $6;
             }
             | ASYNC FOR '*' '[' ']' IN or_test comp_iter {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
@@ -979,32 +1032,62 @@ comp_for    : ASYNC FOR target_list IN or_test comp_iter {
             | ASYNC FOR '*' '[' ']' IN or_test {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
                 $$->add($7);
+                // $$ = $7;
             }
             | FOR '*' '[' ']' IN or_test {
                 $$ = new comp_for("comp_for" + std::to_string(++n_nodes));
                 $$->add($6);
+                // $$ = $6;
             };
 
-comp_iter : comp_for {$$ = new comp_iter("comp_iter" + std::to_string(++n_nodes)); $$->add($1);}
-            | comp_if {$$ = new comp_iter("comp_iter" + std::to_string(++n_nodes)); $$->add($1);};
+comp_iter : comp_for {
+                // $$ = new comp_iter("comp_iter" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | comp_if {
+                // $$ = new comp_iter("comp_iter" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;};
 
 comp_if : IF or_test comp_iter { $$ = new comp_if("comp_if" + std::to_string(++n_nodes));
                 $$->add($2);
                 $$->add($3);
-        } | IF or_test {$$ = new comp_if("comp_if" + std::to_string(++n_nodes)); $$->add($2);};
+        } | IF or_test { $$ = new comp_if("comp_if" + std::to_string(++n_nodes)); $$->add($2);
+            // $$ = $2;
+        };
 
-list_display : '[' starred_list ']' {$$ = new list_display("list_display" + std::to_string(++n_nodes)); $$->add($2);}
-            | '[' comprehension ']' {$$ = new list_display("list_display" + std::to_string(++n_nodes)); $$->add($2);};
+list_display : '[' starred_list ']' {
+                $$ = new list_display("list_display" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
+            | '[' comprehension ']' {
+                $$ = new list_display("list_display" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            };
 
-set_display : '{' starred_list '}' {$$ = new set_display("set_display" + std::to_string(++n_nodes)); $$->add($2);}
-            | '{' comprehension '}' {$$ = new set_display("set_display" + std::to_string(++n_nodes)); $$->add($2);} ;
+set_display : '{' starred_list '}' {
+                $$ = new set_display("set_display" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
+            | '{' comprehension '}' {
+                $$ = new set_display("set_display" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            };
 
 dict_display : '{' '}' {$$ = new dict_display("dict_display" + std::to_string(++n_nodes));}
-            | '{' dict_item_list '}' {$$ = new dict_display("dict_display" + std::to_string(++n_nodes)); $$->add($2);}
-            | '{' dict_comprehension '}' {$$ = new dict_display("dict_display" + std::to_string(++n_nodes));$$->add($2);};
+            | '{' dict_item_list '}' {
+                $$ = new dict_display("dict_display" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
+            | '{' dict_comprehension '}' {
+                $$ = new dict_display("dict_display" + std::to_string(++n_nodes));$$->add($2);
+                // $$ = $2;
+            };
 
-dict_item_list : dict_item {$$ = new dict_item_list("dict_item_list" + std::to_string(++n_nodes)); $$->add($1);}
-                | dict_item ',' {$$ = new dict_item_list("dict_item_list" + std::to_string(++n_nodes)); $$->add($1);}
+dict_item_list : dict_item {
+                    // $$ = new dict_item_list("dict_item_list" + std::to_string(++n_nodes)); $$->add($1);
+                    $$ = $1;}
+                | dict_item ',' {
+                    // $$ = new dict_item_list("dict_item_list" + std::to_string(++n_nodes)); $$->add($1);
+                    $$ = $1;}
                 | dict_item mydictitem {
                     $$ = new dict_item_list("dict_item_list" + std::to_string(++n_nodes));
                     $$->add($1);
@@ -1031,7 +1114,10 @@ dict_item : expression ':' expression {
                 $$->add($1);
                 $$->add($3);
         }
-        | POWER or_expr {$$ = new dict_item("dict_item" + std::to_string(++n_nodes)); $$->add($2);};
+        | POWER or_expr {
+            $$ = new dict_item("dict_item" + std::to_string(++n_nodes)); $$->add($2);
+            // $$ = $2;
+        };
 
 dict_comprehension : expression ':' expression comp_for {
                         $$ = new dict_comprehension("dict_comprehension" + std::to_string(++n_nodes));
@@ -1046,19 +1132,41 @@ generator_expression : '(' expression comp_for ')' {
                             $$->add($3);
                         };
 
-yield_atom : '(' yield_expression ')' { $$ = new yield_atom("yield_atom" + std::to_string(++n_nodes)); $$->add($2);};
+yield_atom : '(' yield_expression ')' {
+    // $$ = new yield_atom("yield_atom" + std::to_string(++n_nodes)); $$->add($2);
+    $$ = $2;};
 
 yield_expression : YIELD { $$ = new yield_expression("yield_expression" + std::to_string(++n_nodes)); }
-                | YIELD expression_list { $$ = new yield_expression("yield_expression" + std::to_string(++n_nodes)); $$->add($2); }
-                | YIELD FROM expression { $$ = new yield_expression("yield_expression" + std::to_string(++n_nodes)); $$->add($3); }
-                | YIELD expression { $$ = new yield_expression("yield_expression" + std::to_string(++n_nodes)); $$->add($2); }
-                | YIELD expression ',' { $$ = new yield_expression("yield_expression" + std::to_string(++n_nodes)); $$->add($2); };
+                | YIELD expression_list {
+                    $$ = new yield_expression("yield_expression" + std::to_string(++n_nodes)); $$->add($2);
+                    // $$ = $2;
+                }
+                | YIELD FROM expression {
+                    $$ = new yield_expression("yield_expression" + std::to_string(++n_nodes)); $$->add($3);
+                    // $$ = $3;
+                }
+                | YIELD expression {
+                    $$ = new yield_expression("yield_expression" + std::to_string(++n_nodes)); $$->add($2);
+                    // $$ = $2;
+                }
+                | YIELD expression ',' {
+                    $$ = new yield_expression("yield_expression" + std::to_string(++n_nodes)); $$->add($2); 
+                    // $$ = $2;
+                };
 
-myreduce : attributeref { $$ = new myreduce("myreduce" + std::to_string(++n_nodes)); $$->add($1);}
-        | subscription { $$ = new myreduce("myreduce" + std::to_string(++n_nodes)); $$->add($1);}
-        | slicing { $$ = new myreduce("myreduce" + std::to_string(++n_nodes)); $$->add($1);}
+myreduce : attributeref {
+            //  $$ = new myreduce("myreduce" + std::to_string(++n_nodes)); $$->add($1);
+            $$ = $1;}
+        | subscription {
+            //  $$ = new myreduce("myreduce" + std::to_string(++n_nodes)); $$->add($1);
+            $$ = $1;}
+        | slicing {
+            //  $$ = new myreduce("myreduce" + std::to_string(++n_nodes)); $$->add($1);
+            $$ = $1;}
 
-primary : atom {$$ = new primary("primary" + std::to_string(++n_nodes)); $$->add($1);} //| call
+primary : atom {
+            // $$ = new primary("primary" + std::to_string(++n_nodes)); $$->add($1);
+            $$ = $1;} //| call
 
 attributeref : primary '.' IDENTIFIER {
                 $$ = new attributeref("attributeref" + std::to_string(++n_nodes));
@@ -1109,9 +1217,15 @@ subscription : primary '[' expression_list ']' {
             // | primary '[' expression ']'
             // | myreduce '[' expression ']'
             // | IDENTIFIER '[' expression ']'
-            | '(' ')' '[' expression_list ']' { $$ = new subscription("subscription" + std::to_string(++n_nodes)); $$->add($4);}
+            | '(' ')' '[' expression_list ']' {
+                $$ = new subscription("subscription" + std::to_string(++n_nodes)); $$->add($4);
+                // $$ = $4;
+            }
             // | '(' ')' '[' expression ']'
-            | '[' ']' '[' expression_list ']' { $$ = new subscription("subscription" + std::to_string(++n_nodes)); $$->add($4);}
+            | '[' ']' '[' expression_list ']' {
+                $$ = new subscription("subscription" + std::to_string(++n_nodes)); $$->add($4);
+                // $$ = $4;
+            }
             // | '[' ']' '[' expression ']'
 
 slicing     : primary '[' slice_list ']' {
@@ -1149,15 +1263,31 @@ slicing     : primary '[' slice_list ']' {
             // | primary '[' expression ',' expression ']'
             // | myreduce '[' expression ',' expression ']'
             // | IDENTIFIER '[' expression ',' expression ']'
-            | '(' ')' '[' slice_list ']' { $$ = new slicing("slicing" + std::to_string(++n_nodes)); $$->add($4);}
-            | '(' ')' '[' expression ',' ']' { $$ = new slicing("slicing" + std::to_string(++n_nodes));$$->add($4);}
+            | '(' ')' '[' slice_list ']' {
+                $$ = new slicing("slicing" + std::to_string(++n_nodes)); $$->add($4);
+                // $$ = $4;
+            }
+            | '(' ')' '[' expression ',' ']' {
+                $$ = new slicing("slicing" + std::to_string(++n_nodes));$$->add($4);
+                // $$ = $4;
+            }
             // | '(' ')' '[' expression ',' expression ']'
-            | '[' ']' '[' slice_list ']' { $$ = new slicing("slicing" + std::to_string(++n_nodes));$$->add($4);}
-            | '[' ']' '[' expression ',' ']' { $$ = new slicing("slicing" + std::to_string(++n_nodes));$$->add($4);}
+            | '[' ']' '[' slice_list ']' {
+                $$ = new slicing("slicing" + std::to_string(++n_nodes));$$->add($4);
+                // $$ = $4;
+            }
+            | '[' ']' '[' expression ',' ']' {
+                $$ = new slicing("slicing" + std::to_string(++n_nodes));$$->add($4);
+                // $$ = $4;
+            }
             // | '[' ']' '[' expression ',' expression ']'
 
-slice_list  : slice_item {$$ = new slice_list("slice_list" + std::to_string(++n_nodes)); $$->add($1);}
-            | slice_item ',' {$$ = new slice_list("slice_list" + std::to_string(++n_nodes)); $$->add($1);}
+slice_list  : slice_item {
+                // $$ = new slice_list("slice_list" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | slice_item ',' {
+                // $$ = new slice_list("slice_list" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
             | slice_item mysliceitem {
                 $$ = new slice_list("slice_list" + std::to_string(++n_nodes));
                 $$->add($1);
@@ -1168,7 +1298,10 @@ slice_list  : slice_item {$$ = new slice_list("slice_list" + std::to_string(++n_
                 $$->add($1);
                 $$->add($2);
             }
-            | expression %prec ',' {$$ = new slice_list("slice_list" + std::to_string(++n_nodes)); $$->add($1);}
+            | expression %prec ',' {
+                $$ = new slice_list("slice_list" + std::to_string(++n_nodes)); $$->add($1);
+                // $$ = $1;
+            }
             | expression mysliceitem {
                 $$ = new slice_list("slice_list" + std::to_string(++n_nodes));
                 $$->add($1);
@@ -1234,18 +1367,29 @@ mysliceitem  : ',' slice_item {
                 $$ = $3;
             };
 
-slice_item   : proper_slice {$$ = new slice_item("slice_item" + std::to_string(++n_nodes)); $$->add($1);}
+slice_item   : proper_slice {
+    // $$ = new slice_item("slice_item" + std::to_string(++n_nodes)); $$->add($1);
+    $$ = $1;}
 
 proper_slice : ':' {$$ = new proper_slice("proper_slice" + std::to_string(++n_nodes));}
             | ':' ':' {$$ = new proper_slice("proper_slice" + std::to_string(++n_nodes));}
-            | ':' expression {$$ = new proper_slice("proper_slice" + std::to_string(++n_nodes)); $$->add($2);}
-            | ':' expression ':' {$$ = new proper_slice("proper_slice" + std::to_string(++n_nodes)); $$->add($2);}
+            | ':' expression {
+                $$ = new proper_slice("proper_slice" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
+            | ':' expression ':' {
+                $$ = new proper_slice("proper_slice" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
             | ':' expression ':' expression {
                 $$ = new proper_slice("proper_slice" + std::to_string(++n_nodes));
                 $$->add($2);
                 $$->add($4);
             }
-            | ':' ':' expression { $$ = new proper_slice("proper_slice" + std::to_string(++n_nodes)); $$->add($3);}
+            | ':' ':' expression {
+                $$ = new proper_slice("proper_slice" + std::to_string(++n_nodes)); $$->add($3);
+                // $$ = $3;
+            }
             | expression ':' expression ':' expression {
                 $$ = new proper_slice("proper_slice" + std::to_string(++n_nodes));
                 $$->add($1);
@@ -1267,11 +1411,23 @@ proper_slice : ':' {$$ = new proper_slice("proper_slice" + std::to_string(++n_no
                 $$->add($1);
                 $$->add($4);
             }
-            | expression ':' ':' {$$ = new proper_slice("proper_slice" + std::to_string(++n_nodes)); $$->add($1);}
-            | expression ':' {$$ = new proper_slice("proper_slice" + std::to_string(++n_nodes)); $$->add($1);};
+            | expression ':' ':' {
+                $$ = new proper_slice("proper_slice" + std::to_string(++n_nodes)); $$->add($1);
+                // $$ = $1;
+            }
+            | expression ':' {
+                $$ = new proper_slice("proper_slice" + std::to_string(++n_nodes)); $$->add($1);
+                // $$ = $1;
+            };
 
-await_expr : AWAIT primary {$$ = new await_expr("await_expr" + std::to_string(++n_nodes)); $$->add($2);}
-            | AWAIT myreduce {$$ = new await_expr("await_expr" + std::to_string(++n_nodes)); $$->add($2);}
+await_expr : AWAIT primary {
+                $$ = new await_expr("await_expr" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
+            | AWAIT myreduce {
+                $$ = new await_expr("await_expr" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
             | AWAIT IDENTIFIER {
                 $$ = new await_expr("await_expr" + std::to_string(++n_nodes));
                 $2->name = "identifier" + std::to_string(++n_nodes);
@@ -1280,24 +1436,40 @@ await_expr : AWAIT primary {$$ = new await_expr("await_expr" + std::to_string(++
             | AWAIT '(' ')' {$$ = new await_expr("await_expr" + std::to_string(++n_nodes));}
             | AWAIT '[' ']' {$$ = new await_expr("await_expr" + std::to_string(++n_nodes));};
 
-power : await_expr {$$ = new power("power" + std::to_string(++n_nodes)); $$->add($1);}
-    | primary {$$ = new power("power" + std::to_string(++n_nodes));$$->add($1);}
+power : await_expr {
+        // $$ = new power("power" + std::to_string(++n_nodes)); $$->add($1);
+        $$ = $1;}
+    | primary {
+        // $$ = new power("power" + std::to_string(++n_nodes));$$->add($1);
+        $$ = $1;}
     | '(' ')' {$$ = new power("power" + std::to_string(++n_nodes));}
-    | '(' ')' POWER u_expr {$$ = new power("power" + std::to_string(++n_nodes)); $$->add($4);}
+    | '(' ')' POWER u_expr {
+        $$ = new power("power" + std::to_string(++n_nodes)); $$->add($4);
+        // $$ = $4;
+    }
     | '(' ')' POWER IDENTIFIER {
         $$ = new power("power" + std::to_string(++n_nodes));
         $4->name = "identifier" + std::to_string(++n_nodes);
         $$->add($4);
     }
-    | '(' ')' POWER myreduce %prec ',' {$$ = new power("power" + std::to_string(++n_nodes)); $$->add($4);}
+    | '(' ')' POWER myreduce %prec ',' {
+        $$ = new power("power" + std::to_string(++n_nodes)); $$->add($4);
+        // $$ = $4;
+    }
     | '[' ']' {$$ = new power("power" + std::to_string(++n_nodes));}
-    | '[' ']' POWER u_expr {$$ = new power("power" + std::to_string(++n_nodes)); $$->add($4);}
+    | '[' ']' POWER u_expr {
+        $$ = new power("power" + std::to_string(++n_nodes)); $$->add($4);
+        // $$ = $4;
+    }
     | '[' ']' POWER IDENTIFIER {
         $$ = new power("power" + std::to_string(++n_nodes));
         $4->name = "identifier" + std::to_string(++n_nodes);
         $$->add($4);
     }
-    | '[' ']' POWER myreduce %prec ',' {$$ = new power("power" + std::to_string(++n_nodes)); $$->add($4);}
+    | '[' ']' POWER myreduce %prec ',' {
+        $$ = new power("power" + std::to_string(++n_nodes)); $$->add($4);
+        // $$ = $4;
+    }
     | await_expr POWER u_expr {
         $$ = new power("power" + std::to_string(++n_nodes));
         $$->add($1);
@@ -1599,7 +1771,10 @@ or_expr : xor_expr {
             $$ = $1;
         }
 
-comparison  : or_expr { $$ = new comparison("comparison" + std::to_string(++n_nodes)); $$->add($1);}
+comparison  : or_expr {
+                $$ = new comparison("comparison" + std::to_string(++n_nodes)); $$->add($1);
+                // $$ = $1;
+            }
             | or_expr mycomparison {
                 $$ = new comparison("comparison" + std::to_string(++n_nodes));
                 $$->add($1);
@@ -1653,9 +1828,14 @@ assignment_expression : IDENTIFIER ASSIGN expression {
                             $$->add($1);
                             $$->add($3);
                         }
-                        | expression {$$ = new assignment_expression("assignment_expression" + std::to_string(++n_nodes)); $$->add($1);};
+                        | expression {
+                            // $$ = new assignment_expression("assignment_expression" + std::to_string(++n_nodes)); $$->add($1);
+                            $$ = $1;};
 
-conditional_expression : or_test {$$ = new conditional_expression("conditional_expression" + std::to_string(++n_nodes)); $$->add($1);}
+conditional_expression : or_test {
+                        $$ = new conditional_expression("conditional_expression" + std::to_string(++n_nodes)); $$->add($1);
+                        // $$ = $1;
+                        }
                         | or_test IF or_test ELSE expression {
                             $$ = new conditional_expression("conditional_expression" + std::to_string(++n_nodes));
                             $$->add($1);
@@ -1663,10 +1843,17 @@ conditional_expression : or_test {$$ = new conditional_expression("conditional_e
                             $$->add($5);
                         };
 
-expression : conditional_expression {$$ = new expression("expression" + std::to_string(++n_nodes)); $$->add($1);}
-            | lambda_expr {$$ = new expression("expression" + std::to_string(++n_nodes)); $$->add($1);};
+expression : conditional_expression {
+                // $$ = new expression("expression" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | lambda_expr {
+                // $$ = new expression("expression" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;};
 
-lambda_expr : LAMBDA ':' expression {$$ = new lambda_expr("lambda_expr" + std::to_string(++n_nodes)); $$->add($3);}
+lambda_expr : LAMBDA ':' expression {
+                $$ = new lambda_expr("lambda_expr" + std::to_string(++n_nodes)); $$->add($3);
+                // $$ = $3;
+            }
             | LAMBDA parameter_list ':' expression {
                 $$ = new lambda_expr("lambda_expr"  + std::to_string(++n_nodes));
                 $$->add($2);
@@ -1694,8 +1881,12 @@ myexpression    : ',' expression {
                     $$ = $3;
                 };
 
-starred_list : starred_item {$$ = new starred_list("starred_list" + std::to_string(++n_nodes)); $$->add($1);}
-            | starred_item ',' {$$ = new starred_list("starred_list" + std::to_string(++n_nodes)); $$->add($1);}
+starred_list : starred_item {
+                // $$ = new starred_list("starred_list" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | starred_item ',' {
+                // $$ = new starred_list("starred_list" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
             | starred_item mystarreditem {
                 $$ = new starred_list("starred_list" + std::to_string(++n_nodes));
                 $$->add($1);
@@ -1717,8 +1908,12 @@ mystarreditem : ',' starred_item {
                     $$ = $3;
                 };
 
-starred_expression : starred_item {$$ = new starred_expression("starred_expression" + std::to_string(++n_nodes)); $$->add($1);}
-                | mystarredexpression {$$ = new starred_expression("starred_expression" + std::to_string(++n_nodes)); $$->add($1);}
+starred_expression : starred_item {
+                    // $$ = new starred_expression("starred_expression" + std::to_string(++n_nodes)); $$->add($1);
+                    $$ = $1;}
+                | mystarredexpression {
+                    // $$ = new starred_expression("starred_expression" + std::to_string(++n_nodes)); $$->add($1);
+                    $$ = $1;}
                 | mystarredexpression starred_item {
                     $$ = new starred_expression("starred_expression" + std::to_string(++n_nodes));
                     $$->add($1);
@@ -1735,33 +1930,67 @@ mystarredexpression : starred_item ',' {
                     $$ = $3;
                 };
 
-starred_item : '*' or_expr {$$ = new starred_item("starred_item" + std::to_string(++n_nodes)); $$->add($2);}
-            | assignment_expression {$$ = new starred_item("starred_item" + std::to_string(++n_nodes)); $$->add($1);}
+starred_item : '*' or_expr {
+                // $$ = new starred_item("starred_item" + std::to_string(++n_nodes)); $$->add($2);
+                $$ = $2;}
+            | assignment_expression {
+                // $$ = new starred_item("starred_item" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
 
-simple_stmt : assert_stmt               {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
-            | assignment_stmt           {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
-            | expression_stmt           {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
-            | augmented_assignment_stmt {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
-            | annotated_assignment_stmt {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
+simple_stmt : assert_stmt               {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | assignment_stmt           {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | expression_stmt           {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | augmented_assignment_stmt {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | annotated_assignment_stmt {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
             | PASS                      {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes));}
-            | del_stmt                  {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
-            | return_stmt   /*func*/    {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
-            | yield_stmt    /*func*/    {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
-            | raise_stmt                {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
+            | del_stmt                  {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | return_stmt   /*func*/    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | yield_stmt    /*func*/    {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | raise_stmt                {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
             | BREAK         /*loop*/    {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes));}
             | CONTINUE      /*loop*/    {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes));}
-            | import_stmt               {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
-            | global_stmt               {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
-            | nonlocal_stmt             {$$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);};
+            | import_stmt               {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | global_stmt               {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | nonlocal_stmt             {
+                // $$ = new simple_stmt("simple_stmt" + std::to_string(++n_nodes)); $$->add($1);}
+                $$ = $1;};
 
-expression_stmt : starred_expression {$$ = new expression_stmt("expression_stmt" + std::to_string(++n_nodes)); $$->add($1);}
+expression_stmt : starred_expression {
+    $$ = new expression_stmt("expression_stmt" + std::to_string(++n_nodes)); $$->add($1);
+    // $$ = $1;
+}
 
 assert_stmt : ASSERT expression ',' expression {
                 $$ = new assert_stmt("assert_stmt" + std::to_string(++n_nodes));
                 $$->add($2);
                 $$->add($4);
             }
-            | ASSERT expression {$$ = new assert_stmt("assert_stmt" + std::to_string(++n_nodes)); $$->add($2);}
+            | ASSERT expression {
+                $$ = new assert_stmt("assert_stmt" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
 
 assignment_stmt : mytargetlist starred_item {
                     $$ = new assignment_stmt("assignment_stmt" + std::to_string(++n_nodes));
@@ -1844,8 +2073,12 @@ mytargetlist    : mytargetlist target_list '=' {
                     $$->add($2);
                 };
 
-target_list : target {$$ = new target_list("target_list" + std::to_string(++n_nodes)); $$->add($1);}
-            | target ',' {$$ = new target_list("target_list" + std::to_string(++n_nodes)); $$->add($1);}
+target_list : target {
+                // $$ = new target_list("target_list" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
+            | target ',' {
+                // $$ = new target_list("target_list" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;}
             | target mytarget {
                 $$ = new target_list("target_list" + std::to_string(++n_nodes));
                 $$->add($1);
@@ -1873,7 +2106,10 @@ target_list : target {$$ = new target_list("target_list" + std::to_string(++n_no
                 $$->add($1);
                 $$->add($2);
             }
-            | '*' myreduce ',' {$$ = new target_list("target_list" + std::to_string(++n_nodes)); $$->add($2);}
+            | '*' myreduce ',' {
+                $$ = new target_list("target_list" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
             | '*' myreduce mytarget {
                 $$ = new target_list("target_list" + std::to_string(++n_nodes));
                 $$->add($2);
@@ -1901,7 +2137,10 @@ target_list : target {$$ = new target_list("target_list" + std::to_string(++n_no
                 $$->add($2);
                 $$->add($3);
             }
-            | myreduce ',' {$$ = new target_list("target_list" + std::to_string(++n_nodes)); $$->add($1);}
+            | myreduce ',' {
+                $$ = new target_list("target_list" + std::to_string(++n_nodes)); $$->add($1);
+                // $$ = $1;
+            }
             | myreduce mytarget {
                 $$ = new target_list("target_list" + std::to_string(++n_nodes));
                 $$->add($1);
@@ -2001,7 +2240,9 @@ mytarget    : ',' target {
                 $$ = $1;
             };
 
-target  : '(' target_list ')' {$$ = new target("target" + std::to_string(++n_nodes)); $$->add($2);}
+target  : '(' target_list ')' {
+            // $$ = new target("target" + std::to_string(++n_nodes)); $$->add($2);
+            $$ = $2;}
         | '(' '(' ')' ')' {$$ = new target("target" + std::to_string(++n_nodes));}
         | '(' '[' ']' ')' {$$ = new target("target" + std::to_string(++n_nodes));}
         // | '(' myreduce ')'
@@ -2010,7 +2251,9 @@ target  : '(' target_list ')' {$$ = new target("target" + std::to_string(++n_nod
         | '(' '*' '(' ')' ')' {$$ = new target("target" + std::to_string(++n_nodes));}
         // | '(' '*' IDENTIFIER ')'
         // | '(' '*' myreduce ')'
-        | '[' target_list ']' {$$ = new target("target" + std::to_string(++n_nodes)); $$->add($2);}
+        | '[' target_list ']' {
+            // $$ = new target("target" + std::to_string(++n_nodes)); $$->add($2);
+            $$ = $2;}
         | '[' '*' '[' ']' ']' {$$ = new target("target" + std::to_string(++n_nodes));}
         | '[' '(' ')' ']' {$$ = new target("target" + std::to_string(++n_nodes));}
         | '[' '[' ']' ']' {$$ = new target("target" + std::to_string(++n_nodes));}
@@ -2019,7 +2262,9 @@ target  : '(' target_list ')' {$$ = new target("target" + std::to_string(++n_nod
         | '[' '*' '(' ')' ']' {$$ = new target("target" + std::to_string(++n_nodes));}
         // | '[' '*' IDENTIFIER ']'
         // | '[' '*' myreduce ']'
-        | '*' '(' target_list ')' {$$ = new target("target" + std::to_string(++n_nodes)); $$->add($3);}
+        | '*' '(' target_list ')' {
+            // $$ = new target("target" + std::to_string(++n_nodes)); $$->add($3);
+            $$ = $3;}
         | '*' '(' '*' '[' ']' ')' {$$ = new target("target" + std::to_string(++n_nodes));}
         | '*' '(' '*' '(' ')' ')' {$$ = new target("target" + std::to_string(++n_nodes));}
         | '*' '(' '(' ')' ')' {$$ = new target("target" + std::to_string(++n_nodes));}
@@ -2029,14 +2274,22 @@ target  : '(' target_list ')' {$$ = new target("target" + std::to_string(++n_nod
             $3->name = "identifier" + std::to_string(++n_nodes);
             $$->add($3);
         }
-        | '*' '(' myreduce ')' {$$ = new target("target" + std::to_string(++n_nodes)); $$->add($3);}
+        | '*' '(' myreduce ')' {
+            $$ = new target("target" + std::to_string(++n_nodes)); $$->add($3);
+            // $$ = $3;
+        }
         | '*' '(' '*' IDENTIFIER ')' {
             $$ = new target("target" + std::to_string(++n_nodes));
             $4->name = "identifier" + std::to_string(++n_nodes);
             $$->add($4);
         }
-        | '*' '(' '*' myreduce ')' {$$ = new target("target" + std::to_string(++n_nodes)); $$->add($4);}
-        | '*' '[' target_list ']' {$$ = new target("target" + std::to_string(++n_nodes)); $$->add($3);}
+        | '*' '(' '*' myreduce ')' {
+            $$ = new target("target" + std::to_string(++n_nodes)); $$->add($4);
+            // $$ = $4;
+        }
+        | '*' '[' target_list ']' {
+            // $$ = new target("target" + std::to_string(++n_nodes)); $$->add($3);
+            $$ = $3;}
         | '*' '[' '*' '[' ']' ']' {$$ = new target("target" + std::to_string(++n_nodes));}
         | '*' '[' '*' '(' ')' ']' {$$ = new target("target" + std::to_string(++n_nodes));}
         | '*' '[' '(' ')' ']' {$$ = new target("target" + std::to_string(++n_nodes));}
@@ -2046,13 +2299,19 @@ target  : '(' target_list ')' {$$ = new target("target" + std::to_string(++n_nod
             $3->name = "identifier" + std::to_string(++n_nodes);
             $$->add($3);
         }
-        | '*' '[' myreduce ']' {$$ = new target("target" + std::to_string(++n_nodes)); $$->add($3);}
+        | '*' '[' myreduce ']' {
+            $$ = new target("target" + std::to_string(++n_nodes)); $$->add($3);
+            // $$ = $3;
+        }
         | '*' '[' '*' IDENTIFIER ']' {
             $$ = new target("target" + std::to_string(++n_nodes));
             $4->name = "identifier" + std::to_string(++n_nodes);
             $$->add($4);
         }
-        | '*' '[' '*' myreduce ']' {$$ = new target("target" + std::to_string(++n_nodes)); $$->add($4);}
+        | '*' '[' '*' myreduce ']' {
+            $$ = new target("target" + std::to_string(++n_nodes)); $$->add($4);
+            // $$ = $4;
+        }
 
 augmented_assignment_stmt : augtarget augop expression_list {
                             $$ = new augmented_assignment_stmt("augmented_assignment_stmt" + std::to_string(++n_nodes));
@@ -2084,9 +2343,18 @@ augtarget : IDENTIFIER {
                 $1->name = "identifier" + std::to_string(++n_nodes);
                 $$->add($1);
             }
-            | attributeref {$$ = new augtarget("augtarget" + std::to_string(++n_nodes)); $$->add($1);}
-            | subscription {$$ = new augtarget("augtarget" + std::to_string(++n_nodes)); $$->add($1);}
-            | slicing {$$ = new augtarget("augtarget" + std::to_string(++n_nodes)); $$->add($1);}
+            | attributeref {
+                $$ = new augtarget("augtarget" + std::to_string(++n_nodes)); $$->add($1);
+                // $$ = $1;
+            }
+            | subscription {
+                $$ = new augtarget("augtarget" + std::to_string(++n_nodes)); $$->add($1);
+                // $$ = $1;
+            }
+            | slicing {
+                $$ = new augtarget("augtarget" + std::to_string(++n_nodes)); $$->add($1);
+                // $$ = $1;
+            }
 
 augop : ASSIGNADD | ASSIGNMINUS | ASSIGNMUL | ASSIGNARRMUL | ASSIGNDIVIDE | ASSIGNINTDIVIDE | ASSIGNMODULUS
     | ASSIGNPOWER | ASSIGNLEFTSHIFT | ASSIGNRIGHTSHIFT | ASSIGNANDBIT | ASSIGNXORBIT | ASSIGNORBIT
@@ -2109,19 +2377,37 @@ annotated_assignment_stmt : augtarget ':' expression {
                             $$->add($5);
                         }
 
-return_stmt : RETURN expression_list {$$ = new return_stmt("return_stmt" + std::to_string(++n_nodes)); $$->add($2);}
+return_stmt : RETURN expression_list {
+                $$ = new return_stmt("return_stmt" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
             | RETURN {$$ = new return_stmt("return_stmt" + std::to_string(++n_nodes));}
-            | RETURN expression {$$ = new return_stmt("return_stmt" + std::to_string(++n_nodes)); $$->add($2);}
-            | RETURN expression ',' {$$ = new return_stmt("return_stmt" + std::to_string(++n_nodes)); $$->add($2);}
+            | RETURN expression {
+                $$ = new return_stmt("return_stmt" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
+            | RETURN expression ',' {
+                $$ = new return_stmt("return_stmt" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
 
-del_stmt : DEL target_list {$$ = new del_stmt("del_stmt" + std::to_string(++n_nodes)); $$->add($2);}
-        | DEL myreduce {$$ = new del_stmt("del_stmt" + std::to_string(++n_nodes)); $$->add($2);}
+del_stmt : DEL target_list {
+            $$ = new del_stmt("del_stmt" + std::to_string(++n_nodes)); $$->add($2);
+            // $$ = $2;
+        }
+        | DEL myreduce {
+            $$ = new del_stmt("del_stmt" + std::to_string(++n_nodes)); $$->add($2);
+            // $$ = $2;
+        }
         | DEL '*' IDENTIFIER {
             $$ = new del_stmt("del_stmt" + std::to_string(++n_nodes));
             $3->name = "identifier" + std::to_string(++n_nodes);
             $$->add($3);
         }
-        | DEL '*' myreduce {$$ = new del_stmt("del_stmt" + std::to_string(++n_nodes)); $$->add($3);}
+        | DEL '*' myreduce {
+            $$ = new del_stmt("del_stmt" + std::to_string(++n_nodes)); $$->add($3);
+            // $$ = $3;
+        }
         | DEL IDENTIFIER {
             $$ = new del_stmt("del_stmt" + std::to_string(++n_nodes));
             $2->name = "identifier" + std::to_string(++n_nodes);
@@ -2132,7 +2418,10 @@ del_stmt : DEL target_list {$$ = new del_stmt("del_stmt" + std::to_string(++n_no
         | DEL '*' '(' ')' {$$ = new del_stmt("del_stmt" + std::to_string(++n_nodes));}
         | DEL '*' '[' ']' {$$ = new del_stmt("del_stmt" + std::to_string(++n_nodes));}
 
-yield_stmt : yield_expression {$$ = new yield_stmt("yield_stmt" + std::to_string(++n_nodes)); $$->add($1);}
+yield_stmt : yield_expression {
+    $$ = new yield_stmt("yield_stmt" + std::to_string(++n_nodes)); $$->add($1);
+    // $$ = $1;
+    }
 
 raise_stmt : RAISE {$$ = new raise_stmt("raise_stmt" + std::to_string(++n_nodes));}
             | RAISE expression FROM expression {
@@ -2140,7 +2429,10 @@ raise_stmt : RAISE {$$ = new raise_stmt("raise_stmt" + std::to_string(++n_nodes)
                 $$->add($2);
                 $$->add($4);
             }
-            | RAISE expression {$$ = new raise_stmt("raise_stmt" + std::to_string(++n_nodes)); $$->add($2);}
+            | RAISE expression {
+                $$ = new raise_stmt("raise_stmt" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
 
 import_stmt : IMPORT module AS IDENTIFIER mymodule {
                 $$ = new import_stmt("import_stmt" + std::to_string(++n_nodes));
@@ -2160,7 +2452,10 @@ import_stmt : IMPORT module AS IDENTIFIER mymodule {
                 $$->add($2);
                 $$->add($3);
             }
-            | IMPORT module {$$ = new import_stmt("import_stmt" + std::to_string(++n_nodes)); $$->add($2);}
+            | IMPORT module {
+                $$ = new import_stmt("import_stmt" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
             | FROM relative_module IMPORT IDENTIFIER AS IDENTIFIER mymoduleidentifier {
                 $$ = new import_stmt("import_stmt" + std::to_string(++n_nodes));
                 $$->add($2);
@@ -2251,7 +2546,10 @@ import_stmt : IMPORT module AS IDENTIFIER mymodule {
                 $5->name = "identifier" + std::to_string(++n_nodes);
                 $$->add($5);
             }
-            | FROM relative_module IMPORT '*' {$$ = new import_stmt("import_stmt" + std::to_string(++n_nodes)); $$->add($2);}
+            | FROM relative_module IMPORT '*' {
+                $$ = new import_stmt("import_stmt" + std::to_string(++n_nodes)); $$->add($2);
+                // $$ = $2;
+            }
 
 mymodule    : ',' module AS IDENTIFIER {
                 $$ = new mymodule("mymodule" + std::to_string(++n_nodes));
@@ -2391,9 +2689,15 @@ parameter_list  : defparameter mydefparameter ',' '/' ',' parameter_list_no_poso
                     $$->add($1);
                     $$->add($5);
                 }
-                | defparameter ',' '/' ','  {$$ = new parameter_list("parameter_list" + std::to_string(++n_nodes)); $$->add($1);}
-                | defparameter ',' '/'      {$$ = new parameter_list("parameter_list" + std::to_string(++n_nodes)); $$->add($1);}
-                | parameter_list_no_posonly {$$ = new parameter_list("parameter_list" + std::to_string(++n_nodes)); $$->add($1);}
+                | defparameter ',' '/' ','  {
+                    // $$ = new parameter_list("parameter_list" + std::to_string(++n_nodes)); $$->add($1);
+                    $$ = $1;}
+                | defparameter ',' '/'      {
+                    // $$ = new parameter_list("parameter_list" + std::to_string(++n_nodes)); $$->add($1);
+                    $$ = $1;}
+                | parameter_list_no_posonly {
+                    // $$ = new parameter_list("parameter_list" + std::to_string(++n_nodes)); $$->add($1);
+                    $$ = $1;}
 
 parameter_list_no_posonly : defparameter mydefparameter ',' parameter_list_starargs {
                                 $$ = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes));
@@ -2416,9 +2720,15 @@ parameter_list_no_posonly : defparameter mydefparameter ',' parameter_list_stara
                                 $$->add($1);
                                 $$->add($3);
                             }
-                            | defparameter ','          {$$ = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); $$->add($1);}
-                            | defparameter              {$$ = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); $$->add($1);}
-                            | parameter_list_starargs   {$$ = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); $$->add($1);}
+                            | defparameter ','          {
+                                // $$ = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); $$->add($1);
+                            $$ = $1;}
+                            | defparameter              {
+                                // $$ = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); $$->add($1);
+                            $$ = $1;}
+                            | parameter_list_starargs   {
+                                // $$ = new parameter_list_no_posonly("parameter_list_no_posonly" + std::to_string(++n_nodes)); $$->add($1);
+                            $$ = $1;}
 
 mydefparameter  : ',' defparameter {
                     $$ = new mydefparameter("mydefparameter" + std::to_string(++n_nodes));
@@ -2462,8 +2772,12 @@ parameter_list_starargs : '*' parameter mydefparameter ',' POWER parameter ',' {
                             $$->add($2);
                             $$->add($5);
                         }
-                        | '*' parameter ',' {$$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);}
-                        | '*' parameter     {$$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);}
+                        | '*' parameter ',' {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            $$ = $2;}
+                        | '*' parameter     {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            $$ = $2;}
                         | '*' mydefparameter ',' POWER parameter ',' {
                             $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));
                             $$->add($2);
@@ -2474,14 +2788,26 @@ parameter_list_starargs : '*' parameter mydefparameter ',' POWER parameter ',' {
                             $$->add($2);
                             $$->add($5);
                         }
-                        | '*' mydefparameter ','          {$$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);}
-                        | '*' mydefparameter              {$$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);}
-                        | '*' ',' POWER parameter ',' {$$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($4);}
-                        | '*' ',' POWER parameter     {$$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($4);}
+                        | '*' mydefparameter ','          {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            $$ = $2;}
+                        | '*' mydefparameter              {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            $$ = $2;}
+                        | '*' ',' POWER parameter ',' {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($4);
+                            $$ = $4;}
+                        | '*' ',' POWER parameter     {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($4);
+                            $$ = $4;}
                         | '*' ',' {$$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));}
                         | '*' {$$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes));}
-                        | POWER parameter ',' {$$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);}
-                        | POWER parameter     {$$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);}
+                        | POWER parameter ',' {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            $$ = $2;}
+                        | POWER parameter     {
+                            // $$ = new parameter_list_starargs("parameter_list_starargs" + std::to_string(++n_nodes)); $$->add($2);
+                            $$ = $2;}
 
 parameter : IDENTIFIER {
                 $$ = new parameter("parameter" + std::to_string(++n_nodes));
@@ -2490,7 +2816,10 @@ parameter : IDENTIFIER {
             }
         // | IDENTIFIER ':' expression ;
 
-defparameter : parameter {$$ = new defparameter("defparameter" + std::to_string(++n_nodes)); $$->add($1);}
+defparameter : parameter {
+                // $$ = new defparameter("defparameter" + std::to_string(++n_nodes)); $$->add($1);
+                $$ = $1;
+            }
             | parameter '=' expression {
                 $$ = new defparameter("defparameter" + std::to_string(++n_nodes));
                 $$->add($1);
